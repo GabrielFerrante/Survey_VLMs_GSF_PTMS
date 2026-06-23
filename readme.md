@@ -46,6 +46,8 @@ The selected papers are organized across five VLM task categories:
 
 ## Search Strings
 
+### IEEE Xplore / Science Direct
+
 All queries follow the same template, varying the **task** and **learning method**:
 
 ```
@@ -56,6 +58,26 @@ NOT ("Survey" OR "Review") NOT ("Video" OR "Audio")
 **Tasks:** VQA, Text-Image, Image-Text, Retrieval, Generate
 
 **Learning methods:** Active Learning, Semi-supervised Learning, Cross-modal Learning, Multimodal Learning, Self-supervised Learning
+
+### ArXiv
+
+Queries use the ArXiv advanced search API with the following template:
+
+```
+order: -announced_date_first
+size: <50–200>
+date_range: from 2020-05-01 to 2025-05-01
+classification: Computer Science (cs), Electrical Engineering and Systems Science (eess)
+include_cross_list: True
+terms: AND all=Vision-Language Models OR VLM
+       AND all=<TASK>
+       AND all=<LEARNING_METHOD>
+       NOT all=Survey OR Review
+```
+
+**Tasks:** VQA, Text-Image, Image-Text, Retrieval, Generate
+
+**Learning methods:** Active Learning OR AL, Semi-supervised Learning, Cross-modal Learning, Multimodal Learning, Self-supervised Learning
 
 ### Results per task and source
 
