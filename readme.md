@@ -115,7 +115,7 @@ The selection follows a three-phase PRISMA protocol:
 2. **Phase 2 — Full-text Eligibility:** Full-text evaluation against 11 research questions (QP1–QP7, QS1–QS4), minimum 2–3 QPs required → **599 eligible papers**
 3. **Phase 3 — Quality Assessment:** Scoring on 0–11 scale (pending)
 
-### Quality Assessment Scale (0–11 points)
+### Quality Assessment Scale (0–13 points)
 
 | Criterion | Max Points |
 |-----------|-----------|
@@ -124,6 +124,7 @@ The selection follows a three-phase PRISMA protocol:
 | Result clarity | 3 |
 | Relevant illustrations | 2 |
 | Accessible repositories | 1 |
+| Quality | 2 |
 | **Total** | **11** |
 
 ### Inclusion Criteria
