@@ -10,9 +10,10 @@ Systematic literature review on learning methods for Vision-Language Models (VLM
 ## Scope
 
 - **Period:** May 2020 – May 2025
-- **Sources:** ACM Digital Library, IEEE Xplore, ArXiv, Science Direct
+- **Sources:** IEEE Xplore, ArXiv, Science Direct
 - **Documents retrieved:** 6,854
-- **Unique papers selected (Phase 2):** 599
+- **Eligible papers (Phase 2):** 599 unique (775 category assignments)
+- **Selection phases:** 3 (Initial Screening → Full-text Eligibility → Quality Assessment)
 
 ## Research Questions
 
@@ -30,6 +31,22 @@ Systematic literature review on learning methods for Vision-Language Models (VLM
 | QS3 | Is limited domain-specific data availability mentioned? |
 | QS4 | Do benchmarks include medical imaging data? |
 
+### Research Questions Coverage
+
+| Question | Papers | Coverage |
+|----------|--------|----------|
+| QP1 | 589 | 98.3% |
+| QP2 | 163 | 27.2% |
+| QP3 | 119 | 19.9% |
+| QP4 | 18 | 3.0% |
+| QP5 | 332 | 55.4% |
+| QP6 | 589 | 98.3% |
+| QP7 | 389 | 64.9% |
+| QS1 | 233 | 38.9% |
+| QS2 | 334 | 55.8% |
+| QS3 | 189 | 31.6% |
+| QS4 | 117 | 19.5% |
+
 ## Task Categories
 
 The selected papers are organized across five VLM task categories:
@@ -42,7 +59,7 @@ The selected papers are organized across five VLM task categories:
 | Retrieval | 225 | Cross-modal information retrieval and ranking |
 | Generate | 149 | Image/caption generation, diffusion models |
 
-> **Note:** A paper may appear in more than one category. Total unique papers: 599 (778 category assignments total).
+> **Note:** A paper may appear in more than one category. Total unique papers: 599 (775 category assignments total).
 
 ## Search Strings
 
@@ -90,12 +107,62 @@ terms: AND all=Vision-Language Models OR VLM
 | Generate | 720 | 1,134 | 7 | 1,861 |
 | **Total** | **3,653** | **3,185** | **16** | **6,854** |
 
-## Quality Assessment
+## Selection Process
 
-11-point scale evaluating:
-- Unfavorable scenarios coverage (2 pts)
-- Theoretical grounding (3 pts)
-- Result clarity (3 pts)
-- Relevant illustrations (2 pts)
-- Accessible repositories (1 pt)
+The selection follows a three-phase PRISMA protocol:
+
+1. **Phase 1 — Initial Screening:** Title + abstract review applying inclusion (CI1–CI4) and exclusion (CE1–CE4) criteria
+2. **Phase 2 — Full-text Eligibility:** Full-text evaluation against 11 research questions (QP1–QP7, QS1–QS4), minimum 2–3 QPs required → **599 eligible papers**
+3. **Phase 3 — Quality Assessment:** Scoring on 0–11 scale (pending)
+
+### Quality Assessment Scale (0–11 points)
+
+| Criterion | Max Points |
+|-----------|-----------|
+| Unfavorable scenarios coverage | 2 |
+| Theoretical grounding | 3 |
+| Result clarity | 3 |
+| Relevant illustrations | 2 |
+| Accessible repositories | 1 |
+| **Total** | **11** |
+
+### Inclusion Criteria
+
+- CI1: Study addresses multimodal text-image models
+- CI2: Study provides clear architecture/method description
+- CI3: Published in peer-reviewed conference or journal
+- CI4: Answers minimum 2–3 research questions
+
+### Exclusion Criteria
+
+- CE1: Not available in English or Portuguese
+- CE2: White papers, technical reports, or non-peer-reviewed documents
+- CE3: Does not use VLMs or lacks architecture description
+- CE4: Focused exclusively on video, audio, or non-text/image modalities
+
+## Repository Structure
+
+```
+├── .claude/              # Claude Code configuration and custom skills
+│   ├── commands/
+│   │   ├── read-paper.md   # Skill: structured paper analysis (QPs, quality score)
+│   │   └── write-paper.md  # Skill: academic writing for survey sections
+│   └── settings.json
+├── latex/                # LaTeX source files for the survey paper
+│   ├── introduction.tex
+│   ├── related_work.tex
+│   ├── methodology.tex
+│   └── references.bib
+├── scripts/              # Python scripts for generating figures
+│   ├── style.py
+│   ├── fig_documents_per_source.py
+│   ├── fig_selected_per_category.py
+│   ├── fig_research_questions.py
+│   ├── fig_year_distribution.py
+│   └── fig_prisma_flow.py
+├── figures/              # Generated figures (PDF + PNG, 300 DPI)
+├── related_works.md      # Analysis of 20 related surveys
+├── CLAUDE.md             # Project context for Claude Code
+└── readme.md             # This file
+```
 
