@@ -5,9 +5,9 @@ from style import apply_style, COLORS, FIGURES_DIR
 
 apply_style()
 
-fig, ax = plt.subplots(figsize=(7, 8))
+fig, ax = plt.subplots(figsize=(7, 10))
 ax.set_xlim(0, 10)
-ax.set_ylim(0, 12)
+ax.set_ylim(0, 14)
 ax.axis('off')
 
 
@@ -35,56 +35,69 @@ def draw_side_arrow(ax, x1, y1, x2, y2):
 
 
 # --- Identification ---
-draw_box(ax, 5, 11, 7, 0.9,
+draw_box(ax, 5, 13, 7, 0.9,
          'Identification\n6,854 documents retrieved',
          color='#D1E5F0', fontsize=10)
 
-draw_arrow(ax, 5, 10.55, 5, 9.95)
+draw_arrow(ax, 5, 12.55, 5, 11.95)
 
 # Sources breakdown
-draw_box(ax, 5, 9.5, 7, 0.8,
+draw_box(ax, 5, 11.5, 7, 0.8,
          'IEEE Xplore: 3,653  |  ArXiv: 3,185  |  Science Direct: 16',
          color='#F7F7F7', fontsize=8.5)
 
-draw_arrow(ax, 5, 9.1, 5, 8.3)
+draw_arrow(ax, 5, 11.1, 5, 10.3)
 
 # --- Screening Phase 1 ---
-draw_box(ax, 5, 7.8, 7, 0.9,
+draw_box(ax, 5, 9.8, 7, 0.9,
          'Phase 1 — Initial Screening\nTitle + Abstract review',
          color='#FDDBC7', fontsize=10)
 
-draw_side_arrow(ax, 8.5, 7.8, 9.5, 7.0)
-draw_box(ax, 9.2, 6.5, 1.8, 0.7,
+draw_side_arrow(ax, 8.5, 9.8, 9.5, 9.0)
+draw_box(ax, 9.2, 8.5, 1.8, 0.7,
          'Excluded\n(CI/CE)',
          color='#FEE0D2', edge='#CCCCCC', fontsize=8)
 
-draw_arrow(ax, 5, 7.35, 5, 6.55)
+draw_arrow(ax, 5, 9.35, 5, 8.55)
 
 # --- Eligibility Phase 2 ---
-draw_box(ax, 5, 6.0, 7, 0.9,
-         'Phase 2 — Full-text Eligibility\nResearch questions + Quality assessment',
+draw_box(ax, 5, 8.0, 7, 0.9,
+         'Phase 2 — Full-text Eligibility\nResearch questions (QP1–QP7, QS1–QS4)',
          color='#FDDBC7', fontsize=10)
 
-draw_side_arrow(ax, 8.5, 6.0, 9.5, 5.2)
-draw_box(ax, 9.2, 4.7, 1.8, 0.7,
+draw_side_arrow(ax, 8.5, 8.0, 9.5, 7.2)
+draw_box(ax, 9.2, 6.7, 1.8, 0.7,
          'Excluded\n(< 2 QPs)',
          color='#FEE0D2', edge='#CCCCCC', fontsize=8)
 
-draw_arrow(ax, 5, 5.55, 5, 4.75)
+draw_arrow(ax, 5, 7.55, 5, 6.75)
+
+# --- Eligible papers ---
+eligible_text = ('Eligible — 599 unique papers (775 category assignments)\n'
+                 'VQA: 84  |  Text-Image: 68  |  Image-Text: 249\n'
+                 'Retrieval: 225  |  Generate: 149')
+draw_box(ax, 5, 6.0, 7, 1.3,
+         eligible_text,
+         color='#FFF9C4', edge='#F9A825', fontsize=9)
+
+draw_arrow(ax, 5, 5.35, 5, 4.95)
+
+# --- Phase 3: Quality Assessment ---
+draw_box(ax, 5, 4.4, 7, 0.9,
+         'Phase 3 — Quality Assessment\nScoring scale (0–13 points)',
+         color='#FDDBC7', fontsize=10)
+
+draw_side_arrow(ax, 8.5, 4.4, 9.5, 3.6)
+draw_box(ax, 9.2, 3.1, 1.8, 0.7,
+         'Excluded\n(low score)',
+         color='#FEE0D2', edge='#CCCCCC', fontsize=8)
+
+draw_arrow(ax, 5, 3.95, 5, 3.15)
 
 # --- Included ---
-draw_box(ax, 5, 4.2, 7, 0.9,
-         'Included\n599 unique papers (775 category assignments)',
+draw_box(ax, 5, 2.6, 7, 0.9,
+         'Included\n(quality filtering)',
          color='#B2DF8A', fontsize=10)
-
-draw_arrow(ax, 5, 3.75, 5, 3.15)
-
-# --- Task breakdown ---
-tasks_text = ('VQA: 84   |   Text-Image: 68   |   Image-Text: 249\n'
-              'Retrieval: 225   |   Generate: 149')
-draw_box(ax, 5, 2.5, 7, 0.9,
-         tasks_text,
-         color='#E6F5E6', edge='#66BB6A', fontsize=9)
 
 fig.tight_layout()
 fig.savefig(f'{FIGURES_DIR}/fig_prisma_flow.pdf')
