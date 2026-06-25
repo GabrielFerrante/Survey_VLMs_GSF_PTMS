@@ -125,7 +125,7 @@ The selection follows a three-phase PRISMA protocol:
 | Relevant illustrations | 2 |
 | Accessible repositories | 1 |
 | Quality | 2 |
-| **Total** | **11** |
+| **Total** | **13** |
 
 ### Inclusion Criteria
 
@@ -149,11 +149,6 @@ The selection follows a three-phase PRISMA protocol:
 │   │   ├── read-paper.md   # Skill: structured paper analysis (QPs, quality score)
 │   │   └── write-paper.md  # Skill: academic writing for survey sections
 │   └── settings.json
-├── latex/                # LaTeX source files for the survey paper
-│   ├── introduction.tex
-│   ├── related_work.tex
-│   ├── methodology.tex
-│   └── references.bib
 ├── scripts/              # Python scripts for generating figures
 │   ├── style.py
 │   ├── fig_documents_per_source.py
