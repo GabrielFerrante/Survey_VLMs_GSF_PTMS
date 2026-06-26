@@ -9,6 +9,7 @@ apply_style()
 categories = {
     'VQA': {'file': '../scores_vqa.csv', 'color': COLORS['vqa']},
     'Text-Image': {'file': '../scores_text_image.csv', 'color': COLORS['textimg']},
+    'Image-Text': {'file': '../scores_image_text.csv', 'color': COLORS['imgtxt']},
 }
 
 for cat, info in categories.items():
