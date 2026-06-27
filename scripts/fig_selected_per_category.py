@@ -5,7 +5,7 @@ from style import apply_style, TASK_COLORS, FIGURES_DIR
 apply_style()
 
 tasks =  ['Generate', 'Retrieval', 'Image-Text', 'Text-Image', 'VQA']
-counts = [149, 225, 249, 68, 84]
+counts = [149, 225, 249, 68, 86]
 colors = list(reversed(TASK_COLORS))
 
 fig, ax = plt.subplots(figsize=(6, 3.2))
