@@ -74,7 +74,7 @@ draw_arrow(ax, 5, 7.55, 5, 6.75)
 
 # --- Eligible papers ---
 eligible_text = ('Eligible — 599 unique papers (775 category assignments)\n'
-                 'VQA: 84  |  Text-Image: 68  |  Image-Text: 249\n'
+                 'VQA: 86  |  Text-Image: 68  |  Image-Text: 249\n'
                  'Retrieval: 225  |  Generate: 149')
 draw_box(ax, 5, 6.0, 7, 1.3,
          eligible_text,
