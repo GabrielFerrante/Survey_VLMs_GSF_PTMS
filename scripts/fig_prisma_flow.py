@@ -73,9 +73,9 @@ draw_box(ax, 9.2, 6.7, 1.8, 0.7,
 draw_arrow(ax, 5, 7.55, 5, 6.75)
 
 # --- Eligible papers ---
-eligible_text = ('Eligible — 599 unique papers (775 category assignments)\n'
-                 'VQA: 86  |  Text-Image: 68  |  Image-Text: 249\n'
-                 'Retrieval: 225  |  Generate: 149')
+eligible_text = ('Eligible — 613 unique papers (769 category assignments)\n'
+                 'VQA: 86  |  Text-Image: 69  |  Image-Text: 249\n'
+                 'Retrieval: 225  |  Generate: 140')
 draw_box(ax, 5, 6.0, 7, 1.3,
          eligible_text,
          color='#FFF9C4', edge='#F9A825', fontsize=9)

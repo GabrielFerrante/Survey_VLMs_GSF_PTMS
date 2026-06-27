@@ -8,8 +8,8 @@ apply_style()
 questions = ['QP1', 'QP2', 'QP3', 'QP4', 'QP5', 'QP6', 'QP7',
              'QS1', 'QS2', 'QS3', 'QS4']
 
-counts = [589, 163, 119, 18, 332, 589, 389,
-          233, 334, 189, 117]
+counts = [613, 102, 95, 12, 259, 610, 446,
+          249, 421, 166, 97]
 
 labels = [
     'Learning\nmethods',
