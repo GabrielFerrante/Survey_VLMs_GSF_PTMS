@@ -11,6 +11,7 @@ categories = {
     'Text-Image': {'file': '../scores_text_image.csv', 'color': COLORS['textimg']},
     'Image-Text': {'file': '../scores_image_text.csv', 'color': COLORS['imgtxt']},
     'Generate': {'file': '../scores_generate.csv', 'color': COLORS['generate']},
+    'Retrieval': {'file': '../scores_retrieval.csv', 'color': COLORS['retrieval']},
 }
 
 for cat, info in categories.items():

@@ -18,7 +18,6 @@ Write in **LaTeX** format with:
 - `\cite{}` for citations (use author-year keys like `\cite{radford2021clip}`)
 - `\ref{}` for cross-references to tables/figures
 - Standard math environments for equations when needed
-- `\textbf{}`, `\textit{}` for emphasis
 
 ## Context About the Survey
 
