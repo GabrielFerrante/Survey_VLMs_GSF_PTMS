@@ -12,7 +12,7 @@ Systematic literature review on learning methods for Vision-Language Models (VLM
 - **Period:** May 2020 – May 2025
 - **Sources:** IEEE Xplore, ArXiv, Science Direct
 - **Documents retrieved:** 6,854
-- **Eligible papers (Phase 2):** 599 unique (775 category assignments)
+- **Eligible papers (Phase 2):** 614 unique (769 category assignments)
 - **Selection phases:** 3 (Initial Screening → Full-text Eligibility → Quality Assessment)
 
 ## Research Questions
@@ -35,17 +35,17 @@ Systematic literature review on learning methods for Vision-Language Models (VLM
 
 | Question | Papers | Coverage |
 |----------|--------|----------|
-| QP1 | 589 | 98.3% |
-| QP2 | 163 | 27.2% |
-| QP3 | 119 | 19.9% |
-| QP4 | 18 | 3.0% |
-| QP5 | 332 | 55.4% |
-| QP6 | 589 | 98.3% |
-| QP7 | 389 | 64.9% |
-| QS1 | 233 | 38.9% |
-| QS2 | 334 | 55.8% |
-| QS3 | 189 | 31.6% |
-| QS4 | 117 | 19.5% |
+| QP1 | 613 | 100.0% |
+| QP2 | 102 | 16.6% |
+| QP3 | 95 | 15.5% |
+| QP4 | 12 | 2.0% |
+| QP5 | 259 | 42.3% |
+| QP6 | 610 | 99.5% |
+| QP7 | 446 | 72.8% |
+| QS1 | 249 | 40.6% |
+| QS2 | 421 | 68.7% |
+| QS3 | 166 | 27.1% |
+| QS4 | 97 | 15.8% |
 
 ## Task Categories
 
@@ -53,13 +53,13 @@ The selected papers are organized across five VLM task categories:
 
 | Category | Papers | Focus |
 |----------|--------|-------|
-| VQA | 84 | Visual Question Answering |
-| Text-Image | 68 | Cross-modal retrieval and semantic alignment |
+| VQA | 86 | Visual Question Answering |
+| Text-Image | 69 | Cross-modal retrieval and semantic alignment |
 | Image-Text | 249 | Pre-training and transfer learning |
 | Retrieval | 225 | Cross-modal information retrieval and ranking |
-| Generate | 149 | Image/caption generation, diffusion models |
+| Generate | 140 | Image/caption generation, diffusion models |
 
-> **Note:** A paper may appear in more than one category. Total unique papers: 599 (775 category assignments total).
+> **Note:** A paper may appear in more than one category. Among the 614 unique papers, 482 appear in one category, 109 in two, and 23 in three. Total: 769 category assignments.
 
 ## Search Strings
 
@@ -112,8 +112,8 @@ terms: AND all=Vision-Language Models OR VLM
 The selection follows a three-phase PRISMA protocol:
 
 1. **Phase 1 — Initial Screening:** Title + abstract review applying inclusion (CI1–CI4) and exclusion (CE1–CE4) criteria
-2. **Phase 2 — Full-text Eligibility:** Full-text evaluation against 11 research questions (QP1–QP7, QS1–QS4), minimum 2–3 QPs required → **599 eligible papers**
-3. **Phase 3 — Quality Assessment:** Scoring on 0–11 scale (pending)
+2. **Phase 2 — Full-text Eligibility:** Full-text evaluation against 11 research questions (QP1–QP7, QS1–QS4), minimum 2–3 QPs required → **614 eligible papers (769 category assignments)**
+3. **Phase 3 — Quality Assessment:** Scoring on 0–13 scale → completed for all 5 categories
 
 ### Quality Assessment Scale (0–13 points)
 
@@ -126,6 +126,16 @@ The selection follows a three-phase PRISMA protocol:
 | Accessible repositories | 1 |
 | Quality | 2 |
 | **Total** | **13** |
+
+### Quality Assessment Results
+
+| Category | Papers scored | Mean | Median | Min | Max | Papers with 13/13 |
+|----------|-------------|------|--------|-----|-----|-------------------|
+| VQA | 86 | 9.5 | 10.0 | 6 | 13 | 4 |
+| Text-Image | 69 | 9.9 | 11.0 | 5 | 13 | 5 |
+| Image-Text | 249 | 9.3 | 9.0 | 5 | 13 | 16 |
+| Retrieval | 225 | 8.8 | 8.0 | 5 | 13 | 14 |
+| Generate | 140 | 9.2 | 9.0 | 4 | 13 | 6 |
 
 ### Inclusion Criteria
 
@@ -141,6 +151,13 @@ The selection follows a three-phase PRISMA protocol:
 - CE3: Does not use VLMs or lacks architecture description
 - CE4: Focused exclusively on video, audio, or non-text/image modalities
 
+## Key Findings
+
+- **QP4 (Active Learning)** is the most underexplored research question, present in only 12 papers (2.0%) — a significant gap in the literature.
+- **Medical domain** dominates the highest-quality papers in Image-Text (4 of the top 4 with 13/13 and 8 QPs) and VQA (5 of the top 10), confirming limited labeled data as a primary driver of methodological innovation.
+- **Semi-supervised and self-supervised methods** (QP3) appear in 15.5% of papers but are overrepresented among top-scoring articles, suggesting these paradigms correlate with higher methodological rigor.
+- **Text-Image** achieved the highest mean quality score (9.9/13), indicating that cross-modal alignment research tends to be more methodologically mature.
+
 ## Repository Structure
 
 ```
@@ -155,10 +172,15 @@ The selection follows a three-phase PRISMA protocol:
 │   ├── fig_selected_per_category.py
 │   ├── fig_research_questions.py
 │   ├── fig_year_distribution.py
-│   └── fig_prisma_flow.py
+│   ├── fig_prisma_flow.py
+│   └── fig_quality_scores.py
 ├── figures/              # Generated figures (PDF + PNG, 300 DPI)
+├── scores_vqa.csv        # Quality scores — VQA (86 papers)
+├── scores_text_image.csv # Quality scores — Text-Image (69 papers)
+├── scores_image_text.csv # Quality scores — Image-Text (249 papers)
+├── scores_retrieval.csv  # Quality scores — Retrieval (225 papers)
+├── scores_generate.csv   # Quality scores — Generate (143 papers)
 ├── related_works.md      # Analysis of 20 related surveys
 ├── CLAUDE.md             # Project context for Claude Code
 └── readme.md             # This file
 ```
-
