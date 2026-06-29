@@ -96,7 +96,7 @@ draw_arrow(ax, 5, 3.95, 5, 3.15)
 
 # --- Included ---
 draw_box(ax, 5, 2.6, 7, 0.9,
-         'Included\n(quality filtering)',
+         'Included\n(quality filtering - top 10 papers per task)',
          color='#B2DF8A', fontsize=10)
 
 fig.tight_layout()
