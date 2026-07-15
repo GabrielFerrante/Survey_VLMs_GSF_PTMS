@@ -85,3 +85,6 @@ Question Aware Vision Transformer for Multimodal Reasoning,0,2,2,2,0,1,7,5,"QP1,
 Unsupervised Vision-and-Language Pre-training via Retrieval-based Multi-Granular Alignment,2,3,2,2,0,2,11,6,"QP1,QP3,QP6,QP7,QS2,QS3"
 A Novel Attention-based Aggregation Function to Combine Vision and Language,0,2,2,2,0,1,7,4,"QP1,QP6,QP7,QS2"
 Multi-Modal Instruction-Tuning for Semiconductor Electron Micrograph Analysis,2,2,1,1,0,1,7,4,"QP1,QP6,QP7,QS3"
+RLS3: RL-Based Synthetic Sample Selection to Enhance Spatial Reasoning in VLMs,2,2,2,1,0,2,9,5,"QP1,QP4,QP6,QS2,QS3"
+Improving Vision-Language Models through Fine-grained Modality Interaction and Modality Balancing,1,2,2,2,0,1,8,4,"QP1,QP6,QP7,QS2"
+Augmenting Visual and Linguistic Understanding for MedVQA,2,2,2,2,0,2,10,6,"QP1,QP5,QP6,QS2,QS3,QS4"

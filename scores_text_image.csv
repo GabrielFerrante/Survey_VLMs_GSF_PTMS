@@ -68,3 +68,5 @@ TiMix: Text-aware Image Mixing for Effective Vision-Language Pre-training,1,3,3,
 Visual Lexicon: Rich Image Features in Language Space,0,3,3,2,0,0,8,3,"QP1,QP6,QP7"
 Information Theoretic Text-to-Image Alignment,0,3,3,2,1,2,11,5,"QP1,QP6,QP7,QS1,QS2"
 Write and Paint: Generative Vision-Language Models are Unified Modal Learners,0,3,3,2,1,2,11,4,"QP1,QP6,QP7,QS1"
+IntentionGPT: Boosting E-commerce User Intent Recognition with Self-data Augmentation and Structure-aware Retrieval,2,2,2,2,0,2,10,6,"QP1,QP3,QP6,QP7,QS2,QS3"
+Integrating Expert Knowledge into Adversarial Model for Enhanced Text-to-Image Synthesis,1,2,3,2,0,1,9,4,"QP1,QP6,QP7,QS2"

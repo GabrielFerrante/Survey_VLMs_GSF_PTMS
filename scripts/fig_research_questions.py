@@ -8,8 +8,8 @@ apply_style()
 questions = ['QP1', 'QP2', 'QP3', 'QP4', 'QP5', 'QP6', 'QP7',
              'QS1', 'QS2', 'QS3', 'QS4']
 
-counts = [613, 102, 95, 12, 259, 610, 446,
-          249, 421, 166, 97]
+counts = [629, 104, 101, 15, 267, 626, 451,
+          252, 433, 179, 99]
 
 labels = [
     'Learning\nmethods',
@@ -46,7 +46,7 @@ for sx in sec_x:
     ax.get_xticklabels()[int(sx)].set_color(COLORS['secondary'])
 
 ax.set_ylabel('Number of Papers')
-ax.set_ylim(0, 670)
+ax.set_ylim(0, 690)
 ax.yaxis.grid(True, linestyle='--', alpha=0.3)
 ax.set_axisbelow(True)
 

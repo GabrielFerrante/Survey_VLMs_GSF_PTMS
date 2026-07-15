@@ -6,6 +6,7 @@ COLORS = {
     'ieee':    '#2166AC',
     'arxiv':   '#D6604D',
     'scidir':  '#4DAF4A',
+    'acm': "#A52EC9",
     'vqa':     '#4E79A7',
     'textimg': '#F28E2B',
     'imgtxt':  '#E15759',

@@ -1,0 +1,19 @@
+Agora responda para cada artigo selecionado, quais questões eles respondem. Coloque somente a sigla da questão respondida. 
+Questões primárias :
+QP1 - Quais métodos de aprendizado são explorados ?
+QP2 - A estratégia de treinamento envolve uso de grafos para mapeamento de relações entre texto e imagem ?
+QP3 - A estratégia de treinamento envolve uso de técnicas de aprendizado semi-supervisionado ?
+QP4 - A estratégia de treinamento envolve o uso de aprendizado ativo ?
+QP5 - A arquitetura consta algum módulo de visualização computacional para explicabilidade de treino ou teste ?
+QP6 - Os dados utilizados para treino/teste/validação são explicados em sua completude e faz sentido para o problema alvo ?
+QP7 - Os critérios de avaliação da arquitetura permitem avaliar várias tarefas multimodalidade ? 
+Questões secundárias :
+QS1 - O trabalho tem repositórios abertos ?
+QS2 - Os dados são abertos ?
+QS3 - É mencionado dificuldade em obter dados de amostras da área de domínio da base de dados ? (É um cenário de treino com poucos dados ?)
+QS4 - Os benchmarks envolvem dados de imagens médicas ?
+
+
+
+
+Existem entre os artigos selecionados, algum artigo que não tem como foco a tarefa XXXXX ? Existe algum artigo que não tem como foco uma abordagem de aprendizado ou modelo e só foca na criação de um benchmark/dataset ? Se houver algum trabalho que trabalhe somente com vídeos e não imagens, informe também.

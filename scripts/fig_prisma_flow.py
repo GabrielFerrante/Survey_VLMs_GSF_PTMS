@@ -36,14 +36,14 @@ def draw_side_arrow(ax, x1, y1, x2, y2):
 
 # --- Identification ---
 draw_box(ax, 5, 13, 7, 0.9,
-         'Identification\n6,854 documents retrieved',
+         'Identification\n7.003 documents retrieved',
          color='#D1E5F0', fontsize=10)
 
 draw_arrow(ax, 5, 12.55, 5, 11.95)
 
 # Sources breakdown
 draw_box(ax, 5, 11.5, 7, 0.8,
-         'IEEE Xplore: 3,653  |  ArXiv: 3,185  |  Science Direct: 16',
+         'IEEE Xplore: 3.653  |  ArXiv: 3.185  |  Science Direct: 16 | ACM: 149',
          color='#F7F7F7', fontsize=8.5)
 
 draw_arrow(ax, 5, 11.1, 5, 10.3)
@@ -73,9 +73,9 @@ draw_box(ax, 9.2, 6.7, 1.8, 0.7,
 draw_arrow(ax, 5, 7.55, 5, 6.75)
 
 # --- Eligible papers ---
-eligible_text = ('Eligible — 613 unique papers (769 category assignments)\n'
-                 'VQA: 86  |  Text-Image: 69  |  Image-Text: 249\n'
-                 'Retrieval: 225  |  Generate: 140')
+eligible_text = ('Eligible — 629 unique papers (792 category assignments)\n'
+                 'VQA: 89  |  Text-Image: 71  |  Image-Text: 260\n'
+                 'Retrieval: 226  |  Generate: 146')
 draw_box(ax, 5, 6.0, 7, 1.3,
          eligible_text,
          color='#FFF9C4', edge='#F9A825', fontsize=9)

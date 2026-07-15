@@ -224,3 +224,4 @@ VL: Leveraging VLMs into Large-scale Product Retrieval,1,2,2,1,0,1,7,4,"QP1,QP3,
 CLIP-Art: Contrastive Pre-training for Fine-Grained Art Classification,2,3,3,2,0,2,12,7,"QP1,QP3,QP5,QP6,QP7,QS2,QS3"
 Visual Representation Learning with Self-Supervised Attention for Low-Label,2,3,3,2,1,2,13,8,"QP1,QP3,QP5,QP6,QP7,QS1,QS2,QS3"
 Self-supervised Image-text Pre-training With Mixed Data In Chest X-rays,2,3,3,2,0,2,12,8,"QP1,QP3,QP5,QP6,QP7,QS2,QS3,QS4"
+Distillation and Prompt in Chinese CLIP Model,0,2,2,1,0,1,6,4,"QP1,QP6,QP7,QS3"
