@@ -1,5 +1,6 @@
-"""Bar chart: number of papers addressing each research question."""
+"""Bar chart: number of unique papers addressing each research question."""
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 from style import apply_style, COLORS, FIGURES_DIR
 
@@ -8,8 +9,12 @@ apply_style()
 questions = ['QP1', 'QP2', 'QP3', 'QP4', 'QP5', 'QP6', 'QP7',
              'QS1', 'QS2', 'QS3', 'QS4']
 
-counts = [629, 104, 101, 15, 267, 626, 451,
-          252, 433, 179, 99]
+# One row per unique paper (606). QPs_QSs_Fase2 is the union of the QP/QS codes
+# listed in Phase 2 across every category in which the paper appears.
+papers = pd.read_csv('../avaliacao_qualidade/avaliacao_por_artigo_unico.csv')
+codes = papers['QPs_QSs_Fase2'].fillna('').str.split(', ')
+counts = [int(codes.apply(lambda c: q in c).sum()) for q in questions]
+n_papers = len(papers)
 
 labels = [
     'Learning\nmethods',
@@ -35,7 +40,7 @@ bars = ax.bar(x, counts, color=bar_colors, width=0.65, edgecolor='white',
               linewidth=0.5)
 
 for i, (bar, count) in enumerate(zip(bars, counts)):
-    ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 8,
+    ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.012 * max(counts),
             str(count), ha='center', va='bottom', fontsize=8.5)
 
 ax.set_xticks(x)
@@ -46,7 +51,7 @@ for sx in sec_x:
     ax.get_xticklabels()[int(sx)].set_color(COLORS['secondary'])
 
 ax.set_ylabel('Number of Papers')
-ax.set_ylim(0, 690)
+ax.set_ylim(0, 1.1 * max(counts))
 ax.yaxis.grid(True, linestyle='--', alpha=0.3)
 ax.set_axisbelow(True)
 
@@ -55,7 +60,8 @@ legend_elements = [
     Patch(facecolor=COLORS['primary'], label='Primary (QP)'),
     Patch(facecolor=COLORS['secondary'], label='Secondary (QS)'),
 ]
-ax.legend(handles=legend_elements, loc='upper right')
+ax.legend(handles=legend_elements, loc='upper right',
+          title=f'{n_papers} unique papers')
 
 ax2 = ax.twiny()
 ax2.set_xlim(ax.get_xlim())

@@ -1,0 +1,101 @@
+﻿ID,Titulo,Categorias,Codigo,Papel do grafo,Fonte do texto
+P004,Multimodal Knowledge Graph Vision-Language Models for Precision Retrieval and Inference in Embedded Systems,RETRIEVAL | TEXT-IMAGE | VQA,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P010,Explicit Cross-Modal Representation Learning for Visual Commonsense Reasoning,IMAGE-TEXT | VQA,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P011,Using Markov Random Field (MRF) Hypergraph Transformer Method for Visual Question Answering (VQA) Application,VQA,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P013,Stacked Hybrid-Attention and Group Collaborative Learning for Unbiased Scene Graph Generation,VQA,G4,Grafo como saída,nota QP2 (Fase 1)
+P014,"RingMoGPT: A Unified Remote Sensing Foundation Model for Vision, Language, and Grounded Tasks",VQA,G1,Pré-treinamento ou representações VL de propósito geral,nota QP2 (Fase 1)
+P015,Query and Attention Augmentation for Knowledge-Based Explainable Reasoning,VQA,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P017,"POP-VQA – Privacy preserving, On-device, Personalized Visual Question Answering",IMAGE-TEXT | VQA,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P019,TRAR: Routing the Attention Spans in Transformer for Visual Question Answering,VQA,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",nota QP2 (Fase 1)
+P021,Comprehensive Visual Question Answering on Point Clouds through Compositional Scene Manipulation,VQA,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P022,Hierarchical Multimodality Graph Reasoning for Remote Sensing Visual Question Answering,VQA,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P023,Scene Graph Refinement Network for Visual Question Answering,VQA,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P029,"So Many Heads, So Many Wits: Multimodal Graph Reasoning for Text-Based Visual Question Answering",VQA,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P031,Multi-Modal Validation and Domain Interaction Learning for Knowledge-Based Visual Question Answering,RETRIEVAL | VQA,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P037,VLC-BERT: Visual Question Answering with Contextualized Commonsense Knowledge,VQA,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P038,Calibrating Concepts and Operations: Towards Symbolic Reasoning on Real Images,VQA,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P040,Linguistically Routing Capsule Network for Out-of-distribution Visual Question Answering,VQA,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P041,Sparse And Structured Visual Attention,VQA,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",nota QP2 (Fase 1)
+P043,Structure Causal Models and LLMs Integration in Medical Visual Question Answering,VQA,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",nota QP2 (Fase 1)
+P044,Hybrid Graph Reasoning With Dynamic Interaction for Visual Dialog,VQA,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P055,Efficient Vision-Language Pretraining with Visual Concepts and Hierarchical Alignment,IMAGE-TEXT | RETRIEVAL | VQA,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",nota QP2 (Fase 1)
+P056,MuKEA: Multimodal Knowledge Extraction and Accumulation for Knowledge-based Visual Question Answering,VQA,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P075,SelfGraphVQA: A Self-Supervised Graph Neural Network for Scene-based Question Answering,GENERATE | VQA,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P087,Active Supervised Cross-Modal Retrieval,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P092,NAPReg: Nouns As Proxies Regularization for Semantically Aware Cross-Modal Embeddings,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P095,EyeGraphGPT: Knowledge Graph Enhanced Multimodal Large Language Model for Ophthalmic Report Generation,IMAGE-TEXT | TEXT-IMAGE,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P096,Cross-modal Semantic Enhanced Interaction for Image-Sentence Retrieval,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P100,InterREC: An Interpretable Method for Referring Expression Comprehension,TEXT-IMAGE,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P101,Learning Aligned Image-Text Representations Using Graph Attentive Relational Network,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P103,Knowledge Graph Enhanced Multimodal Transformer for Image-Text Retrieval,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P109,Visual Global-Salient-Guided Network for Remote Sensing Image-Text Retrieval,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P110,Semantic Image Retrieval Using Scene Graphs and Natural Language Queries,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P115,Learning to Represent Image and Text with Denotation Graph,RETRIEVAL | TEXT-IMAGE,G1,Pré-treinamento ou representações VL de propósito geral,nota QP2 (Fase 1)
+P131,Leveraging Entity Information for Cross-Modality Correlation Learning: The Entity-Guided Multimodal Summarization,IMAGE-TEXT | TEXT-IMAGE,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P132,Graph-Based Captioning: Enhancing Visual Descriptions by Interconnecting Region Captions,TEXT-IMAGE,G1,Pré-treinamento ou representações VL de propósito geral,nota QP2 (Fase 1)
+P135,FINEMATCH: Aspect-based Fine-grained Image and Text Mismatch Detection and Correction,IMAGE-TEXT | TEXT-IMAGE,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",nota QP2 (Fase 1)
+P140,Boon: A Neural Search Engine for Cross-Modal Information Retrieval,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",resumo
+P141,CLIPGraphs: Multimodal Graph Networks to Infer Object-Room Affinities,TEXT-IMAGE,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P143,Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality,GENERATE | IMAGE-TEXT | TEXT-IMAGE,G1,Pré-treinamento ou representações VL de propósito geral,nota QP2 (Fase 1)
+P144,Scene Graph as Pivoting: Inference-time Image-free Unsupervised Multimodal Machine Translation with Visual Scene Hallucination,GENERATE | TEXT-IMAGE,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P155,Vision-Language Navigation with Random Environmental Mixup,IMAGE-TEXT,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",nota QP2 (Fase 1)
+P156,Knowledge-Embedded Mutual Guidance for Visual Reasoning,IMAGE-TEXT,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P161,Enhancing Medical Vision-Language Contrastive Learning via Inter-Matching Relation Modeling,IMAGE-TEXT | RETRIEVAL,G1,Pré-treinamento ou representações VL de propósito geral,nota QP2 (Fase 1)
+P175,Multilateral Semantic Relations Modeling for Image Text Retrieval,IMAGE-TEXT | RETRIEVAL,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P183,News Image-Text Matching With News Knowledge Graph,IMAGE-TEXT | RETRIEVAL,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P185,Feature First: Advancing Image-Text Retrieval Through Improved Visual Features,IMAGE-TEXT | RETRIEVAL,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P186,Dynamic Graph Enhanced Contrastive Learning for Chest X-Ray Report Generation,IMAGE-TEXT | RETRIEVAL,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P187,HGAN: Hierarchical Graph Alignment Network for Image-Text Retrieval,IMAGE-TEXT | RETRIEVAL,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P189,Knowledge Enhanced Vision and Language Model for Multi-Modal Fake News Detection,IMAGE-TEXT,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P193,Do Vision and Language Encoders Represent the World Similarly?,IMAGE-TEXT | RETRIEVAL,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",nota QP2 (Fase 1)
+P203,Knowledge-Routed Visual Question Reasoning: Challenges for Deep Representation Embedding,IMAGE-TEXT,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P205,LLaVA-SpaceSGG: Visual Instruct Tuning for Open-Vocabulary Scene Graph Generation with Enhanced Spatial Relations,IMAGE-TEXT,G4,Grafo como saída,nota QP2 (Fase 1)
+P210,Construction and Applications of Billion-Scale Pre-Trained Multimodal Business Knowledge Graph,IMAGE-TEXT,G1,Pré-treinamento ou representações VL de propósito geral,nota QP2 (Fase 1)
+P225,Context-Based Semantic-Aware Alignment for Semi-Supervised Multi-Label Learning,IMAGE-TEXT,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P227,GraphVL: Graph-Enhanced Semantic Modeling via Vision-Language Models for Generalized Class Discovery✱,IMAGE-TEXT,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P248,GSSF: Generalized Structural Sparse Function for Deep Cross-modal Metric Learning,IMAGE-TEXT,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P261,Towards Fast and Accurate Image-Text Retrieval with Self-Supervised Fine-Grained Alignment,IMAGE-TEXT | RETRIEVAL,G0,Uso de grafo não identificado no texto disponível,resumo
+P274,Vision and Structured-Language Pretraining for Cross-Modal Food Retrieval,IMAGE-TEXT | RETRIEVAL,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",nota QP2 (Fase 1)
+P275,CapEnrich: Enriching Caption Semantics for Web Images via Cross-modal Pre-trained Knowledge,IMAGE-TEXT,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",nota QP2 (Fase 1)
+P281,VITR: Augmenting Vision Transformers with Relation-Focused Learning for Cross-Modal Information Retrieval,IMAGE-TEXT | RETRIEVAL,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P297,ROSITA: Enhancing Vision-and-Language Semantic Alignments via Cross- and Intra-modal Knowledge Integration,GENERATE | IMAGE-TEXT,G1,Pré-treinamento ou representações VL de propósito geral,nota QP2 (Fase 1)
+P306,ERNIE-ViL: Knowledge Enhanced Vision-Language Representations Through Scene Graph,IMAGE-TEXT,G1,Pré-treinamento ou representações VL de propósito geral,nota QP2 (Fase 1)
+P307,Behind the Scene: Revealing the Secrets of Pre-trained Vision-and-Language Models,IMAGE-TEXT,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",nota QP2 (Fase 1)
+P311,TCIC: Theme Concepts Learning Cross Language and Vision for Image Captioning,IMAGE-TEXT,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P316,Multi-Head Attention Driven Dynamic Visual-Semantic Embedding for Enhanced Image-Text Matching,IMAGE-TEXT | RETRIEVAL,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P323,Emergent Visual-Semantic Hierarchies in Image-Text Representations,IMAGE-TEXT,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",nota QP2 (Fase 1)
+P333,Cephalo: Multi-Modal Vision-Language Models for Bio-Inspired Materials Analysis and Design,GENERATE | IMAGE-TEXT,G0,Uso de grafo não identificado no texto disponível,resumo
+P334,KGMEL: Knowledge Graph-Enhanced Multimodal Entity Linking,IMAGE-TEXT,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P341,Differentiable Outlier Detection Enable Robust Deep Multimodal Analysis,IMAGE-TEXT | RETRIEVAL,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P353,Constructing Phrase-level Semantic Labels to Form Multi-Grained Supervision for Image-Text Retrieval,IMAGE-TEXT | RETRIEVAL,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P366,Learning Structural Representations for Recipe Generation and Food Retrieval,RETRIEVAL,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P367,Image-Text Embedding Learning via Visual and Textual Semantic Reasoning,RETRIEVAL,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P370,Learning Semantic Structure Correlation with Deep Semantic Alignment Network for Cross-Modal Retrieval,RETRIEVAL,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P394,Recognizing Unknown Disaster Scenes With Knowledge Graph-Based Zero-Shot Learning (KG-ZSL) Model,RETRIEVAL,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P395,Multimodal Models for Comprehensive Cardiac Diagnostics via ECG Interpretation,RETRIEVAL,G3,Grafo de conhecimento externo como fonte de conhecimento,nota QP2 (Fase 1)
+P399,Unsupervised Hierarchical Dynamic Similarity Hashing for Multimedia Retrieval,RETRIEVAL,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",nota QP2 (Fase 1)
+P403,Quaternion Relation Embedding for Scene Graph Generation,RETRIEVAL,G4,Grafo como saída,nota QP2 (Fase 1)
+P411,DynamicGSG: Dynamic 3D Gaussian Scene Graphs for Environment Adaptation,RETRIEVAL,G4,Grafo como saída,nota QP2 (Fase 1)
+P422,Rebalanced Vision-Language Retrieval Considering Structure-Aware Distillation,RETRIEVAL,G0,Uso de grafo não identificado no texto disponível,resumo
+P442,ALADIN: Distilling Fine-grained Alignment Scores for Efficient Image-Text Matching and Retrieval,RETRIEVAL,G0,Uso de grafo não identificado no texto disponível,resumo
+P444,Contrastive Cross-Modal Knowledge Sharing Pre-training for Vision-Language Representation Learning and Retrieval,RETRIEVAL,G0,Uso de grafo não identificado no texto disponível,resumo
+P461,Vision Search Assistant: Empower Vision-Language Models as Multimodal Search Engines,RETRIEVAL,G0,Uso de grafo não identificado no texto disponível,resumo
+P483,Retrieval-based Knowledge Augmented Vision Language Pre-training,RETRIEVAL,G1,Pré-treinamento ou representações VL de propósito geral,resumo
+P488,On the Use of Graph Neural Networks for Virtual Network Embedding,GENERATE,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",resumo
+P528,Unlock the Power of Unlabeled Data in Language Driving Model,GENERATE,G0,Uso de grafo não identificado no texto disponível,resumo
+P542,KALE: An Artwork Image Captioning System Augmented with Heterogeneous Graph,GENERATE,G3,Grafo de conhecimento externo como fonte de conhecimento,resumo
+P549,Text-Only Training for Visual Storytelling,GENERATE,G0,Uso de grafo não identificado no texto disponível,resumo
+P551,Visually-Prompted Language Model for Fine-Grained Scene Graph Generation in an Open World,GENERATE,G4,Grafo como saída,resumo
+P555,3D Scene Graph Guided Vision-Language Pre-training,GENERATE,G1,Pré-treinamento ou representações VL de propósito geral,resumo
+P556,Graph based Environment Representation for Vision-and-Language Navigation in Continuous Environments,GENERATE,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",resumo
+P576,InstructG2I: Synthesizing Images from Multimodal Attributed Graphs,GENERATE,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",resumo
+P577,Optimus-1: Hybrid Multimodal Memory Empowered Agents Excel in Long-Horizon Tasks,GENERATE,G3,Grafo de conhecimento externo como fonte de conhecimento,resumo
+P580,Dr-LLaVA: Visual Instruction Tuning with Symbolic Clinical Grounding,GENERATE,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",resumo
+P595,Multimodal Graph Transformer for Multimodal Question Answering,GENERATE,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",resumo
+P606,Improving Image Captioning with Better Use of Captions,GENERATE,G2,"Módulo, entrada ou objetivo de modelo de tarefa específica",resumo
+P611,Labeled Data Generation with Inexact Supervision,GENERATE,G0,Uso de grafo não identificado no texto disponível,resumo
+P613,GOFA: A Generative One-For-All Model for Joint Graph Language Modeling,GENERATE,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",resumo
+P614,"BatchSampler: Sampling Mini-Batches for Contrastive Learning in Vision, Language, and Graphs",GENERATE,G5,"Apenas dados, pré-processamento, análise ou fora de texto-imagem",resumo
+P618,IntentionGPT: Boosting E-commerce User Intent Recognition with Self-data Augmentation and Structure-aware Retrieval,TEXT-IMAGE,G0,Uso de grafo não identificado no texto disponível,resumo
+P624,Multi-modal Contextual Prompt Learning for Multi-label Classification with Partial Labels,IMAGE-TEXT,G0,Uso de grafo não identificado no texto disponível,resumo
+P631,AIGeN: An Adversarial Approach for Instruction Generation in VLN,GENERATE,G0,Uso de grafo não identificado no texto disponível,resumo

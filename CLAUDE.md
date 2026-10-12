@@ -34,22 +34,26 @@ The review spreadsheet is available at, this link only access for CLAUDE and aut
 
 ### Search Sources
 
-ACM Digital Library, IEEE Xplore, ArXiv, Science Direct — total of 6,854 documents retrieved.
+ACM Digital Library, IEEE Xplore, ArXiv, Science Direct — total of 6,989 documents retrieved (IEEE Xplore 3,653 = 52.3%; ArXiv 3,150 = 45.1%; ACM 170 = 2.4%; Science Direct 16 = 0.2%).
 
 ### Task Categories
 
 Papers are organized across five VLM task categories (a paper may appear in more than one category):
-- **VQA** (Visual Question Answering) — 84 papers
-- **Text-Image** (cross-modal retrieval and alignment) — 68 papers
-- **Image-Text** (pre-training and transfer learning) — 249 papers
-- **Retrieval** (cross-modal information retrieval) — 225 papers
-- **Generate** (image/caption generation, diffusion models) — 149 papers
+- **VQA** (Visual Question Answering) — 89 papers
+- **Text-Image** (cross-modal retrieval and alignment) — 71 papers
+- **Image-Text** (pre-training and transfer learning) — 259 papers
+- **Retrieval** (cross-modal information retrieval) — 226 papers
+- **Generate** (image/caption generation, diffusion models) — 146 papers
 
-**Phase 2: 599 unique papers selected** (778 category assignments total;)
+**Phase 2: 606 unique papers selected** (791 category assignments; the same paper never appears twice in one category). 450 papers appear in one category, 128 in two, 27 in three and 1 in four.
+
+### Selection Flow (PRISMA)
+
+6,989 search results → 1,649 task-level records in the Phase 1 tab (1,145 unique titles; 5,340 results not carried forward, duplicates not itemized) → 852 excluded (CE1: 527 at title/abstract screening, insufficient information, 304 with fewer than 3 questions, 21 other criteria) → 797 retained → 6 repeated entries removed → 791 assignments / 606 unique papers. All 606 are quality-scored; none is excluded by score (Top 10 per category is for presentation only).
 
 ### Quality Assessment
 
-11-point scale: unfavorable scenarios (2 pts), theoretical grounding (3 pts), result clarity (3 pts), relevant illustrations (2 pts), accessible repositories (1 pt).
+13-point scale (maximum 13): unfavorable scenarios (2 pts), theoretical grounding (3 pts), result clarity (3 pts), relevant illustrations (2 pts), accessible repositories (1 pt), answers 4 or more primary questions (2 pts). The sixth criterion is computed from the QP1–QP7 codes listed in Phase 2 (4 or more QPs = 2 pts).
 
 ### Inclusion Criteria
 

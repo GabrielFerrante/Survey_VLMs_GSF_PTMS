@@ -6,9 +6,9 @@ from style import apply_style, COLORS, TASKS, FIGURES_DIR
 apply_style()
 
 ieee =    np.array([443, 466, 1052,  972,  720])
-arxiv =   np.array([122, 781,  781,  367, 1134])
+arxiv =   np.array([116, 752,  781,  367, 1134])
 scidir =  np.array([  0,   1,    5,    3,    7])
-acm =     np.array([ 14,  26,   53,   36,   20])
+acm =     np.array([ 6,  4,   54,   40,   66])
 
 x = np.arange(len(TASKS))
 width = 0.55

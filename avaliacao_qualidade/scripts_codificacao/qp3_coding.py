@@ -1,0 +1,30 @@
+"""Codificação operacional dos 99 artigos com QP3.
+
+S1: semi-supervisionado estrito (rotulados + não rotulados da tarefa; pseudo-rótulos, auto-treinamento, consistência, professor-aluno)
+S2: supervisão fraca, ruidosa ou inexata (pares da web, tags, tradução automática, destilação com momentum)
+S3: auto-supervisionado ou pré-treinamento sem rótulos registrado como QP3
+S4: dados sintéticos ou pseudo-anotações geradas por modelos, sem conjunto rotulado da tarefa
+S5: outros (destilação de professores, adaptação de domínio não supervisionada, aprendizado em contexto, avaliação com poucos rótulos)
+S0: não identificável no texto disponível
+"""
+import json, os
+from collections import Counter
+C = {
+ 'P004': 'S0', 'P006': 'S1', 'P026': 'S1', 'P035': 'S2', 'P042': 'S1', 'P046': 'S3', 'P051': 'S5', 'P055': 'S3',
+ 'P058': 'S2', 'P059': 'S2', 'P065': 'S4', 'P071': 'S3', 'P074': 'S3', 'P078': 'S5', 'P094': 'S0', 'P097': 'S1',
+ 'P123': 'S4', 'P130': 'S4', 'P134': 'S1', 'P152': 'S4', 'P173': 'S4', 'P174': 'S5', 'P196': 'S3', 'P198': 'S5',
+ 'P202': 'S2', 'P210': 'S5', 'P212': 'S1', 'P214': 'S2', 'P218': 'S2', 'P224': 'S1', 'P225': 'S1', 'P226': 'S1',
+ 'P227': 'S1', 'P228': 'S1', 'P229': 'S1', 'P230': 'S1', 'P231': 'S1', 'P232': 'S1', 'P238': 'S1', 'P258': 'S2',
+ 'P260': 'S2', 'P266': 'S4', 'P268': 'S2', 'P277': 'S2', 'P280': 'S3', 'P282': 'S2', 'P287': 'S1', 'P291': 'S3',
+ 'P296': 'S2', 'P303': 'S2', 'P304': 'S1', 'P345': 'S3', 'P348': 'S2', 'P350': 'S3', 'P357': 'S1', 'P361': 'S2',
+ 'P364': 'S3', 'P371': 'S1', 'P372': 'S5', 'P374': 'S3', 'P383': 'S3', 'P391': 'S5', 'P424': 'S3', 'P460': 'S3',
+ 'P472': 'S4', 'P474': 'S3', 'P484': 'S3', 'P485': 'S0', 'P486': 'S3', 'P487': 'S3', 'P495': 'S1', 'P497': 'S0',
+ 'P498': 'S4', 'P499': 'S5', 'P502': 'S1', 'P508': 'S5', 'P509': 'S3', 'P511': 'S4', 'P519': 'S2', 'P524': 'S1',
+ 'P525': 'S1', 'P526': 'S1', 'P527': 'S1', 'P528': 'S1', 'P529': 'S1', 'P530': 'S1', 'P537': 'S5', 'P544': 'S3',
+ 'P549': 'S5', 'P566': 'S4', 'P568': 'S4', 'P608': 'S4', 'P611': 'S2', 'P618': 'S4', 'P620': 'S5', 'P622': 'S2',
+ 'P623': 'S0', 'P626': 'S0', 'P629': 'S4',
+}
+assert len(C) == 99
+print(sorted(Counter(C.values()).items()))
+D = os.path.dirname(os.path.abspath(__file__))
+json.dump(C, open(os.path.join(D, 'qp3_coding.json'), 'w'), indent=0)

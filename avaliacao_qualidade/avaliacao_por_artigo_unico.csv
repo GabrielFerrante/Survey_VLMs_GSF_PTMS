@@ -1,0 +1,608 @@
+﻿ID,Titulo,Categorias,QPs_QSs_Fase2,Cenarios_desfavoraveis_0-2,Fundamentacao_teorica_0-3,Clareza_resultados_0-3,Ilustracoes_0-2,Repositorio_0-1,Total_0-11,Fonte_avaliacao,Repositorio_URL_verificada
+P001,Vision-Language Pre-Training with Triple Contrastive Learning,IMAGE-TEXT | RETRIEVAL | VQA,"QP1, QP6, QP7, QS1, QS2",1,3,3,1,1,9,online:arXiv:2202.10401,https://github.com/uta-smile/TCL
+P002,ZPVQA: Visual Question Answering of Images Based on Zero-Shot Prompt Learning,VQA,"QP1, QP5, QP6, QP7, QS2, QS3",2,2,2,2,0,8,local:ZPVQA_Visual_Question_Answering_of_Images_Based_on_Zero-Shot_Prompt_Learning.pdf,
+P003,Med-VQA: Performance Analysis of Question-Answering Systems on Medical Images,VQA,"QP1, QP6, QS3, QS4",1,1,2,2,0,6,local:Med-VQA_Performance_Analysis_of_Question-Answering_Systems_on_Medical_Images.pdf,
+P004,Multimodal Knowledge Graph Vision-Language Models for Precision Retrieval and Inference in Embedded Systems,RETRIEVAL | TEXT-IMAGE | VQA,"QP1, QP2, QP3, QP6, QP7, QS2, QS3",2,2,1,2,0,7,local:Multimodal_Knowledge_Graph_Vision-Language_Models_for_Precision_Retrieval_and_Inference_in_Embedded_Systems.pdf,
+P005,CMACC: Cross-Modal Adversarial Contrastive Learning in Visual Question Answering Based on Co-Attention Network,VQA,"QP1, QP6, QS2, QS3",1,3,2,2,0,8,local:CMACC_Cross-Modal_Adversarial_Contrastive_Learning_in_Visual_Question_Answering_Based_on_Co-Attention_Network.pdf,
+P006,A Semi-supervised Learning Approach for Visual Question Answering based on Maximal Correlation,VQA,"QP1, QP3, QP6, QS3",2,2,2,2,0,8,local:A_Semi-supervised_Learning_Approach_for_Visual_Question_Answering_based_on_Maximal_Correlation.pdf,
+P007,MHKD-MVQA: Multimodal Hierarchical Knowledge Distillation for Medical Visual Question Answering,VQA,"QP1, QP5, QP6, QS2, QS3, QS4",2,3,3,2,0,10,local:MHKD-MVQA_Multimodal_Hierarchical_Knowledge_Distillation_for_Medical_Visual_Question_Answering.pdf,
+P008,Adapting Pre-trained Language Models to Vision-Language Tasksvia Dynamic Visual Prompting,TEXT-IMAGE | VQA,"QP1, QP6, QP7, QS1, QS2",0,2,3,2,1,8,local:Adapting_Pre-trained_Language_Models_to_Vision-Language_Tasksvia_Dynamic_Visual_Prompting.pdf,https://github.com/hsb1357173526/Dynamic_Visual_Prompting
+P009,BVQA: Connecting Language and Vision Through Multimodal Attention for Open-Ended Question Answering,VQA,"QP1, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,local:BVQA_Connecting_Language_and_Vision_Through_Multimodal_Attention_for_Open-Ended_Question_Answering.pdf,https://github.com/eftekhar-hossain/Bengali-VQA
+P010,Explicit Cross-Modal Representation Learning for Visual Commonsense Reasoning,IMAGE-TEXT | VQA,"QP1, QP2, QP5, QP6, QP7, QS2",0,3,3,2,0,8,local:Explicit_Cross-Modal_Representation_Learning_for_Visual_Commonsense_Reasoning.pdf,
+P011,Using Markov Random Field (MRF) Hypergraph Transformer Method for Visual Question Answering (VQA) Application,VQA,"QP1, QP2, QP6",0,2,2,2,0,6,local:Using_Markov_Random_Field_MRF_Hypergraph_Transformer_Method_for_Visual_Question_Answering_VQA_Application.pdf,
+P012,FashionVQA: A Domain-Specific Visual Question Answering System,VQA,"QP1, QP5, QP6, QP7, QS3",1,2,3,2,0,8,online:arXiv:2208.11253,
+P013,Stacked Hybrid-Attention and Group Collaborative Learning for Unbiased Scene Graph Generation,VQA,"QP1, QP2, QP6, QS1, QS2",2,3,3,2,1,11,online:arXiv:2203.09811,https://github.com/dongxingning/SHA-GCL-for-SGG
+P014,"RingMoGPT: A Unified Remote Sensing Foundation Model for Vision, Language, and Grounded Tasks",VQA,"QP1, QP2, QP6, QP7, QS3",2,2,3,2,0,9,local:RingMoGPT_A_Unified_Remote_Sensing_Foundation_Model_for_Vision_Language_and_Grounded_Tasks.pdf,
+P015,Query and Attention Augmentation for Knowledge-Based Explainable Reasoning,VQA,"QP1, QP2, QP5, QP6, QS2",0,3,3,2,1,9,local:Query_and_Attention_Augmentation_for_Knowledge-Based_Explainable_Reasoning.pdf,https://github.com/SuperJohnZhang/QAA
+P016,Answer-checking in Context: A Multi-modal Fully Attention Network for Visual Question Answering,VQA,"QP1, QP5, QP6, QS2",0,2,3,2,0,7,local:Answer-checking_in_Context_A_Multi-modal_Fully_Attention_Network_for_Visual_Question_Answering.pdf,
+P017,"POP-VQA – Privacy preserving, On-device, Personalized Visual Question Answering",IMAGE-TEXT | VQA,"QP1, QP2, QP6, QP7",1,2,2,2,0,7,local:POP-VQA__Privacy_preserving_On-device_Personalized_Visual_Question_Answering.pdf,
+P018,Explainable Visual Question Answering via Hybrid Neural-Logical Reasoning,VQA,"QP1, QP5, QP6",0,2,2,2,0,6,local:Explainable_Visual_Question_Answering_via_Hybrid_Neural-Logical_Reasoning.pdf,
+P019,TRAR: Routing the Attention Spans in Transformer for Visual Question Answering,VQA,"QP1, QP2, QP6, QS1, QS2",0,3,3,2,1,9,local:TRAR_Routing_the_Attention_Spans_in_Transformer_for_Visual_Question_Answering.pdf,https://github.com/rentainhe/TRAR-VQA
+P020,LOIS: Looking Out of Instance Semantics for Visual Question Answering,VQA,"QP1, QP5, QP6, QS1, QS2",0,3,3,2,0,8,online:arXiv:2307.14142,
+P021,Comprehensive Visual Question Answering on Point Clouds through Compositional Scene Manipulation,VQA,"QP1, QP2, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2112.11691,https://github.com/yanx27/CLEVR3D
+P022,Hierarchical Multimodality Graph Reasoning for Remote Sensing Visual Question Answering,VQA,"QP1, QP2, QP5, QP6, QS2",0,3,3,2,0,8,local:Hierarchical_Multimodality_Graph_Reasoning_for_Remote_Sensing_Visual_Question_Answering.pdf,
+P023,Scene Graph Refinement Network for Visual Question Answering,VQA,"QP1, QP2, QP6",1,3,3,2,0,9,local:Scene_Graph_Refinement_Network_for_Visual_Question_Answering.pdf,
+P024,Question Aware Vision Transformer for Multimodal Reasoning,VQA,"QP1, QP5, QP6, QP7",1,3,3,2,0,9,online:arXiv:2402.05472,
+P025,VTQA: Visual Text Question Answering via Entity Alignment and Cross-Media Reasoning,VQA,"QP1, QP5, QP6",0,1,1,2,1,5,online:arXiv:2303.02635,https://visual-text-QA.github.io/
+P026,Q: How to Specialize Large Vision-Language Models to Data-Scarce VQA Tasks? A: Self-Train on Unlabeled Images!,VQA,"QP1, QP3, QP6, QS1, QS2, QS3, QS4",2,2,3,2,1,10,online:arXiv:2306.03932,https://github.com/codezakh/SelTDA
+P027,Decouple Before Interact: Multi-Modal Prompt Learning for Continual Visual Question Answering,VQA,"QP1, QP6, QP7, QS2",1,3,3,2,0,9,local:Decouple_Before_Interact_Multi-Modal_Prompt_Learning_for_Continual_Visual_Question_Answering.pdf,
+P028,Towards Better Vision-Inspired Vision-Language Models,VQA,"QP1, QP6, QP7, QS2",2,3,3,2,0,10,local:Towards_Better_Vision-Inspired_Vision-Language_Models.pdf,
+P029,"So Many Heads, So Many Wits: Multimodal Graph Reasoning for Text-Based Visual Question Answering",VQA,"QP1, QP2, QP6, QS2",0,2,2,2,0,6,local:So_Many_Heads_So_Many_Wits_Multimodal_Graph_Reasoning_for_Text-Based_Visual_Question_Answering.pdf,
+P030,LLaVA-PlantDiag: Integrating Large-scale Vision-Language Abilities for Conversational Plant Pathology Diagnosis,VQA,"QP1, QP6, QP7, QS2, QS3",1,1,1,2,0,5,local:LLaVA-PlantDiag_Integrating_Large-scale_Vision-Language_Abilities_for_Conversational_Plant_Pathology_Diagnosis.pdf,
+P031,Multi-Modal Validation and Domain Interaction Learning for Knowledge-Based Visual Question Answering,RETRIEVAL | VQA,"QP1, QP2, QP5, QP6, QS2",0,3,3,2,0,8,local:Multi-Modal_Validation_and_Domain_Interaction_Learning_for_Knowledge-Based_Visual_Question_Answering.pdf,
+P032,MIVC: Multiple Instance Visual Component for Visual-Language Models,VQA,"QP1, QP5, QP6, QS2, QS4",0,2,2,2,0,6,online:arXiv:2312.17109,
+P033,Top-Down Visual Attention from Analysis by Synthesis,RETRIEVAL | VQA,"QP1, QP5, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2303.13043,https://sites.google.com/view/absvit
+P034,Beyond VQA: Generating Multi-word Answers and Rationales to Visual Questions,VQA,"QP1, QP5, QP6, QS2",0,2,3,2,0,7,online:arXiv:2010.12852,
+P035,LaTr: Layout-Aware Transformer for Scene-Text VQA,VQA,"QP1, QP3, QP6, QS2, QS3",1,3,3,2,0,9,online:arXiv:2112.12494,
+P036,RMLVQA: A Margin Loss Approach For Visual Question Answering with Language Biases,VQA,"QP1, QP5, QP6, QS1, QS2",2,3,3,2,1,11,local:RMLVQA_A_Margin_Loss_Approach_For_Visual_Question_Answering_with_Language_Biases.pdf,https://github.com/val-iisc/RMLVQA
+P037,VLC-BERT: Visual Question Answering with Contextualized Commonsense Knowledge,VQA,"QP1, QP2, QP6, QS1, QS2, QS3",0,2,3,2,1,8,online:arXiv:2210.13626,https://github.com/aditya10/VLC-BERT
+P038,Calibrating Concepts and Operations: Towards Symbolic Reasoning on Real Images,VQA,"QP1, QP2, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2110.00519,https://github.com/Lizw14/CaliCO
+P039,CogAgent: A Visual Language Model for GUI Agents,VQA,"QP1, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2312.08914,https://github.com/THUDM/CogVLM
+P040,Linguistically Routing Capsule Network for Out-of-distribution Visual Question Answering,VQA,"QP1, QP2, QP6, QS2",2,3,3,2,0,10,local:Linguistically_Routing_Capsule_Network_for_Out-of-distribution_Visual_Question_Answering.pdf,
+P041,Sparse And Structured Visual Attention,VQA,"QP1, QP2, QP5, QP6, QS1, QS2",0,3,2,2,1,8,online:arXiv:2002.05556,https://github.com/deep-spin/TVmax
+P042,S3C: Semi-Supervised VQA Natural Language Explanation via Self-Critical Learning,VQA,"QP1, QP3, QP6, QP7, QS2, QS3",2,3,3,2,0,10,online:arXiv:2309.02155,
+P043,Structure Causal Models and LLMs Integration in Medical Visual Question Answering,VQA,"QP1, QP2, QP5, QP6, QP7, QS2, QS3, QS4",1,3,3,2,0,9,online:arXiv:2505.02703,
+P044,Hybrid Graph Reasoning With Dynamic Interaction for Visual Dialog,VQA,"QP1, QP2, QP5, QP6, QS1, QS2",0,3,3,2,0,8,local:Hybrid_Graph_Reasoning_With_Dynamic_Interaction_for_Visual_Dialog.pdf,
+P045,CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts,TEXT-IMAGE | VQA,"QP1, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2405.05949,https://github.com/SHI-Labs/CuMo
+P046,Med-MoE: Mixture of Domain-Specific Experts for Lightweight Medical Vision-Language Models,VQA,"QP1, QP3, QP6, QP7, QS1, QS2, QS3, QS4",2,3,3,2,1,11,online:arXiv:2404.10237,https://github.com/jiangsongtao/Med-MoE
+P047,GeReA: Question-Aware Prompt Captions for Knowledge-based Visual Question Answering,GENERATE | VQA,"QP1, QP5, QP6, QS1, QS2",0,3,3,2,1,9,online:arXiv:2402.02503,https://github.com/Upper9527/GeReA
+P048,Surgical-VQLA: Transformer with Gated Vision-Language Embedding for Visual Question Localized-Answering in Robotic Surgery,VQA,"QP1, QP6, QP7, QS1, QS2, QS3, QS4",1,2,3,2,1,9,online:arXiv:2305.11692,https://github.com/longbai1006/Surgical-VQLA
+P049,Weakly Supervised Grounding for VQA in Vision-Language Transformers,VQA,"QP1, QP5, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2207.02334,https://github.com/aurooj/WSG-VQA-VLTransformers
+P050,LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning,VQA,"QP1, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2206.06522,https://github.com/ylsung/Ladder-Side-Tuning
+P051,Multimodal Adaptive Distillation for Leveraging Unimodal Encoders for Vision-Language Tasks,IMAGE-TEXT | VQA,"QP1, QP3, QP5, QP6, QP7, QS1, QS2",1,3,3,2,0,9,online:arXiv:2204.10496,
+P052,Chop Chop BERT: Visual Question Answering by Chopping VisualBERT’s Heads,VQA,"QP1, QP5, QP6, QP7",0,2,2,2,0,6,online:arXiv:2104.14741,
+P053,Uni-Mlip: Unified Self-supervision for Medical Vision Language Pre-training,IMAGE-TEXT | RETRIEVAL | VQA,"QP1, QP6, QP7, QS2, QS3, QS4",2,3,2,2,0,9,online:arXiv:2411.15207,
+P054,ELIP: Efficient Language-Image Pre-training with Fewer Vision Tokens,VQA,"QP1, QP5, QP6, QP7, QS1, QS2",0,3,3,2,0,8,online:arXiv:2309.16738,
+P055,Efficient Vision-Language Pretraining with Visual Concepts and Hierarchical Alignment,IMAGE-TEXT | RETRIEVAL | VQA,"QP1, QP2, QP3, QP5, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2208.13628,https://github.com/mshukor/ViCHA
+P056,MuKEA: Multimodal Knowledge Extraction and Accumulation for Knowledge-based Visual Question Answering,VQA,"QP1, QP2, QP6, QS1, QS2",1,3,3,2,1,10,online:arXiv:2203.09138,https://github.com/AndersonStra/MuKEA
+P057,Unsupervised Vision-and-Language Pre-training via Retrieval-based Multi-Granular Alignment,IMAGE-TEXT | RETRIEVAL | VQA,"QP1, QP5, QP6, QP7, QS2",2,3,3,2,0,10,online:arXiv:2203.00242,
+P058,Florence: A New Foundation Model for Computer Vision,RETRIEVAL | VQA,"QP1, QP3, QP6, QP7, QS4",2,2,2,2,0,8,online:arXiv:2111.11432,
+P059,Align before Fuse: Vision and Language Representation Learning with Momentum Distillation,IMAGE-TEXT | RETRIEVAL | VQA,"QP1, QP3, QP5, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2107.07651,https://github.com/salesforce/ALBEF
+P060,Cross-Modality Relevance for Reasoning on Language and Vision,VQA,"QP1, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2005.06035,https://github.com/HLR/Cross_Modality_Relevance
+P061,A Novel Attention-based Aggregation Function to Combine Vision and Language,IMAGE-TEXT | VQA,"QP1, QP6, QP7, QS2",0,2,2,2,0,6,online:arXiv:2004.13073,
+P062,ABC: Achieving Better Control of Multimodal Embeddings using VLMs,VQA,"QP1, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2503.00329,https://tiger-ai-lab.github.io/ABC/
+P063,Towards a Multimodal Large Language Model with Pixel-Level Insight for Biomedicine,VQA,"QP1, QP5, QP6, QS1, QS2, QS3, QS4",2,3,3,2,1,11,online:arXiv:2412.09278,https://github.com/ShawnHuang497/MedPLIB
+P064,Florence-VL: Enhancing Vision-Language Models with Generative Vision Encoder and Depth-Breadth Fusion,VQA,"QP1, QP6, QP7, QS1, QS2",0,2,3,2,1,8,online:arXiv:2412.04424,https://github.com/JiuhaiChen/Florence-VL
+P065,One VLM to Keep it Learning: Generation and Balancing for Data-free Continual Visual Question Answering,GENERATE | VQA,"QP1, QP3, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2411.02210,https://github.com/Deepayan137/GaB
+P066,Multi-Modal Instruction-Tuning Small-Scale Language-and-Vision Assistant for Semiconductor Electron Micrograph Analysis,GENERATE | VQA,"QP1, QP6, QP7, QS2",2,2,3,2,0,9,online:arXiv:2409.07463,
+P067,Foundational Model for Electron Micrograph Analysis: Instruction-Tuning Small-Scale Language-and-Vision Assistant for Enterprise Adoption,GENERATE | VQA,"QP1, QP6, QP7, QS2, QS3",2,2,3,2,0,9,online:arXiv:2408.13248,
+P068,PA-LLaVA: A Large Language-Vision Assistant for Human Pathology Image Understanding,IMAGE-TEXT | VQA,"QP1, QP6, QP7, QS1, QS2, QS4",1,2,3,2,1,9,online:arXiv:2408.09530,https://github.com/ddw2AIGROUP2CQUPT/PA-LLaVA
+P069,Surgical-VQLA++: Adversarial Contrastive Learning for Calibrated Robust Visual Question-Localized Answering in Robotic Surgery,VQA,"QP1, QP5, QP6, QP7, QS1, QS2, QS4",2,3,3,2,1,11,online:arXiv:2408.04958,https://github.com/longbai1006/Surgical-VQLAPlus
+P070,Surgical-LVLM: Learning to Adapt Large Vision-Language Model for Grounded Visual Question Answering in Robotic Surgery,VQA,"QP1, QP6, QP7, QS3, QS4",0,2,2,2,0,6,online:arXiv:2405.10948,
+P071,Design as Desired: Utilizing Visual Question Answering for Multimodal Pre-training,VQA,"QP1, QP3, QP6, QP7, QS1, QS3, QS4",1,2,3,2,1,9,online:arXiv:2404.00226,https://github.com/MoramiSu/QFT-MICCAI2024
+P072,Veagle: Advancements in Multimodal Representation Learning,VQA,"QP1, QP6, QP7, QS1",0,1,2,2,1,6,online:arXiv:2403.08773,https://github.com/superagi/Veagle
+P073,Lumen: Unleashing Versatile Vision-Centric Capabilities of Large Multimodal Models,VQA,"QP1, QP5, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2403.07304,
+P074,MISS: A Generative Pretraining and Finetuning Approach for Med-VQA,IMAGE-TEXT | VQA,"QP1, QP3, QP6, QS1, QS2, QS3, QS4",2,3,3,2,1,11,online:arXiv:2401.05163,https://github.com/TIMMY-CHAN/MISS
+P075,SelfGraphVQA: A Self-Supervised Graph Neural Network for Scene-based Question Answering,GENERATE | VQA,"QP1, QP2, QP5, QP6, QS2, QS3",2,3,3,2,0,10,online:arXiv:2310.01842,
+P076,Masked Vision and Language Pre-training with Unimodal and Multimodal Contrastive Losses for Medical Visual Question Answering,VQA,"QP1, QP5, QP6, QS1, QS2, QS3, QS4",2,2,3,2,1,10,online:arXiv:2307.05314,https://github.com/pengfeiliHEU/MUMC
+P077,MaMMUT: A Simple Architecture for Joint Learning for MultiModal Tasks,RETRIEVAL | TEXT-IMAGE | VQA,"QP1, QP6, QP7",1,3,3,2,0,9,online:arXiv:2303.16839,
+P078,Few-shot Multimodal Multitask Multilingual Learning,GENERATE | VQA,"QP1, QP3, QP6, QP7, QS2, QS3",2,3,3,1,0,9,online:arXiv:2303.12489,
+P079,Coarse-to-Fine Vision-Language Pre-training with Fusion in the Backbone,IMAGE-TEXT | RETRIEVAL | VQA,"QP1, QP5, QP6, QP7, QS1, QS2, QS3",1,3,3,2,1,10,online:arXiv:2206.07643,https://github.com/microsoft/FIBER
+P080,CoCa: Contrastive Captioners are Image-Text Foundation Models,GENERATE | RETRIEVAL | VQA,"QP1, QP6, QP7, QS2",1,2,3,2,0,8,online:arXiv:2205.01917,
+P081,Barlow constrained optimization for Visual Question Answering,VQA,"QP1, QP5, QP6, QS2",2,3,3,2,0,10,online:arXiv:2203.03727,
+P082,MLP Architectures for Vision-and-Language Modeling: An Empirical Study,VQA,"QP1, QP6, QP7, QS1, QS2",2,2,3,2,0,9,online:arXiv:2112.04453,
+P083,An Empirical Study of Training End-to-End Vision-and-Language Transformers,VQA,"QP1, QP5, QP6, QP7, QS1, QS2",1,2,3,2,1,9,online:arXiv:2111.02387,https://github.com/zdou0830/METER
+P084,SimVLM: Simple Visual Language Model Pretraining with Weak Supervision,VQA,"QP1, QP6, QP7, QS2",2,3,3,2,0,10,online:arXiv:2108.10904,
+P085,MMBERT: Multimodal BERT Pretraining for Improved Medical VQA,VQA,"QP1, QP5, QP6, QP7, QS1, QS2, QS3, QS4",2,2,2,2,1,9,online:arXiv:2104.01394,https://github.com/VirajBagal/MMBERT
+P086,Self-supervised vision-language pretraining for Medical visual question answering,VQA,"QP1, QP5, QP6, QS1, QS2, QS3, QS4",2,3,3,2,1,11,online:arXiv:2211.13594,https://github.com/pengfeiliHEU/M2I2
+P087,Active Supervised Cross-Modal Retrieval,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,"QP1, QP2, QP4, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,local:Active_Supervised_Cross-Modal_Retrieval.pdf,https://github.com/openimmc/ascmr
+P088,DiST-GAN: Distillation-based Semantic Transfer for Text-Guided Face Generation,GENERATE | TEXT-IMAGE,"QP1, QP6, QP7, QS2",1,3,3,2,0,9,local:DiST-GAN_Distillation-based_Semantic_Transfer_for_Text-Guided_Face_Generation.pdf,
+P089,Enhance Composed Image Retrieval via Multi-Level Collaborative Localization and Semantic Activeness Perception,RETRIEVAL | TEXT-IMAGE,"QP1, QP5, QP6",0,3,3,2,0,8,local:Enhance_Composed_Image_Retrieval_via_Multi-Level_Collaborative_Localization_and_Semantic_Activeness_Perception.pdf,
+P090,Enhancing Clinical Information for Zero-Shot Medical Diagnosis by Prompting Large Language Model,TEXT-IMAGE,"QP1, QP5, QP6, QS2, QS3, QS4",2,2,2,2,0,8,local:Enhancing_Clinical_Information_for_Zero-Shot_Medical_Diagnosis_by_Prompting_Large_Language_Model.pdf,
+P091,Contrasting Intra-Modal and Ranking Cross-Modal Hard Negatives to Enhance Visio-Linguistic Compositional Understanding,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,"QP1, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2306.08832,https://github.com/lezhang7/Enhance-FineGrained
+P092,NAPReg: Nouns As Proxies Regularization for Semantically Aware Cross-Modal Embeddings,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,"QP1, QP2, QP5, QP6, QP7, QS1, QS2",0,3,3,2,0,8,local:NAPReg_Nouns_As_Proxies_Regularization_for_Semantically_Aware_Cross-Modal_Embeddings.pdf,
+P093,FashionFAE: Fine-grained Attributes Enhanced Fashion Vision-Language Pre-training,RETRIEVAL | TEXT-IMAGE,"QP1, QP6, QP7",0,2,2,2,0,6,online:arXiv:2412.19997,
+P094,FAME-ViL: Multi-Tasking Vision-Language Model for Heterogeneous Fashion Tasks,RETRIEVAL | TEXT-IMAGE,"QP1, QP3, QP6, QP7, QS1, QS3",1,3,3,2,1,10,online:arXiv:2303.02483,https://github.com/BrandonHanx/FAME-ViL
+P095,EyeGraphGPT: Knowledge Graph Enhanced Multimodal Large Language Model for Ophthalmic Report Generation,IMAGE-TEXT | TEXT-IMAGE,"QP1, QP2, QP6, QP7, QS3, QS4",2,2,2,2,0,8,local:EyeGraphGPT_Knowledge_Graph_Enhanced_Multimodal_Large_Language_Model_for_Ophthalmic_Report_Generation (1).pdf,
+P096,Cross-modal Semantic Enhanced Interaction for Image-Sentence Retrieval,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,"QP1, QP2, QP5, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2210.08908,
+P097,Cross-Modal Feature Alignment and MMD Improve Robustness of Prompt Tuning,TEXT-IMAGE,"QP1, QP3, QP5, QP6, QP7",2,3,3,2,1,11,local:Cross-Modal_Feature_Alignment_and_MMD_Improve_Robustness_of_Prompt_Tuning.pdf,https://github.com/Jingchensun/Craft
+P098,Prompting-to-Distill Semantic Knowledge for Few-Shot Learning,TEXT-IMAGE,"QP1, QP5, QP6, QS3",2,2,3,2,0,9,local:Prompting-to-Distill_Semantic_Knowledge_for_Few-Shot_Learning.pdf,
+P099,Multimodal Event Classification for Social Media Based on Text-Image-Caption Assisted Alignment,TEXT-IMAGE,"QP1, QP6, QP7, QS3",0,2,2,2,0,6,local:Multimodal_Event_Classification_for_Social_Media_Based_on_Text-Image-Caption_Assisted_Alignment.pdf,
+P100,InterREC: An Interpretable Method for Referring Expression Comprehension,TEXT-IMAGE,"QP1, QP2, QP5, QP6, QS2",1,3,3,2,0,9,local:InterREC_An_Interpretable_Method_for_Referring_Expression_Comprehension.pdf,
+P101,Learning Aligned Image-Text Representations Using Graph Attentive Relational Network,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,"QP1, QP2, QP5, QP6, QP7, QS2",0,3,3,2,0,8,local:Learning_Aligned_Image-Text_Representations_Using_Graph_Attentive_Relational_Network.pdf,
+P102,Text-to-Image Diffusion Models are Great Sketch-Photo Matchmakers,RETRIEVAL | TEXT-IMAGE,"QP1, QP5, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2403.07214,https://subhadeepkoley.github.io/DiffusionZSSBIR
+P103,Knowledge Graph Enhanced Multimodal Transformer for Image-Text Retrieval,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,"QP1, QP2, QP5, QP6, QP7, QS2, QS3",0,3,3,2,0,8,local:Knowledge_Graph_Enhanced_Multimodal_Transformer_for_Image-Text_Retrieval.pdf,
+P104,CLIP-Flow: Decoding images encoded in CLIP space,TEXT-IMAGE,"QP1, QP6, QP7, QS2",1,2,2,2,0,7,local:CLIP-Flow_Decoding_images_encoded_in_CLIP_space.pdf,
+P105,Task-Oriented Multi-Modal Mutual Learning for Vision-Language Models,IMAGE-TEXT | TEXT-IMAGE,"QP1, QP5, QP6, QP7, QS2, QS3",2,3,3,2,0,10,local:Task-Oriented_Multi-Modal_Mutual_Learning_for_Vision-Language_Models.pdf,
+P106,Fashion Design Transformation using Text-Guided Diffusion Models,TEXT-IMAGE,"QP1, QP6, QP7, QS1",0,1,2,1,0,4,local:Fashion_Design_Transformation_using_Text-Guided_Diffusion_Models.pdf,
+P107,Do DALL-E and Flamingo Understand Each Other?,IMAGE-TEXT | TEXT-IMAGE,"QP1, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2212.12249,https://dalleflamingo.github.io
+P108,Visual Fact Checker: Enabling High-Fidelity Detailed Caption Generation,TEXT-IMAGE,"QP1, QP6, QP7, QS2",0,2,3,2,0,7,online:arXiv:2404.19752,
+P109,Visual Global-Salient-Guided Network for Remote Sensing Image-Text Retrieval,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,"QP1, QP2, QP5, QP6, QP7, QS2, QS3",0,3,3,2,0,8,local:Visual_Global-Salient-Guided_Network_for_Remote_Sensing_Image-Text_Retrieval.pdf,
+P110,Semantic Image Retrieval Using Scene Graphs and Natural Language Queries,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,"QP1, QP2, QP6, QS2",1,1,1,0,0,3,local:Semantic_Image_Retrieval_Using_Scene_Graphs_and_Natural_Language_Queries.pdf,
+P111,Cross-Modal Safety Mechanism Transfer in Large Vision-Language Models,RETRIEVAL | TEXT-IMAGE,"QP1, QP5, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2410.12662,https://github.com/xsc1234/VLM_Safety_Transfer
+P112,Memory-Inspired Temporal Prompt Interaction for Text-Image Classification,TEXT-IMAGE,"QP1, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2401.14856,
+P113,ProbVLM: Probabilistic Adapter for Frozen Vision-Language Models,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,"QP1, QP4, QP5, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2307.00398,https://github.com/ExplainableML/ProbVLM
+P114,Self-Supervised Image-to-Text and Text-to-Image Synthesis,IMAGE-TEXT | TEXT-IMAGE,"QP1, QP6, QP7, QS1, QS2",1,2,2,2,1,8,online:arXiv:2112.04928,https://github.com/anindyasdas/SelfSupervisedImageText
+P115,Learning to Represent Image and Text with Denotation Graph,RETRIEVAL | TEXT-IMAGE,"QP1, QP2, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2010.02949,https://shannon.cs.illinois.edu/DenotationGraph/
+P116,"Long-CLIP: Unlocking the Long-Text
+Capability of CLIP",TEXT-IMAGE,"QP1, QP6, QP7, QS1, QS2, QS3",0,3,3,2,1,9,online:arXiv:2403.15378,https://github.com/beichenzbc/Long-CLIP
+P117,Vision and Language Integration for Domain Generalization,TEXT-IMAGE,"QP1, QP5, QP6, QS2",2,3,3,2,0,10,online:arXiv:2504.12966,
+P118,VLMGuard-R1: Proactive Safety Alignment for VLMs via Reasoning-Driven Prompt Optimization,TEXT-IMAGE,"QP1, QP6, QP7, QS2",0,2,3,2,0,7,online:arXiv:2504.12661,
+P119,BREEN: Bridge Data-Efficient Encoder-Free Multimodal Learning with Learnable Queries,TEXT-IMAGE,"QP1, QP5, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2503.12446,https://github.com/ltl3A87/BREEN
+P120,The Power of One: A Single Example is All it Takes for Segmentation in VLMs,IMAGE-TEXT | TEXT-IMAGE,"QP1, QP5, QP6, QS2, QS3",2,3,3,2,0,10,online:arXiv:2503.10779,
+P121,"I Think, Therefore I Diffuse: Enabling Multimodal In-Context Reasoning in Diffusion Models",TEXT-IMAGE,"QP1, QP6, QP7, QS1, QS2",2,2,3,2,1,10,online:arXiv:2502.10458,https://mizhenxing.github.io/ThinkDiff
+P122,Insect-Foundation: A Foundation Model and Large Multimodal Dataset for Vision-Language Insect Understanding,TEXT-IMAGE,"QP1, QP5, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2502.09906,https://uark-cviu.github.io/projects/insect-foundation
+P123,MM-GEN: Enhancing Task Performance Through Targeted Multimodal Data Curation,TEXT-IMAGE,"QP1, QP3, QP6, QP7, QS1, QS2, QS3",2,2,3,2,1,10,online:arXiv:2501.04155,https://github.com/sjoshi804/MM-Gen
+P124,Dual Diffusion for Unified Image Generation and Understanding,TEXT-IMAGE,"QP1, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2501.00289,
+P125,FLAIR: VLM with Fine-grained Language-informed Image Representations,RETRIEVAL | TEXT-IMAGE,"QP1, QP5, QP6, QP7, QS1, QS2, QS4",1,3,3,2,1,10,online:arXiv:2412.03561,https://github.com/ExplainableML/flair
+P126,Understanding the Limits of Vision Language Models Through the Lens of the Binding Problem,TEXT-IMAGE,"QP1, QP6, QP7, QS1, QS2",0,2,3,2,1,8,online:arXiv:2411.00238,https://github.com/thisisadax/binding
+P127,Exploring Curriculum Learning for Vision-Language Tasks: A Study on Small-Scale Multimodal Training,TEXT-IMAGE,"QP1, QP6, QP7, QS1, QS2, QS3",2,2,3,1,0,8,online:arXiv:2410.15509,
+P128,Towards Interpreting Visual Information Processing in Vision-Language Models,TEXT-IMAGE,"QP1, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2410.07149,https://github.com/clemneo/llava-interp
+P129,Patch is Enough: Naturalistic Adversarial Patch against Vision-Language Pre-training Models,TEXT-IMAGE,"QP1, QP5, QP6",0,3,3,2,0,8,online:arXiv:2410.04884,
+P130,UniFashion: A Unified Vision-Language Model for Multimodal Fashion Retrieval and Generation,GENERATE | IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,"QP1, QP3, QP6, QP7, QS1",1,3,3,2,1,10,online:arXiv:2408.11305,https://github.com/xiangyu-mm/UniFashion
+P131,Leveraging Entity Information for Cross-Modality Correlation Learning: The Entity-Guided Multimodal Summarization,IMAGE-TEXT | TEXT-IMAGE,"QP1, QP2, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2408.03149,https://github.com/ApocalypseH/EGMS
+P132,Graph-Based Captioning: Enhancing Visual Descriptions by Interconnecting Region Captions,TEXT-IMAGE,"QP1, QP2, QP6, QP7, QS1, QS2",1,2,3,2,1,9,online:arXiv:2407.06723,https://github.com/apple/ml-gbc
+P133,MUMU: Bootstrapping Multimodal Image Generation from Text-to-Image Data,TEXT-IMAGE,"QP1, QP6, QP7",1,1,1,2,0,5,online:arXiv:2406.18790,
+P134,"StrucTexTv3: An Efficient Vision-Language Model for Text-rich Image Perception, Comprehension, and Beyond",TEXT-IMAGE,"QP1, QP3, QP6, QP7",0,1,2,2,0,5,online:arXiv:2405.21013,
+P135,FINEMATCH: Aspect-based Fine-grained Image and Text Mismatch Detection and Correction,IMAGE-TEXT | TEXT-IMAGE,"QP1, QP2, QP6, QP7, QS1, QS2",1,2,3,2,1,9,online:arXiv:2404.14715,https://hanghuacs.github.io/finematch/
+P136,mPLUG-DocOwl 1.5: Unified Structure Learning for OCR-free Document Understanding,TEXT-IMAGE,"QP1, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2403.12895,https://github.com/X-PLUG/mPLUG-DocOwl
+P137,VL-GPT: A Generative Pre-trained Transformer for Vision and Language Understanding and Generation,GENERATE | IMAGE-TEXT | TEXT-IMAGE,"QP1, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2312.09251,https://github.com/AILab-CVC/VL-GPT
+P138,NEUCORE: Neural Concept Reasoning for Composed Image Retrieval,RETRIEVAL | TEXT-IMAGE,"QP1, QP5, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2310.01358,
+P139,COCO-Counterfactuals: Automatically Constructed Counterfactual Examples for Image-Text Pairs,TEXT-IMAGE,"QP1, QP6, QP7, QS1, QS2, QS3",2,2,3,2,1,10,online:arXiv:2309.14356,https://github.com/IntelLabs/multimodal_cognitive_ai
+P140,Boon: A Neural Search Engine for Cross-Modal Information Retrieval,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,"QP1, QP2, QP6, QP7, QS1, QS2",0,1,1,2,0,4,online:arXiv:2307.14240,
+P141,CLIPGraphs: Multimodal Graph Networks to Infer Object-Room Affinities,TEXT-IMAGE,"QP1, QP2, QP6, QS1, QS2",1,2,2,2,1,8,online:arXiv:2306.01540,https://clipgraphs.github.io
+P142,UniDiff: Advancing Vision-Language Models with Generative and Discriminative Learning,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,"QP1, QP5, QP6, QP7, QS2, QS3",2,3,3,2,0,10,online:arXiv:2306.00813,
+P143,Coarse-to-Fine Contrastive Learning in Image-Text-Graph Space for Improved Vision-Language Compositionality,GENERATE | IMAGE-TEXT | TEXT-IMAGE,"QP1, QP2, QP5, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2305.13812,
+P144,Scene Graph as Pivoting: Inference-time Image-free Unsupervised Multimodal Machine Translation with Visual Scene Hallucination,GENERATE | TEXT-IMAGE,"QP1, QP2, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2305.12256,https://github.com/scofield7419/UMMT-VSH
+P145,MAGVLT: Masked Generative Vision-and-Language Transformer,GENERATE | IMAGE-TEXT | TEXT-IMAGE,"QP1, QP5, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2303.12208,https://github.com/kakaobrain/magvlt
+P146,Cross-modal Attention Congruence Regularization for Vision-Language Relation Alignment,TEXT-IMAGE,"QP1, QP5, QP6, QP7, QS2",0,3,2,2,0,7,online:arXiv:2212.10549,
+P147,Explainable Semantic Space by Grounding Language to Vision with Cross-Modal Contrastive Learning,TEXT-IMAGE,"QP1, QP5, QP6, QP7, QS1, QS2",0,3,3,2,0,8,online:arXiv:2111.07180,
+P148,TiMix: Text-aware Image Mixing for Effective Vision-Language Pre-training,TEXT-IMAGE,"QP1, QP5, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2312.08846,https://github.com/chaoyajiang/TiMiX
+P149,Visual Lexicon: Rich Image Features in Language Space,GENERATE | TEXT-IMAGE,"QP1, QP6, QP7, QS2",1,2,3,2,0,8,online:arXiv:2412.06774,
+P150,Information Theoretic Text-to-Image Alignment,TEXT-IMAGE,"QP1, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2405.20759,https://github.com/Chao0511/mitune
+P151,Write and Paint: Generative Vision-Language Models are Unified Modal Learners,IMAGE-TEXT | TEXT-IMAGE,"QP1, QP6, QP7, QS1",1,3,3,2,1,10,online:arXiv:2206.07699,https://github.com/shizhediao/DaVinci
+P152,PairAug: What Can Augmented Image-Text Pairs Do for Radiology?,GENERATE | IMAGE-TEXT,"QP1, QP3, QP5, QP6, QP7, QS1, QS2, QS3, QS4",2,3,3,2,1,11,online:arXiv:2404.04960,https://github.com/YtongXie/PairAug
+P153,Grounded Language-Image Pre-training,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2112.03857,https://github.com/microsoft/GLIP
+P154,Fashion Image Retrieval with Text Feedback by Additive Attention Compositional Learning,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6",0,2,3,2,0,7,local:Fashion_Image_Retrieval_with_Text_Feedback_by_Additive_Attention_Compositional_Learning.pdf,
+P155,Vision-Language Navigation with Random Environmental Mixup,IMAGE-TEXT,"QP1, QP2, QP6, QP7, QS2, QS3",2,3,3,2,1,11,online:arXiv:2106.07876,https://github.com/LCFractal/VLNREM
+P156,Knowledge-Embedded Mutual Guidance for Visual Reasoning,IMAGE-TEXT,"QP1, QP2, QP6, QP7, QS2",0,3,3,2,0,8,local:Knowledge-Embedded_Mutual_Guidance_for_Visual_Reasoning.pdf,
+P157,Cross-Modality Image Interpretation via Concept Decomposition Vector of Visual-Language Models,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2, QS4",1,3,3,2,0,9,local:Cross-Modality_Image_Interpretation_via_Concept_Decomposition_Vector_of_Visual-Language_Models.pdf,
+P158,Cross-Modal Alternating Learning With Task-Aware Representations for Continual Learning,IMAGE-TEXT,"QP1, QP5, QP6, QS1, QS2",1,3,3,2,1,10,local:Cross-Modal_Alternating_Learning_With_Task-Aware_Representations_for_Continual_Learning.pdf,https://github.com/vijaylee/ALTA
+P159,Dissecting Deep Metric Learning Losses for Image-Text Retrieval,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2210.13188,
+P160,Freeze the Backbones: a Parameter-Efficient Contrastive Approach to Robust Medical Vision-Language Pre-Training,IMAGE-TEXT,"QP1, QP5, QP6, QS2, QS3, QS4",1,2,2,2,0,7,online:arXiv:2401.01179,
+P161,Enhancing Medical Vision-Language Contrastive Learning via Inter-Matching Relation Modeling,IMAGE-TEXT | RETRIEVAL,"QP1, QP2, QP5, QP6, QP7, QS1, QS2, QS4",2,3,3,2,0,10,online:arXiv:2401.10501,
+P162,Application of Vision-Language Models for Assessing Osteoarthritis,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2, QS4",2,1,1,2,0,6,online:arXiv:2401.06331,
+P163,Vision-Language Pre-Training for Boosting Scene Text Detectors,IMAGE-TEXT,"QP1, QP5, QP6, QS1, QS2",0,3,3,2,1,9,online:arXiv:2204.13867,https://github.com/CVI-SZU/STKM
+P164,MedFILIP: Medical Fine-Grained Language-Image Pre-Training,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2, QS3, QS4",2,3,3,2,1,11,online:arXiv:2501.10775,https://github.com/PerceptionComputingLab/MedFILIP
+P165,Set-level Guidance Attack: Boosting Adversarial Transferability of Vision-Language Pre-training Models,GENERATE | IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2",0,3,3,2,0,8,online:arXiv:2307.14061,
+P166,"ULIP: Learning a Unified Representation of Language, Images, and Point Clouds for 3D Understanding",IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2212.05171,https://github.com/salesforce/ULIP
+P167,SyncMask: Synchronized Attentional Masking for Fashion-centric Vision-Language Pretraining,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2, QS3",1,3,3,2,0,9,online:arXiv:2404.01156,
+P168,LiT: Zero-Shot Transfer with Locked-image text Tuning,IMAGE-TEXT,"QP1, QP6, QP7",2,2,3,2,1,10,online:arXiv:2111.07991,https://github.com/google-research/vision_transformer
+P169,De-noised Vision-language Fusion Guided by Visual Cues for E-commerce Product Search,IMAGE-TEXT,"QP1, QP5, QP6",2,3,3,2,0,10,local:De-noised_Vision-language_Fusion_Guided_by_Visual_Cues_for_E-commerce_Product_Search.pdf,
+P170,Understanding and Constructing Latent Modality Structures in Multi-Modal Representation Learning,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2303.05952,
+P171,InVERGe: Intelligent Visual Encoder for Bridging Modalities in Report Generation,IMAGE-TEXT,"QP1, QP5, QP6, QS1, QS2, QS4",1,3,3,2,1,10,local:InVERGe_Intelligent_Visual_Encoder_for_Bridging_Modalities_in_Report_Generation.pdf,https://github.com/labsroy007/InVERGe
+P172,MoIL: Momentum Imitation Learning for Efficient Vision-Language Adaptation,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2",0,3,3,2,1,9,local:MoIL_Momentum_Imitation_Learning_for_Efficient_Vision-Language_Adaptation.pdf,https://github.com/luogen1996/MoIL
+P173,MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2311.17049,https://github.com/apple/ml-mobileclip
+P174,Learning Customized Visual Models with Retrieval-Augmented Knowledge,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP6, QP7, QS1, QS3, QS4",2,3,3,2,1,11,online:arXiv:2301.07094,https://react-vl.github.io
+P175,Multilateral Semantic Relations Modeling for Image Text Retrieval,IMAGE-TEXT | RETRIEVAL,"QP1, QP2, QP5, QP6, QP7, QS2",1,3,3,2,0,9,local:Multilateral_Semantic_Relations_Modeling_for_Image_Text_Retrieval.pdf,
+P176,VisualGPT: Data-efficient Adaptation of Pretrained Language Models for Image Captioning,IMAGE-TEXT,"QP1, QP5, QP6, QS1, QS2, QS3, QS4",2,3,3,2,1,11,online:arXiv:2102.10407,https://github.com/Vision-CAIR/VisualGPT
+P177,VL-MFER: A Vision-Language Multimodal Pretrained Model With Multiway-Fuzzy-Experts Bidirectional Retention Network,IMAGE-TEXT,"QP1, QP5, QP6, QS2",0,3,3,2,0,8,local:VL-MFER_A_Vision-Language_Multimodal_Pretrained_Model_With_Multiway-Fuzzy-Experts_Bidirectional_Retention_Network.pdf,
+P178,Direction-Oriented Visual–Semantic Embedding Model for Remote Sensing Image–Text Retrieval,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS2, QS3",0,3,3,2,0,8,online:arXiv:2310.08276,
+P179,Efficient Token-Guided Image-Text Retrieval With Consistent Multimodal Contrastive Training,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2306.08789,https://github.com/LCFractal/TGDT
+P180,Context-Aware Local–Global Semantic Alignment for Remote Sensing Image–Text Retrieval,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS2",0,3,3,2,0,8,local:Context-Aware_LocalGlobal_Semantic_Alignment_for_Remote_Sensing_ImageText_Retrieval.pdf,
+P181,A Mutually Textual and Visual Refinement Network for Image-Text Matching,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2",0,2,0,0,0,2,abstract-only,
+P182,Learning from Inside: Self-driven Intra-modality Siamese Knowledge Generation and Inter-modality Alignment for Chest X-rays Vision-Language Pre-training,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2, QS4",2,3,3,2,0,10,local:Learning_from_Inside_Self-driven_Intra-modality_Siamese_Knowledge_Generation_and_Inter-modality_Alignment_for_Chest_X-rays_Vision-Language_Pre-training.pdf,
+P183,News Image-Text Matching With News Knowledge Graph,IMAGE-TEXT | RETRIEVAL,"QP1, QP2, QP6",0,3,3,2,0,8,local:News_Image-Text_Matching_With_News_Knowledge_Graph.pdf,
+P184,IMRAM: Iterative Matching With Recurrent Attention Memory for Cross-Modal Image-Text Retrieval,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2003.03772,https://github.com/HuiChen24/IMRAM
+P185,Feature First: Advancing Image-Text Retrieval Through Improved Visual Features,IMAGE-TEXT | RETRIEVAL,"QP1, QP2, QP5, QP6, QS1, QS2",0,3,3,2,1,9,local:Feature_First_Advancing_Image-Text_Retrieval_Through_Improved_Visual_Features.pdf,https://github.com/NPULHH/ITR
+P186,Dynamic Graph Enhanced Contrastive Learning for Chest X-Ray Report Generation,IMAGE-TEXT | RETRIEVAL,"QP1, QP2, QP5, QP6, QP7, QS1, QS2, QS3, QS4",0,3,3,2,1,9,online:arXiv:2303.10323,https://github.com/mlii0117/DCL
+P187,HGAN: Hierarchical Graph Alignment Network for Image-Text Retrieval,IMAGE-TEXT | RETRIEVAL,"QP1, QP2, QP5, QP6, QS2, QS3",0,3,3,2,0,8,online:arXiv:2212.08281,
+P188,CLIP2Scene: Towards Label-efficient 3D Scene Understanding by CLIP,IMAGE-TEXT,"QP1, QP5, QP6, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2301.04926,https://github.com/runnanchen/CLIP2Scene
+P189,Knowledge Enhanced Vision and Language Model for Multi-Modal Fake News Detection,IMAGE-TEXT,"QP1, QP2, QP6, QS1, QS2",0,2,3,2,0,7,local:Knowledge_Enhanced_Vision_and_Language_Model_for_Multi-Modal_Fake_News_Detection.pdf,
+P190,Language Guided Local Infiltration for Interactive Image Retrieval,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6",0,2,1,0,0,3,abstract-only,
+P191,FRAUD-Net: Fraud News Detection Using Sample Uncertainty & Domain Aware Generalized Network,IMAGE-TEXT,"QP1, QP5, QP6, QS2",2,3,3,2,0,10,local:FRAUD-Net_Fraud_News_Detection_Using_Sample_Uncertainty_amp_Domain_Aware_Generalized_Network.pdf,
+P192,Injecting Linguistic Into Visual Backbone: Query-Aware Multimodal Fusion Network for Remote Sensing Visual Grounding,IMAGE-TEXT,"QP1, QP5, QP6",0,3,3,2,0,8,local:Injecting_Linguistic_Into_Visual_Backbone_Query-Aware_Multimodal_Fusion_Network_for_Remote_Sensing_Visual_Grounding.pdf,
+P193,Do Vision and Language Encoders Represent the World Similarly?,IMAGE-TEXT | RETRIEVAL,"QP1, QP2, QP6, QP7, QS1, QS2",2,3,3,2,1,11,local:Do_Vision_and_Language_Encoders_Represent_the_World_Similarly.pdf,https://github.com/mayug/0-shot-llm-vision
+P194,Bilateral Knowledge Interaction Network for Referring Image Segmentation,IMAGE-TEXT,"QP1, QP5, QP6, QS1, QS2",0,3,3,2,1,9,local:Bilateral_Knowledge_Interaction_Network_for_Referring_Image_Segmentation.pdf,https://github.com/dhding/BKINet
+P195,GLoRIA: A Multimodal Global-Local Representation Learning Framework for Label-efficient Medical Image Recognition,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2, QS3, QS4",2,3,3,2,1,11,local:GLoRIA_A_Multimodal_Global-Local_Representation_Learning_Framework_for_Label-efficient_Medical_Image_Recognition.pdf,https://github.com/marshuang80/gloria
+P196,Multi-Modal Representation Learning with Text-Driven Soft Masks,IMAGE-TEXT,"QP1, QP3, QP5, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2304.00719,
+P197,ViLTA: Enhancing Vision-Language Pre-training through Textual Augmentation,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2308.16689,
+P198,Building Vision-Language Models on Solid Foundations with Masked Distillation,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP6, QP7, QS2, QS4",2,2,3,2,0,9,local:Building_Vision-Language_Models_on_Solid_Foundations_with_Masked_Distillation.pdf,
+P199,VILA: Learning Image Aesthetics from User Comments with Vision-Language Pretraining,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2303.14302,https://www.dpchallenge.com/
+P200,Image-Text Pre-Training for Logo Recognition,IMAGE-TEXT,"QP1, QP5, QP6, QS2",2,3,3,2,0,10,online:arXiv:2309.10206,
+P201,CapsFusion: Rethinking Image-Text Data at Scale,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2",2,2,3,2,1,10,online:arXiv:2310.20550,https://github.com/baaivision/CapsFusion
+P202,Semantic Threads Enabling Image-Text Retrieval via VQA Transformers,IMAGE-TEXT,"QP1, QP3, QP7, QS4",0,1,1,0,0,2,abstract-only,
+P203,Knowledge-Routed Visual Question Reasoning: Challenges for Deep Representation Embedding,IMAGE-TEXT,"QP1, QP2, QP6",1,2,2,2,0,7,online:arXiv:2012.07192,
+P204,Semantically Enhanced Scene Captions with Physical and Weather Condition Changes,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS3",2,2,3,2,0,9,local:Semantically_Enhanced_Scene_Captions_with_Physical_and_Weather_Condition_Changes.pdf,
+P205,LLaVA-SpaceSGG: Visual Instruct Tuning for Open-Vocabulary Scene Graph Generation with Enhanced Spatial Relations,IMAGE-TEXT,"QP1, QP2, QP6, QS1, QS2",1,2,3,2,1,9,online:arXiv:2412.06322,https://github.com/Endlinc/LLaVA-SpaceSGG
+P206,HARIS: Human-Like Attention for Reference Image Segmentation,IMAGE-TEXT,"QP1, QP5, QP6, QS2",1,3,3,2,0,9,online:arXiv:2405.10707,
+P207,Exploring Synthetic Captions for Remote Sensing Vision-Text Foundational Models,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2, QS3",1,1,1,2,0,5,local:Exploring_Synthetic_Captions_for_Remote_Sensing_Vision-Text_Foundational_Models.pdf,
+P208,CLIPAG: Towards Generator-Free Text-to-Image Generation,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2306.16805,
+P209,Patch Ranking: Token Pruning as Ranking Prediction for Efficient CLIP,IMAGE-TEXT,"QP1, QP5, QP6, QS1, QS2",0,3,3,2,1,9,local:2409.14607v2.pdf,https://github.com/CEWu/PatchRanking
+P210,Construction and Applications of Billion-Scale Pre-Trained Multimodal Business Knowledge Graph,IMAGE-TEXT,"QP1, QP2, QP3, QP6, QS1, QS2",2,2,3,2,1,10,online:arXiv:2209.15214,https://github.com/OpenBGBenchmark/OpenBG
+P211,Contrastive Feature Masking Open-Vocabulary Vision Transformer,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS2, QS3",2,3,3,2,0,10,online:arXiv:2309.00775,
+P212,AttriPrompter: Auto-Prompting With Attribute Semantics for Zero-Shot Nuclei Detection via Visual-Language Pre-Trained Models,IMAGE-TEXT,"QP1, QP3, QP6, QS2, QS4",2,3,3,2,0,10,online:arXiv:2410.16820,
+P213,RILS: Masked Visual Reconstruction in Language Semantic Space,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2",2,3,3,1,1,10,online:arXiv:2301.06958,https://github.com/hustvl/RILS
+P214,PLA: Language-Driven Open-Vocabulary 3D Scene Understanding,IMAGE-TEXT,"QP1, QP3, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2211.16312,https://dingry.github.io/projects/PLA
+P215,ZeroCap: Zero-Shot Image-to-Text Generation for Visual-Semantic Arithmetic,GENERATE | IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2111.14447,https://github.com/YoadTew/zero-shot-image-to-text
+P216,Mobile User Interface Element Detection Via Adaptively Prompt Tuning,IMAGE-TEXT,"QP1, QP5, QP6, QS1, QS2, QS3",1,3,3,2,1,10,online:arXiv:2305.09699,https://github.com/antmachineintelligence/MUI-zh
+P217,MedKLIP: Medical Knowledge Enhanced Language-Image Pre-Training for X-ray Diagnosis,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2, QS3, QS4",2,3,3,1,1,10,local:MedKLIP_Medical_Knowledge_Enhanced_Language-Image_Pre-Training_for_X-ray_Diagnosis.pdf,https://chaoyi-wu.github.io/MedKLIP/
+P218,Exploring CLIP's Dense Knowledge for Weakly Supervised Semantic Segmentation,IMAGE-TEXT,"QP1, QP3, QP5, QP6, QS1, QS2",2,3,3,2,1,11,online:arXiv:2503.20826,https://github.com/zwyang6/ExCEL
+P219,Reasoning to Attend: Try to Understand How <SEG> Token Works,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2412.17741,https://github.com/rui-qian/READ
+P220,Frozen Transformers in Language Models Are Effective Visual Encoder Layers,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2310.12973,https://github.com/ziqipang/LM4VisualEncoding
+P221,LLM-CXR: Instruction-Finetuned LLM for CXR Image Understanding and Generation,GENERATE | IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2, QS3, QS4",1,2,3,2,1,9,online:arXiv:2305.11490,https://github.com/hyn2028/llm-cxr
+P222,Revisiting Multimodal Representation in Contrastive Learning: From Patch and Token Embeddings to Finite Discrete Tokens,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2",1,3,3,2,0,9,online:arXiv:2303.14865,
+P223,ConTEXTual Net: A Multimodal Vision-Language Model for Segmentation of Pneumothorax,GENERATE | IMAGE-TEXT,"QP1, QP5, QP6, QS1, QS3, QS4",1,3,3,2,1,10,online:arXiv:2303.01615,https://github.com/zhuemann/ConTEXTualSegmentation
+P224,Active Prompt Learning with Vision-Language Model Priors,IMAGE-TEXT,"QP1, QP3, QP4, QP5, QP6, QS2, QS3",2,3,3,2,0,10,online:arXiv:2411.16722,
+P225,Context-Based Semantic-Aware Alignment for Semi-Supervised Multi-Label Learning,IMAGE-TEXT,"QP1, QP2, QP3, QP5, QP6, QS2, QS3",2,3,3,2,0,10,online:arXiv:2412.18842,
+P226,DuSSS: Dual Semantic Similarity-Supervised Vision-Language Model for Semi-Supervised Medical Image Segmentation,GENERATE | IMAGE-TEXT,"QP1, QP3, QP6, QS1, QS2, QS3, QS4",2,3,3,2,1,11,online:arXiv:2412.12492,https://github.com/QingtaoPan/DuSSS
+P227,GraphVL: Graph-Enhanced Semantic Modeling via Vision-Language Models for Generalized Class Discovery✱,IMAGE-TEXT,"QP1, QP2, QP3, QP5, QP6, QS2, QS3",2,3,3,2,0,10,online:arXiv:2411.02074,
+P228,Data Adaptive Traceback for Vision-Language Foundation Models in Image Classification,IMAGE-TEXT,"QP1, QP3, QP6, QS2",2,3,3,2,0,10,online:arXiv:2407.08787,
+P229,S-CLIP: Semi-supervised Vision-Language Learning using Few Specialist Captions,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP6, QP7, QS1, QS3",2,3,3,2,1,11,online:arXiv:2305.14095,https://github.com/alinlab/s-clip
+P230,LViT: Language meets Vision Transformer in Medical Image Segmentation,IMAGE-TEXT,"QP1, QP3, QP5, QP6, QS1, QS2, QS3, QS4",2,3,3,2,1,11,online:arXiv:2206.14718,https://github.com/HUANGLIZI/LViT
+P231,The Dialog Must Go On: Improving Visual Dialog via Generative Self-Training,GENERATE | IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2205.12502,https://github.com/gicheonkang/gst-visdial
+P232,Learning Multimodal VAEs through Mutual Supervision,IMAGE-TEXT,"QP1, QP3, QP5, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2106.12570,https://github.com/thwjoy/meme
+P233,Meta-Entity Driven Triplet Mining for Aligning Medical Vision-Language Models,IMAGE-TEXT,"QP1, QP4, QP5, QP6, QP7, QS1, QS2, QS4",1,3,3,2,1,10,online:arXiv:2504.15929,https://github.com/icon-lab/MedTrim
+P234,LRSCLIP: A Vision-Language Foundation Model for Aligning Remote Sensing Image with Longer Text,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2503.19311,https://github.com/MitsuiChen14/DGTRS
+P235,Derm1M: A Million-scale Vision-Language Dataset Aligned with Clinical Ontology Knowledge for Dermatology,IMAGE-TEXT,"QP1, QP6, QP7",2,2,3,2,1,10,online:arXiv:2503.14911,https://github.com/SiyuanYan1/Derm1M
+P236,Anatomy-Aware Conditional Image-Text Retrieval,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2, QS3, QS4",1,3,3,2,0,9,online:arXiv:2503.07456,
+P237,Poisoned-MRAG: Knowledge Poisoning Attacks to Multimodal Retrieval Augmented Generation,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2503.06254,
+P238,DoraCycle: Domain-Oriented Adaptation of Unified Generative Model in Multimodal Cycles,IMAGE-TEXT,"QP1, QP3, QP6, QP7, QS1, QS3",2,3,2,2,1,10,online:arXiv:2503.03651,https://github.com/showlab/DoraCycle
+P239,MedUnifier: Unifying Vision-and-Language Pre-training on Medical Data with Vision Generation Task using Discrete Visual Representations,GENERATE | IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS2, QS3, QS4",2,3,3,2,0,10,online:arXiv:2503.01019,
+P240,"Explainable, Multi-modal Wound Infection Classification from Images Augmented with Generated Captions",IMAGE-TEXT,"QP1, QP5, QP6, QS3, QS4",2,2,3,2,0,9,online:arXiv:2502.20277,
+P241,UniGS: Unified Language-Image-3D Pretraining with Gaussian Splatting,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS1",1,3,3,2,1,10,online:arXiv:2502.17860,https://github.com/Li-Hao-yuan/UniGS
+P242,Mitigating the Modality Gap: Few-Shot Out-of-Distribution Detection with Multi-modal Prototypes and Image Bias Estimation,IMAGE-TEXT,"QP1, QP5, QP6, QS2, QS3",2,3,3,2,0,10,online:arXiv:2502.00662,
+P243,Dynamic Adapter with Semantics Disentangling for Cross-lingual Cross-modal Retrieval,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS3",2,3,3,2,1,11,online:arXiv:2412.13510,https://github.com/HuiGuanLab/DASD
+P244,Embedding and Enriching Explicit Semantics for Visible-Infrared Person Re-Identification,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2412.08406,
+P245,CLIP-PING: Boosting Lightweight Vision-Language Models with Proximus Intrinsic Neighbors Guidance,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS2, QS3, QS4",1,3,3,2,0,9,online:arXiv:2412.03871,
+P246,CLIPS: An Enhanced CLIP Framework for Learning with Synthetic Captions,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2411.16828,https://ucsc-vlaa.github.io/CLIPS/
+P247,Multi-Stage Knowledge Integration of Vision-Language Models for Continual Learning,IMAGE-TEXT,"QP1, QP5, QP6, QS2",2,3,3,2,0,10,online:arXiv:2411.06764,
+P248,GSSF: Generalized Structural Sparse Function for Deep Cross-modal Metric Learning,IMAGE-TEXT,"QP1, QP2, QP5, QP6, QS2",1,3,3,2,0,9,online:arXiv:2410.15266,
+P249,CMAL: A Novel Cross-Modal Associative Learning Framework for Vision-Language Pre-Training,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2",1,3,3,2,0,9,online:arXiv:2410.12595,
+P250,NEVLP: Noise-Robust Framework for Efficient Vision-Language Pre-training,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS2, QS3",2,2,2,1,0,7,online:arXiv:2409.09582,
+P251,EyeCLIP: A visual-language foundation model for multi-modal ophthalmic image analysis,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2, QS3, QS4",2,2,3,2,1,10,online:arXiv:2409.06644,https://github.com/Michi-3000/EyeCLIP
+P252,Efficient and Versatile Robust Fine-Tuning of Zero-shot Models,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2408.05749,https://github.com/Coxy7/robust-finetuning
+P253,Object-Aware Query Perturbation for Cross-Modal Image-Text Retrieval,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2",0,2,3,2,1,8,online:arXiv:2407.12346,https://github.com/NEC-N-SOGI/query-perturbation
+P254,Efficient and Long-Tailed Generalization for Pre-trained Vision-Language Model,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS3",2,3,3,2,1,11,online:arXiv:2406.12638,https://github.com/shijxcs/Candle
+P255,One Perturbation is Enough: On Generating Universal Adversarial Perturbations against Vision-Language Pre-training Models,GENERATE | IMAGE-TEXT,"QP1, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2406.05491,
+P257,IQAGPT: Image Quality Assessment with Vision-language and ChatGPT Models,GENERATE | IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS3, QS4",1,2,3,2,0,8,online:arXiv:2312.15663,
+P258,CL2CM: Improving Cross-Lingual Cross-Modal Retrieval via Cross-Lingual Knowledge Transfer,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP5, QP6, QP7, QS2, QS3",2,3,3,2,0,10,online:arXiv:2312.08984,
+P259,VLATTACK: Multimodal Adversarial Attacks on Vision-Language Tasks via Pre-trained Models,IMAGE-TEXT,"QP1, QP5, QP6, QP7",0,3,3,2,1,9,online:arXiv:2310.04655,https://github.com/ericyinyzy/VLAttack
+P260,Dual-view Curricular Optimal Transport for Cross-lingual Cross-modal Retrieval,IMAGE-TEXT,"QP1, QP3, QP5, QP6, QP7, QS2, QS3",2,3,3,2,0,10,online:arXiv:2309.05451,
+P261,Towards Fast and Accurate Image-Text Retrieval with Self-Supervised Fine-Grained Alignment,IMAGE-TEXT | RETRIEVAL,"QP1, QP2, QP5, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2308.14009,https://github.com/Zjamie813/SelfAlign
+P262,DLIP: Distilling Language-Image Pre-training,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2308.12956,
+P263,DiffDis: Empowering Generative Diffusion Model with Cross-Modal Discrimination Capability,IMAGE-TEXT,"QP1, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2308.09306,
+P264,Switch-BERT: Learning to Model Multimodal Interactions by Switching Attention and Input,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2306.14182,
+P265,Global and Local Semantic Completion Learning for Vision-Language Pre-training,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS1",1,3,3,2,1,10,online:arXiv:2306.07096,https://github.com/IIGROUP/SCL
+P266,Dense and Aligned Captions (DAC) Promote Compositional Reasoning in VL Models,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP6, QP7, QS1, QS2",1,3,3,2,0,9,online:arXiv:2305.19595,
+P267,Improved Probabilistic Image-Text Representations,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2305.18171,https://github.com/naver-ai/pcmepp
+P268,Weakly Supervised Vision-and-Language Pre-training with Relative Representations,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP6, QP7, QS1, QS2, QS3",2,3,3,2,0,10,online:arXiv:2305.15483,
+P269,UNIMO-3: Multi-granularity Interaction for Vision-Language Representation Learning,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2",0,3,2,2,0,7,online:arXiv:2305.13697,
+P270,Probing the Role of Positional Information in Vision-Language Models,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2",0,2,2,2,0,6,online:arXiv:2305.10046,
+P271,Multi-task Paired Masking with Alignment Modeling for Medical Vision-Language Pre-training,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2, QS3, QS4",1,3,3,2,0,9,online:arXiv:2305.07920,
+P272,Continual Vision-Language Representation Learning with Off-Diagonal Information,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",1,3,3,2,0,9,online:arXiv:2305.07437,
+P273,SoftCLIP: Softer Cross-modal Alignment Makes CLIP Stronger,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2",2,3,3,2,0,10,online:arXiv:2303.17561,
+P274,Vision and Structured-Language Pretraining for Cross-Modal Food Retrieval,IMAGE-TEXT | RETRIEVAL,"QP1, QP2, QP6, QP7, QS1, QS4",1,3,3,2,1,10,online:arXiv:2212.04267,https://github.com/mshukor/VLPCook
+P275,CapEnrich: Enriching Caption Semantics for Web Images via Cross-modal Pre-trained Knowledge,IMAGE-TEXT,"QP1, QP2, QP6, QS1, QS2",2,3,3,2,1,11,online:arXiv:2211.09371,https://github.com/yaolinli/CapEnrich
+P276,ERNIE-UniX2: A Unified Cross-lingual Cross-modal Framework for Understanding and Generation,IMAGE-TEXT,"QP1, QP6, QP7, QS2",1,3,3,1,0,8,online:arXiv:2211.04861,
+P277,FaD-VLP: Fashion Vision-and-Language Pre-training towards Unified Retrieval and Captioning,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP6, QP7",1,3,3,2,0,9,online:arXiv:2210.15028,
+P278,ERNIE-ViL 2.0: Multi-view Contrastive Learning for Image-Text Pre-training,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",1,2,3,2,1,9,online:arXiv:2209.15270,https://github.com/PaddlePaddle/ERNIE
+P279,Dynamic Traceback Learning for Medical Report Generation,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2, QS4",1,3,3,2,1,10,online:arXiv:2401.13267,https://github.com/ShuchangYe-bib/DTrace
+P280,PRIOR: Prototype Representation Joint Learning from Medical Images and Reports,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP5, QP6, QP7, QS1, QS2, QS3, QS4",2,3,3,2,1,11,online:arXiv:2307.12577,https://github.com/QtacierP/PRIOR
+P281,VITR: Augmenting Vision Transformers with Relation-Focused Learning for Cross-Modal Information Retrieval,IMAGE-TEXT | RETRIEVAL,"QP1, QP2, QP5, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2302.06350,
+P282,Learning by Hallucinating: Vision-Language Pre-training with Weak Supervision,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP6, QP7, QS2, QS3",2,3,2,2,0,9,online:arXiv:2210.13591,
+P283,Treble Counterfactual VLMs: A Causal Approach to Hallucination,IMAGE-TEXT,"QP1, QP6, QP7",0,3,3,2,1,9,online:arXiv:2503.06169,https://github.com/TREE985/Treble-Counterfactual-VLMs
+P284,Counterfactually Measuring and Eliminating Social Bias in Vision-Language Pre-training Models,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2, QS3",0,3,3,2,1,9,online:arXiv:2207.01056,https://github.com/VL-Bias/VL-Bias
+P285,VLMixer: Unpaired Vision-Language Pre-training via Cross-Modal CutMix,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2",2,3,3,2,0,10,online:arXiv:2206.08919,
+P286,Cross-View Language Modeling: Towards Unified Cross-Lingual Cross-Modal Pre-training,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2206.00621,https://github.com/zengyan-97/CCLM
+P287,Prompt-based Learning for Unpaired Image Captioning,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP5, QP6, QS2",2,3,3,2,0,10,online:arXiv:2205.13125,
+P288,COTS: Collaborative Two-Stream Vision-Language Pre-Training Model for Cross-Modal Retrieval,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2204.07441,
+P289,Robust Cross-Modal Representation Learning with Progressive Self-Distillation,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2",2,3,3,2,0,10,online:arXiv:2204.04588,
+P290,Single-Stream Multi-Level Alignment for Vision-Language Pretraining,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2203.14395,https://zaidkhan.me/SIMLA
+P291,"OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework",IMAGE-TEXT,"QP1, QP3, QP6, QP7, QS1, QS2",1,2,3,2,1,9,online:arXiv:2202.03052,https://github.com/OFA-Sys/OFA
+P292,VT-CLIP: Enhancing Vision-Language Models with Visual-guided Texts,IMAGE-TEXT,"QP1, QP5, QP6, QS2, QS3",2,2,2,2,0,8,online:arXiv:2112.02399,
+P293,UFO: A UniFied TransfOrmer for Vision-Language Representation Learning,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2111.10023,
+P294,FILIP: Fine-grained Interactive Language-Image Pre-Training,IMAGE-TEXT,"QP1, QP5, QP6, QP7",1,3,3,2,0,9,online:arXiv:2111.07783,
+P295,KD-VLP: Improving End-to-End Vision-and-Language Pretraining with Object Knowledge Distillation,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2109.10504,
+P296,EfficientCLIP: Efficient Cross-Modal Pre-training by Ensemble Confident Learning and Language Modeling,IMAGE-TEXT,"QP1, QP3, QP6, QP7, QS3",2,3,3,2,0,10,online:arXiv:2109.04699,
+P297,ROSITA: Enhancing Vision-and-Language Semantic Alignments via Cross- and Intra-modal Knowledge Integration,GENERATE | IMAGE-TEXT,"QP1, QP2, QP5, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2108.07073,https://github.com/MILVLG/rosita
+P298,E2E-VLP: End-to-End Vision-Language Pre-training Enhanced by Visual Learning,IMAGE-TEXT,"QP1, QP6, QP7, QS2",0,3,3,1,0,7,online:arXiv:2106.01804,
+P299,Seeing Out of tHe bOx: End-to-End Pre-training for Vision-Language Representation Learning,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2104.03135,https://github.com/researchmm/soho
+P300,UC2: Universal Cross-lingual Cross-modal Vision-and-Language Pre-training,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS2",2,2,3,2,0,9,online:arXiv:2104.00332,
+P301,SemVLP: Vision-Language Pre-training by Aligning Semantics at Multiple Levels,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2",0,2,3,2,0,7,online:arXiv:2103.07829,
+P302,WenLan: Bridging Vision and Language by Large-Scale Multi-Modal Pre-Training,IMAGE-TEXT,"QP1, QP6, QP7",1,2,2,2,0,7,online:arXiv:2103.06561,
+P303,Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP6, QP7, QS2",2,2,3,2,0,9,online:arXiv:2102.05918,
+P304,MiniVLM: A Smaller and Faster Vision-Language Model,IMAGE-TEXT,"QP1, QP3, QP6, QP7, QS2",0,2,3,2,0,7,online:arXiv:2012.06946,
+P305,Beyond the Deep Metric Learning: Enhance the Cross-Modal Matching with Adversarial Discriminative Domain Regularization,IMAGE-TEXT,"QP1, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2010.12126,
+P306,ERNIE-ViL: Knowledge Enhanced Vision-Language Representations Through Scene Graph,IMAGE-TEXT,"QP1, QP2, QP6, QP7, QS2",0,2,2,2,0,6,online:arXiv:2006.16934,
+P307,Behind the Scene: Revealing the Secrets of Pre-trained Vision-and-Language Models,IMAGE-TEXT,"QP1, QP2, QP5, QP6, QP7, QS1, QS2",0,3,3,2,0,8,online:arXiv:2005.07310,
+P308,Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2004.06165,https://github.com/microsoft/Oscar
+P309,Distilled Dual-Encoder Model for Vision-Language Understanding,IMAGE-TEXT,,0,3,3,2,1,9,online:arXiv:2112.08723,https://github.com/kugwzk/DiDE
+P310,L-Verse: Bidirectional Generation Between Image and Text,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2",1,2,2,2,0,7,online:arXiv:2111.11133,
+P311,TCIC: Theme Concepts Learning Cross Language and Vision for Image Captioning,IMAGE-TEXT,"QP1, QP2, QP6, QS2",0,3,3,2,0,8,online:arXiv:2106.10936,
+P312,DashCLIP: Leveraging multimodal models for generating semantic embeddings for DoorDash,IMAGE-TEXT,"QP1, QP5, QP6, QP7",1,2,3,2,0,8,online:arXiv:2504.07110,
+P313,Contrast-Aware Calibration for Fine-Tuned CLIP: Leveraging Image-Text Alignment,IMAGE-TEXT,"QP1, QP6, QP7, QS2, QS3",2,3,3,2,0,10,online:arXiv:2501.19060,
+P314,An Explainable Biomedical Foundation Model via Large-Scale Concept-Enhanced Vision-Language Pre-training,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2, QS4",2,2,3,2,1,10,online:arXiv:2501.15579,https://github.com/JerrryNie/ConceptCLIP
+P315,FLAVARS: A Multimodal Foundational Language and Vision Alignment Model for Remote Sensing,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2",1,1,2,2,0,6,online:arXiv:2501.08490,
+P316,Multi-Head Attention Driven Dynamic Visual-Semantic Embedding for Enhanced Image-Text Matching,IMAGE-TEXT | RETRIEVAL,"QP1, QP2, QP6, QP7, QS2",0,2,1,2,0,5,online:arXiv:2412.19184,
+P317,Bringing Multimodality to Amazon Visual Search System,IMAGE-TEXT,"QP1, QP6, QP7",0,3,3,2,0,8,online:arXiv:2412.13364,
+P318,jina-clip-v2: Multilingual Multimodal Embeddings for Text and Images,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS1, QS4",0,3,3,2,0,8,online:arXiv:2412.08802,
+P319,The Narrow Gate: Localized Image-Text Communication in Vision-Language Models,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2",0,3,2,2,0,7,online:arXiv:2412.06646,
+P320,Assessing and Learning Alignment of Unimodal Vision and Language Models,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS1",1,3,3,2,1,10,online:arXiv:2412.04616,https://lezhang7.github.io/sail.github.io/
+P321,VISTA: A Visual and Textual Attention Dataset for Interpreting Multimodal Models,IMAGE-TEXT,"QP1, QP5, QP6, QP7",0,1,1,1,0,3,online:arXiv:2410.04609,
+P323,Emergent Visual-Semantic Hierarchies in Image-Text Representations,IMAGE-TEXT,"QP1, QP2, QP5, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2407.08521,https://hierarcaps.github.io
+P324,Rethinking Visual Prompting for Multimodal Large Language Models with External Knowledge,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2407.04681,
+P325,"HuatuoGPT-Vision, Towards Injecting Medical Visual Knowledge into Multimodal LLMs at Scale",IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2, QS3, QS4",2,2,3,2,1,10,online:arXiv:2406.19280,https://github.com/FreedomIntelligence/HuatuoGPT-Vision
+P326,OpenDlign: Open-World Point Cloud Understanding with Depth-Aligned Images,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2, QS3",2,2,3,2,1,10,online:arXiv:2404.16538,https://yebulabula.github.io/OpenDlign/
+P327,CT-GLIP: 3D Grounded Language-Image Pretraining with CT Scans and Radiology Reports for Full-Body Scenarios,IMAGE-TEXT,"QP1, QP6, QP7, QS3, QS4",2,3,3,2,0,10,online:arXiv:2404.15272,
+P328,RAR: Retrieving And Ranking Augmented MLLMs for Visual Recognition,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2403.13805,https://github.com/Liuziyu77/RAR
+P329,MEDBind: Unifying Language and Multimodal Medical Data Embeddings,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2, QS4",2,2,2,2,0,8,online:arXiv:2403.12894,
+P330,"MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training",IMAGE-TEXT,"QP1, QP6, QP7, QS1",1,2,3,2,0,8,online:arXiv:2403.09611,
+P331,Improving fine-grained understanding in image-text pre-training,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7",1,3,3,2,0,9,online:arXiv:2401.09865,
+P332,Aligning Large Multimodal Models with Factually Augmented RLHF,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2, QS3",1,2,3,2,1,9,online:arXiv:2309.14525,https://llava-rlhf.github.io
+P333,Cephalo: Multi-Modal Vision-Language Models for Bio-Inspired Materials Analysis and Design,GENERATE | IMAGE-TEXT,"QP1, QP2, QP5, QP6, QP7, QS1, QS2, QS4",1,2,2,2,1,8,online:arXiv:2405.19076,https://github.com/lamm-mit/Cephalo
+P334,KGMEL: Knowledge Graph-Enhanced Multimodal Entity Linking,IMAGE-TEXT,"QP1, QP2, QP6, QS1, QS2",0,3,3,2,1,9,online:arXiv:2504.15135,https://github.com/juyeonnn/KGMEL
+P335,Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS2, QS3",1,3,3,2,0,9,online:arXiv:2308.12509,
+P336,InstructionGPT-4: A 200-Instruction Paradigm for Fine-Tuning MiniGPT-4,GENERATE | IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2",2,2,3,2,1,10,online:arXiv:2308.12067,https://github.com/waltonfuture/InstructionGPT-4
+P337,EVE: Efficient Vision-Language Pre-training with Masked Prediction and Modality-Aware MoE,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2308.11971,
+P338,LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day,GENERATE | IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2, QS4",2,2,3,2,1,10,online:arXiv:2306.00890,https://github.com/microsoft/LLaVA-Med
+P339,Improved baselines for vision-language pre-training,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2, QS4",1,3,3,2,1,10,online:arXiv:2305.08675,https://github.com/facebookresearch/clip-rocket
+P340,ArtGPT-4: Towards Artistic-understanding Large Vision-Language Models with Enhanced Adapter,IMAGE-TEXT,"QP1, QP6, QP7, QS1",1,3,3,2,1,10,online:arXiv:2305.07490,https://github.com/DLYuanGod/ArtGPT-4
+P341,Differentiable Outlier Detection Enable Robust Deep Multimodal Analysis,IMAGE-TEXT | RETRIEVAL,"QP1, QP2, QP5, QP6, QP7, QS2",2,3,3,2,0,10,online:arXiv:2302.05608,
+P342,Language Quantized AutoEncoders: Towards Unsupervised Text-Image Alignment,IMAGE-TEXT,"QP1, QP6, QP7, QS2",2,2,2,2,0,8,online:arXiv:2302.00902,
+P343,RoentGen: Vision-Language Foundation Model for Chest X-ray Generation,IMAGE-TEXT,"QP1, QP6, QP7, QS2, QS3, QS4",2,2,3,2,0,9,online:arXiv:2211.12737,
+P344,MAPL: Parameter-Efficient Adaptation of Unimodal Pre-Trained Models for Vision-Language Few-Shot Prompting,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2, QS3",2,2,3,2,1,10,online:arXiv:2210.07179,https://github.com/mair-lab/mapl
+P345,MAP: Multimodal Uncertainty-Aware Vision-Language Pre-training Model,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP5, QP6, QP7",0,3,3,2,1,9,online:arXiv:2210.05335,https://github.com/IIGROUP/MAP
+P346,MAMO: Masked Multimodal Modeling for Fine-Grained Vision-Language Representation Learning,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2210.04183,
+P347,ASIF: Coupled Data Turns Unimodal Models to Multimodal Without Training,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2, QS3",2,2,2,2,1,9,online:arXiv:2210.01738,https://github.com/noranta4/ASIF
+P348,FashionViL: Fashion-Focused Vision-and-Language Representation Learning,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP5, QP6, QP7, QS1, QS2, QS3",0,3,3,2,1,9,online:arXiv:2207.08150,https://github.com/BrandonHanx/mmf
+P349,VL-BEiT: Generative Vision-Language Pretraining,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",0,2,2,1,1,6,online:arXiv:2206.01127,https://github.com/microsoft/unilm
+P350,Multimodal Masked Autoencoders Learn Transferable Representations,IMAGE-TEXT,"QP1, QP3, QP5, QP6, QS1, QS2",1,2,2,2,1,8,online:arXiv:2205.14204,https://github.com/young-geng/m3ae_public
+P351,MVP: Multimodality-guided Visual Pre-training,IMAGE-TEXT,"QP1, QP5, QP6, QS2",1,3,3,2,0,9,online:arXiv:2203.05175,
+P352,Unified Multimodal Pre-training and Prompt-based Tuning for Vision-Language Understanding and Generation,GENERATE | IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS2, QS3",2,3,3,2,0,10,online:arXiv:2112.05587,
+P353,Constructing Phrase-level Semantic Labels to Form Multi-Grained Supervision for Image-Text Retrieval,IMAGE-TEXT | RETRIEVAL,"QP1, QP2, QP5, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2109.05523,
+P354,A Comparison of Pre-trained Vision-and-Language Models for Multimodal Representation Learning across Medical Images and Reports,IMAGE-TEXT,"QP1, QP5, QP6, QS1, QS2, QS4",1,2,3,2,1,9,online:arXiv:2009.01523,https://github.com/YIKUAN8/Transformers-VQA
+P355,InterBERT: Vision-and-Language Interaction for Multi-modal Pretraining,IMAGE-TEXT | RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",1,3,3,2,0,9,online:arXiv:2003.13198,
+P356,UNITER: UNiversal Image-TExt Representation Learning,IMAGE-TEXT | RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:1909.11740,https://github.com/ChenRocks/UNITER
+P357,Calibrated Cache Model for Few-Shot Vision-Language Model Adaptation,IMAGE-TEXT,"QP1, QP3, QP5, QP6, QS2, QS3",2,3,3,2,0,10,online:arXiv:2410.08895,
+P358,Enhancing Vision-Language Model with Unmasked Token Alignment,IMAGE-TEXT,"QP1, QP6, QP7, QS1",0,2,3,2,1,8,online:arXiv:2405.19009,https://github.com/jihaonew/UTA
+P359,DEMO: A Statistical Perspective for Efficient Image-Text Matching,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS2",2,3,3,2,0,10,online:arXiv:2405.11496,
+P360,TIER: Text-Image Entropy Regularization for CLIP-style models,IMAGE-TEXT,"QP1, QP5, QP6, QS1, QS2, QS4",1,2,3,2,0,8,online:arXiv:2212.06710,
+P361,Cross-Lingual Cross-Modal Retrieval with Noise-Robust Learning,IMAGE-TEXT,"QP1, QP3, QP5, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2208.12526,https://github.com/HuiGuanLab/nrccr
+P362,Class-agnostic Object Detection with Multi-modal Transformer,IMAGE-TEXT,"QP1, QP6, QP7, QS1, QS2",2,2,3,2,0,9,online:arXiv:2111.11430,
+P363,LAViTeR: Learning Aligned Visual and Textual Representations Assisted by Image and Caption Generation,IMAGE-TEXT,"QP1, QP5, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2109.04993,https://github.com/mshaikh2/MMRL
+P364,Self-supervised Image-text Pre-training With Mixed Data In Chest X-rays,IMAGE-TEXT | RETRIEVAL,"QP1, QP3, QP5, QP6, QP7, QS2, QS3, QS4",2,3,3,2,0,10,online:arXiv:2103.16022,
+P365,ChangeCLIP: Remote sensing change detection with multimodal vision-language representation learning,IMAGE-TEXT,"QP1, QP5, QP6, QS1, QS2",0,1,2,1,1,5,abstract-only,https://github.com/dyzy41/ChangeCLIP
+P366,Learning Structural Representations for Recipe Generation and Food Retrieval,RETRIEVAL,"QP1, QP2, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2110.01209,https://github.com/hwang1996/SGN
+P367,Image-Text Embedding Learning via Visual and Textual Semantic Reasoning,RETRIEVAL,"QP1, QP2, QP5, QP6, QP7, QS1, QS2",0,3,3,2,0,8,local:Image-Text_Embedding_Learning_via_Visual_and_Textual_Semantic_Reasoning.pdf,
+P368,You'll Never Walk Alone: A Sketch and Text Duet for Fine-Grained Image Retrieval,RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS3",1,3,3,2,1,10,local:Youll_Never_Walk_Alone_A_Sketch_and_Text_Duet_for_Fine-Grained_Image_Retrieval.pdf,https://subhadeepkoley.github.io/Sketch2Word
+P369,SenseRAG: Constructing Environmental Knowledge Bases with Proactive Querying for LLM-Based Autonomous Driving,RETRIEVAL,"QP1, QP6, QP7",0,2,2,2,0,6,online:arXiv:2501.03535,
+P370,Learning Semantic Structure Correlation with Deep Semantic Alignment Network for Cross-Modal Retrieval,RETRIEVAL,"QP1, QP2, QP6, QP7, QS2",0,2,1,2,0,5,local:Learning_Semantic_Structure_Correlation_with_Deep_Semantic_Alignment_Network_for_Cross-Modal_Retrieval.pdf,
+P371,Modality-Aware Representation Learning for Zero-shot Sketch-based Image Retrieval,RETRIEVAL,"QP1, QP3, QP6, QP7, QS2, QS3",2,3,3,2,0,10,online:arXiv:2401.04860,
+P372,Non-Contrastive Learning Meets Language-Image Pre-Training,RETRIEVAL,"QP1, QP3, QP5, QP6, QP7, QS1, QS2",2,3,3,2,0,10,online:arXiv:2210.09304,
+P373,"UniRaG: Unification, Retrieval, and Generation for Multimodal Question Answering With Pre-Trained Language Models",RETRIEVAL,"QP1, QP6, QP7, QS2",0,2,2,2,0,6,local:UniRaG_Unification_Retrieval_and_Generation_for_Multimodal_Question_Answering_With_Pre-Trained_Language_Models.pdf,
+P374,CoVLR: Coordinating Cross-Modal Consistency and Intra-Modal Relations for Vision-Language Retrieval,RETRIEVAL,"QP1, QP3, QP6, QP7, QS2",1,3,3,1,0,8,local:CoVLR_Coordinating_Cross-Modal_Consistency_and_Intra-Modal_Relations_for_Vision-Language_Retrieval.pdf,
+P375,Scaling Dual Stage Image-Text Retrieval with Multimodal Large Language Models,RETRIEVAL,"QP1, QP6, QP7, QS1, QS2, QS3",1,2,3,2,0,8,local:Scaling_Dual_Stage_Image-Text_Retrieval_with_Multimodal_Large_Language_Models.pdf,
+P376,Cross-Modal Recipe Retrieval With Fine-Grained Prompting Alignment and Evidential Semantic Consistency,RETRIEVAL,"QP1, QP5, QP6, QP7, QS2, QS3",0,3,3,2,0,8,local:Cross-Modal_Recipe_Retrieval_With_Fine-Grained_Prompting_Alignment_and_Evidential_Semantic_Consistency.pdf,
+P377,TinyCMR: A Lightweight Learning Framework for Efficient Cross-Modal Retrieval,RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",0,2,1,0,0,3,abstract-only,
+P378,BCAN: Bidirectional Correct Attention Network for Cross-Modal Retrieval,RETRIEVAL,"QP1, QP6, QP7, QS2",0,3,3,2,1,9,local:BCAN_Bidirectional_Correct_Attention_Network_for_Cross-Modal_Retrieval.pdf,https://github.com/liuyyy111/BCAN
+P379,Histopathology Cross-Modal Retrieval based on Dual-Transformer Network,RETRIEVAL,"QP1, QP6, QP7, QS4",0,2,1,2,0,5,local:Histopathology_Cross-Modal_Retrieval_based_on_Dual-Transformer_Network.pdf,
+P380,Deep Ranking Distribution Preserving Hashing for Robust Multi-Label Cross-Modal Retrieval,RETRIEVAL,"QP1, QP6, QP7",2,3,3,2,1,11,local:Deep_Ranking_Distribution_Preserving_Hashing_for_Robust_Multi-Label_Cross-Modal_Retrieval.pdf,https://github.com/sgnjnu/RDPH
+P381,Knowledge-Aided Momentum Contrastive Learning for Remote-Sensing Image Text Retrieval,RETRIEVAL,"QP1, QP5, QP6, QP7",0,3,3,2,0,8,local:Knowledge-Aided_Momentum_Contrastive_Learning_for_Remote-Sensing_Image_Text_Retrieval.pdf,
+P382,Region-based Cross-modal Retrieval,RETRIEVAL,"QP1, QP5, QP6, QP7, QS2",0,2,3,2,0,7,local:Region-based_Cross-modal_Retrieval.pdf,
+P383,Person Re-Identification With Self-Supervised Teacher for In-Box Noise,RETRIEVAL,"QP1, QP3, QP5, QP6, QP7",2,2,2,2,0,8,local:Person_Re-Identification_With_Self-Supervised_Teacher_for_In-Box_Noise.pdf,
+P384,Towards Making a Trojan-Horse Attack on Text-to-Image Retrieval,RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",0,2,2,2,1,7,online:arXiv:2202.03861,https://github.com/fly-dragon211/tth
+P385,ViLNM: Visual-Language Noise Modeling for Text-to-Image Person Retrieval,RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",2,2,3,2,0,9,local:ViLNM_Visual-Language_Noise_Modeling_for_Text-to-Image_Person_Retrieval.pdf,
+P386,Sketch Less for More: On-the-Fly Fine-Grained Sketch-Based Image Retrieval,RETRIEVAL,"QP1, QP5, QP6, QP7",1,3,3,2,1,10,online:arXiv:2002.10310,https://github.com/AyanKumarBhunia/on-the-fly-FGSBIR
+P387,Object Prior Embedded Network for Query-Agnostic Image Retrieval,RETRIEVAL,"QP1, QP6, QP7, QS2, QS3",0,2,2,1,0,5,local:Object_Prior_Embedded_Network_for_Query-Agnostic_Image_Retrieval.pdf,
+P388,Prompt Tuning Empowering Downstream Tasks in Multimodal Federated Learning,RETRIEVAL,"QP1, QP6, QP7, QS3",1,2,2,2,0,7,local:Prompt_Tuning_Empowering_Downstream_Tasks_in_Multimodal_Federated_Learning.pdf,
+P389,Global–Local Information Soft-Alignment for Cross-Modal Remote-Sensing Image–Text Retrieval,RETRIEVAL,"QP1, QP6, QP7, QS2, QS3",0,3,3,2,0,8,local:GlobalLocal_Information_Soft-Alignment_for_Cross-Modal_Remote-Sensing_ImageText_Retrieval.pdf,
+P390,Neuron-Based Spiking Transmission and Reasoning Network for Robust Image-Text Retrieval,RETRIEVAL,"QP1, QP6, QP7, QS2",1,3,3,2,0,9,local:Neuron-Based_Spiking_Transmission_and_Reasoning_Network_for_Robust_Image-Text_Retrieval.pdf,
+P391,Domain Adaptive 3D Shape Retrieval from Monocular Images,RETRIEVAL,"QP1, QP3, QP6, QS2",2,3,2,2,0,9,local:Domain_Adaptive_3D_Shape_Retrieval_from_Monocular_Images.pdf,
+P392,Zero-Shot Composed Image Retrieval Considering Query-Target Relationship Leveraging Masked Image-Text Pairs,RETRIEVAL,"QP1, QP5, QP6, QS2, QS3",2,3,3,2,0,10,online:arXiv:2406.18836,
+P393,Globetrotter: Connecting Languages by Connecting Images,RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",2,3,3,2,0,10,online:arXiv:2012.04631,
+P394,Recognizing Unknown Disaster Scenes With Knowledge Graph-Based Zero-Shot Learning (KG-ZSL) Model,RETRIEVAL,"QP1, QP2, QP5, QP6, QS3",2,3,3,2,0,10,local:Recognizing_Unknown_Disaster_Scenes_With_Knowledge_Graph-Based_Zero-Shot_Learning_KG-ZSL_Model.pdf,
+P395,Multimodal Models for Comprehensive Cardiac Diagnostics via ECG Interpretation,RETRIEVAL,"QP1, QP2, QP6, QP7",2,3,2,1,0,8,local:Multimodal_Models_for_Comprehensive_Cardiac_Diagnostics_via_ECG_Interpretation.pdf,
+P396,Substation Equipment Fault Diagnosis Based On A Multimodal Large Model,RETRIEVAL,"QP1, QP6, QP7, QS3",1,1,1,2,0,5,local:Substation_Equipment_Fault_Diagnosis_Based_On_A_Multimodal_Large_Model.pdf,
+P397,"CLIP for All Things Zero-Shot Sketch-Based Image Retrieval, Fine-Grained or Not",RETRIEVAL,"QP1, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2303.13440,https://aneeshan95.github.io/Sketch_LVM/
+P398,A Lightweight and Effective Multi-View Knowledge Distillation Framework for Text-Image Retrieval,RETRIEVAL,"QP1, QP6, QP7, QS2",0,3,3,2,0,8,local:A_Lightweight_and_Effective_Multi-View_Knowledge_Distillation_Framework_for_Text-Image_Retrieval.pdf,
+P399,Unsupervised Hierarchical Dynamic Similarity Hashing for Multimedia Retrieval,RETRIEVAL,"QP1, QP2, QP6, QS1",2,2,2,2,1,9,local:Unsupervised_Hierarchical_Dynamic_Similarity_Hashing_for_Multimedia_Retrieval.pdf,https://github.com/YunfeiChenMY/UHDSH
+P400,When CLIP Meets PHOC: A Dual-Branch Network for Historical Document Image Retrieval,RETRIEVAL,"QP1, QP6, QP7",1,2,2,2,0,7,local:When_CLIP_Meets_PHOC_A_Dual-Branch_Network_for_Historical_Document_Image_Retrieval.pdf,
+P401,CLIP goes 3D: Leveraging Prompt Tuning for Language Grounded 3D Recognition,RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2303.11313,https://github.com/deeptibhegde/CLIP-goes-3D
+P402,DeVLBert: Out-of-distribution Visio-Linguistic Pretraining with Causality,RETRIEVAL,"QP1, QP5, QP6, QP7, QS1",2,3,2,2,1,10,local:DeVLBert_Out-of-distribution_Visio-Linguistic_Pretraining_with_Causality.pdf,https://github.com/shengyuzhang/DeVLBert
+P403,Quaternion Relation Embedding for Scene Graph Generation,RETRIEVAL,"QP1, QP2, QP6, QP7, QS2, QS3",2,3,3,2,0,10,local:Quaternion_Relation_Embedding_for_Scene_Graph_Generation.pdf,
+P404,Image Question-Distractors Generation as a Conversational Model,RETRIEVAL,"QP1, QP6, QP7, QS3",1,1,1,2,0,5,local:Image_Question-Distractors_Generation_as_a_Conversational_Model.pdf,
+P405,DialCLIP: Empowering Clip As Multi-Modal Dialog Retriever,RETRIEVAL,"QP1, QP6, QP7",1,2,2,2,0,7,online:arXiv:2401.01076,
+P406,ViTamin: Designing Scalable Vision Models in the Vision-Language Era,RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",0,2,3,2,1,8,online:arXiv:2404.02132,https://beckschen.github.io/vitamin.html
+P407,ConceptHash: Interpretable Fine-Grained Hashing via Concept Discovery,RETRIEVAL,"QP1, QP5, QP6, QS1",0,3,3,2,1,9,online:arXiv:2406.08457,https://github.com/kamwoh/concepthash
+P408,A Large Vision-Language Model based Environment Perception System for Visually Impaired People,RETRIEVAL,"QP1, QP6, QP7, QS2",0,1,2,2,0,5,online:arXiv:2504.18027,
+P409,Automatic Teaching Platform on Vision Language Retrieval Augmented Generation,RETRIEVAL,"QP1, QP6, QP7",0,1,2,1,0,4,online:arXiv:2503.05464,
+P410,QueryAdapter: Rapid Adaptation of Vision-Language Models in Response to Natural Language Queries,RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",2,3,2,2,0,9,online:arXiv:2502.18735,
+P411,DynamicGSG: Dynamic 3D Gaussian Scene Graphs for Environment Adaptation,RETRIEVAL,"QP1, QP2, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2502.15309,https://github.com/GeLuzhou/Dynamic-GSG
+P412,Alleviating Hallucination in Large Vision-Language Models with Active Retrieval Augmentation,GENERATE | RETRIEVAL,"QP1, QP4, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2408.00555,
+P413,HELPER-X: A Unified Instructable Embodied Agent to Tackle Four Interactive Vision-Language Domains with Memory-Augmented Language Models,RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",2,1,2,2,1,8,online:arXiv:2404.19065,https://helper-agent-llm.github.io
+P414,LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents,RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2",0,2,3,2,1,8,online:arXiv:2311.05437,https://llava-vl.github.io/llava-plus/
+P415,Group Generalized Mean Pooling for Vision Transformer,RETRIEVAL,"QP1, QP5, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2212.04114,
+P416,Retrieval Augmentation for Deep Neural Networks,RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2102.13030,https://github.com/RitaRamo/retrieval-augmentation-nn
+P417,CIBR: Cross-modal Information Bottleneck Regularization for Robust CLIP Generalization,RETRIEVAL,"QP1, QP6, QP7, QS2",1,3,2,2,0,8,online:arXiv:2503.24182,
+P418,Recurrence-Enhanced Vision-and-Language Transformers for Robust Multimodal Document Retrieval,RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2503.01980,https://github.com/aimagelab/ReT
+P419,Pathology Report Generation and Multimodal Representation Learning for Cutaneous Melanocytic Lesions,GENERATE | RETRIEVAL,"QP1, QP5, QP6, QP7, QS2, QS3, QS4",0,1,2,2,0,5,online:arXiv:2502.19293,
+P420,Boosting Weak Positives for Text Based Person Search,RETRIEVAL,"QP1, QP6, QP7",1,3,3,2,0,9,online:arXiv:2501.17586,
+P421,Low-rank Prompt Interaction for Continual Vision-Language Retrieval,RETRIEVAL,"QP1, QP6, QP7",1,3,3,2,1,10,online:arXiv:2501.14369,https://github.com/Kelvin-ywc/LPI
+P422,Rebalanced Vision-Language Retrieval Considering Structure-Aware Distillation,RETRIEVAL,"QP1, QP2, QP5, QP6, QP7, QS2",2,3,3,2,0,10,online:arXiv:2412.10761,
+P423,COSMOS: Cross-Modality Self-Distillation for Vision Language Pre-training,RETRIEVAL,"QP1, QP5, QP6, QP7, QS2",1,3,3,2,1,10,online:arXiv:2412.01814,https://github.com/ExplainableML/cosmos
+P424,Multimodal Whole Slide Foundation Model for Pathology,GENERATE | RETRIEVAL,"QP1, QP3, QP5, QP6, QP7, QS1, QS2, QS3, QS4",2,2,3,2,1,10,online:arXiv:2411.19666,https://github.com/mahmoodlab/TITAN
+P425,FLEX-CLIP: Feature-Level GEneration Network Enhanced CLIP for X-shot Cross-modal Retrieval,RETRIEVAL,"QP1, QP6, QP7, QS2, QS3",2,3,3,2,0,10,online:arXiv:2411.17454,
+P426,Multi-modal Relation Distillation for Unified 3D Representation Learning,RETRIEVAL,"QP1, QP6, QP7, QS2",2,3,3,2,0,10,online:arXiv:2407.14007,
+P427,Elevating All Zero-Shot Sketch-Based Image Retrieval Through Multimodal Prompt Learning,RETRIEVAL,"QP1, QP6, QP7, QS2",2,3,3,2,1,11,online:arXiv:2407.04207,https://mainaksingha01.github.io/SpLIP/
+P428,Distilling Vision-Language Pretraining for Efficient Cross-Modal Retrieval,RETRIEVAL,"QP1, QP5, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2405.14726,
+P429,Bridging Vision and Language Spaces with Assignment Prediction,RETRIEVAL,"QP1, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2404.09632,
+P430,Cross-Modal Coordination Across a Diverse Set of Input Modalities,RETRIEVAL,"QP1, QP5, QP6, QP7, QS2, QS3",1,2,2,1,0,6,online:arXiv:2401.16347,
+P431,Enhancing Image Retrieval : A Comprehensive Study on Photo Search using the CLIP Mode,RETRIEVAL,"QP1, QP5, QP6, QP7, QS3, QS4",0,1,1,2,0,4,online:arXiv:2401.13613,
+P432,VGSG: Vision-Guided Semantic-Group Network for Text-based Person Search,RETRIEVAL,"QP1, QP5, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2311.07514,
+P433,GlobalDoc: A Cross-Modal Vision-Language Framework for Real-World Document Image Retrieval and Classification,RETRIEVAL,"QP1, QP6, QP7",2,3,3,2,0,10,online:arXiv:2309.05756,
+P434,An Empirical Study of CLIP for Text-based Person Search,RETRIEVAL,"QP1, QP6, QP7",1,3,3,2,1,10,online:arXiv:2308.10045,https://github.com/Flame-Chasers/TBPS-CLIP
+P435,Enhancing Dynamic Image Advertising with Vision-Language Pre-training,RETRIEVAL,"QP1, QP6, QP7",2,2,3,2,0,9,online:arXiv:2306.14112,
+P436,ImageBind: One Embedding Space To Bind Them All,RETRIEVAL,"QP1, QP6, QP7",2,3,3,2,1,11,online:arXiv:2305.05665,https://facebookresearch.github.io/ImageBind
+P437,An Empirical Study of Multimodal Model Merging,GENERATE | RETRIEVAL,"QP1, QP6, QP7, QS2",0,2,3,2,1,8,online:arXiv:2304.14933,https://github.com/ylsung/vl-merging
+P438,Position-guided Text Prompt for Vision-Language Pre-training,RETRIEVAL,"QP1, QP5, QP6, QP7",1,3,3,2,1,10,online:arXiv:2212.09737,https://github.com/sail-sg/ptp
+P439,SLAN: Self-Locator Aided Network for Cross-Modal Understanding,RETRIEVAL,"QP1, QP6, QP7",2,3,3,2,0,10,online:arXiv:2211.16208,
+P440,Seeing What You Miss: Vision-Language Pre-training with Semantic Completion Learning,RETRIEVAL,"QP1, QP5, QP6, QP7",1,3,3,2,1,10,online:arXiv:2211.13437,https://github.com/IIGROUP/SCL
+P441,Universal Vision-Language Dense Retrieval: Learning A Unified Representation Space for Multi-Modal Retrieval,RETRIEVAL,"QP1, QP6, QP7, QS2",0,3,3,2,1,9,online:arXiv:2209.00179,https://github.com/OpenMatch/UniVL-DR
+P442,ALADIN: Distilling Fine-grained Alignment Scores for Efficient Image-Text Matching and Retrieval,RETRIEVAL,"QP1, QP2, QP6, QP7",0,2,2,2,1,7,online:arXiv:2207.14757,https://github.com/mesnico/ALADIN
+P443,Intra-Modal Constraint Loss For Image-Text Retrieval,RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",0,2,2,2,1,7,online:arXiv:2207.05024,https://github.com/CanonChen/IMC
+P444,Contrastive Cross-Modal Knowledge Sharing Pre-training for Vision-Language Representation Learning and Retrieval,RETRIEVAL,"QP1, QP2, QP6, QP7",0,3,3,2,0,8,online:arXiv:2207.00733,
+P445,mPLUG: Effective and Efficient Vision-Language Learning by Cross-modal Skip-connections,RETRIEVAL,"QP1, QP6, QP7",1,3,3,2,0,9,online:arXiv:2205.12005,
+P446,Multi-modal Alignment using Representation Codebook,RETRIEVAL,"QP1, QP5, QP6, QP7",1,3,3,2,0,9,online:arXiv:2203.00048,
+P447,VLDeformer: Vision-Language Decomposed Transformer for Fast Cross-Modal Retrieval,RETRIEVAL,"QP1, QP5, QP6",0,3,3,2,0,8,online:arXiv:2110.11338,
+P448,LightningDOT: Pre-training Visual-Semantic Embeddings for Real-Time Image-Text Retrieval,RETRIEVAL,"QP1, QP6, QP7",0,3,3,2,1,9,online:arXiv:2103.08784,https://github.com/intersun/LightningDOT
+P449,CAFe: Unifying Representation and Generation with Contrastive-Autoregressive Finetuning,RETRIEVAL,"QP1, QP6, QP7",1,2,3,2,1,9,online:arXiv:2503.19900,https://github.com/haoyu-bu/CAFe
+P450,LLaVE: Large Language and Vision Embedding Models with Hardness-Weighted Contrastive Learning,RETRIEVAL,"QP1, QP6, QP7",1,3,3,2,0,9,online:arXiv:2503.04812,
+P451,"VisTA: Vision-Text Alignment Model with Contrastive Learning using Multimodal Data for Evidence-Driven, Reliable, and Explainable Alzheimer's Disease Diagnosis",RETRIEVAL,"QP1, QP5, QP6, QP7, QS3, QS4",1,2,2,2,1,8,online:arXiv:2502.01535,https://github.com/ddlinh/VisTA
+P452,KPL: Training-Free Medical Knowledge Mining of Vision-Language Models,RETRIEVAL,"QP1, QP5, QP6, QP7, QS4",2,3,3,2,1,11,online:arXiv:2501.11231,https://github.com/JXLiu-AI/KPL
+P453,SCOT: Self-Supervised Contrastive Pretraining For Zero-Shot Compositional Retrieval,RETRIEVAL,"QP1, QP6, QP7",2,2,2,2,0,8,online:arXiv:2501.08347,
+P454,Re-ranking the Context for Multimodal Retrieval Augmented Generation,RETRIEVAL,"QP1, QP6, QP7, QS2",0,1,1,2,0,4,online:arXiv:2501.04695,
+P455,RAG-Check: Evaluating Multimodal Retrieval Augmented Generation Performance,RETRIEVAL,"QP1, QP6, QP7, QS2",0,1,2,2,0,5,online:arXiv:2501.03995,
+P456,CLIP-GS: Unifying Vision-Language Representation with 3D Gaussian Splatting,RETRIEVAL,"QP1, QP6, QP7",1,3,3,2,0,9,online:arXiv:2412.19142,
+P457,Leveraging Retrieval-Augmented Tags for Large Vision-Language Understanding in Complex Scenes,GENERATE | RETRIEVAL,"QP1, QP6, QP7",1,3,3,0,0,7,online:arXiv:2412.11396,
+P458,LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant,RETRIEVAL,"QP1, QP6, QP7, QS1",1,2,3,2,1,9,online:arXiv:2412.01720,https://code-kunkun.github.io/LamRA/
+P459,Identifying Implicit Social Biases in Vision-Language Models,RETRIEVAL,"QP1, QP6, QP7",0,2,2,2,0,6,online:arXiv:2411.00997,
+P460,An Information Criterion for Controlled Disentanglement of Multimodal Data,RETRIEVAL,"QP1, QP3, QP6, QS4",0,3,3,2,1,9,online:arXiv:2410.23996,https://github.com/uhlerlab/DisentangledSSL
+P461,Vision Search Assistant: Empower Vision-Language Models as Multimodal Search Engines,RETRIEVAL,"QP1, QP2, QP6, QP7",2,3,2,2,1,10,online:arXiv:2410.21220,https://github.com/cnzzx/VSA
+P462,MMed-RAG: Versatile Multimodal RAG System for Medical Vision Language Models,RETRIEVAL,"QP1, QP6, QP7, QS2, QS4",2,3,3,2,1,11,online:arXiv:2410.13085,https://github.com/richard-peng-xia/MMed-RAG
+P463,CtrlSynth: Controllable Image Text Synthesis for Data-Efficient Multimodal Learning,RETRIEVAL,"QP1, QP6, QP7, QS2, QS4",2,2,3,2,0,9,online:arXiv:2410.11963,
+P464,Exploring the Meaningfulness of Nearest Neighbor Search in High-Dimensional Space,RETRIEVAL,"QP1, QP5, QP6, QP7, QS2",0,2,2,2,0,6,online:arXiv:2410.05752,
+P465,Shaking Up VLMs: Comparing Transformers and Structured State Space Models for Vision & Language Modeling,RETRIEVAL,"QP1, QP6, QP7, QS2",0,3,3,2,0,8,online:arXiv:2409.05395,
+P466,RAVEN: Multitask Retrieval Augmented Vision-Language Learning,RETRIEVAL,"QP1, QP6, QP7, QS1",0,2,3,2,0,7,online:arXiv:2406.19150,
+P467,Exploring the Spectrum of Visio-Linguistic Compositionality and Recognition,RETRIEVAL,"QP1, QP6, QP7, QS1",1,2,3,2,1,9,online:arXiv:2406.09388,https://github.com/ytaek-oh/vl_compo
+P468,Retrieval Augmented Structured Generation: Business Document Information Extraction As Tool Use,RETRIEVAL,"QP1, QP6, QP7",0,2,2,1,0,5,online:arXiv:2405.20245,
+P469,A Multimodal Approach for Cross-Domain Image Retrieval,GENERATE | RETRIEVAL,"QP1, QP6, QP7, QS2",2,2,2,2,0,8,online:arXiv:2403.15152,
+P470,OpenFashionCLIP: Vision-and-Language Contrastive Learning with Open-Source Fashion Data,RETRIEVAL,"QP1, QP6, QP7",1,2,3,2,1,9,online:arXiv:2309.05551,https://github.com/aimagelab/open-fashion-clip
+P471,FIRE: Food Image to REcipe generation,RETRIEVAL,"QP1, QP6, QP7",1,2,3,2,1,9,online:arXiv:2308.14391,https://github.com/prateekchhikara/FIRE
+P472,ViLLA: Fine-Grained Vision-Language Representation Learning from Real-World Data,GENERATE | RETRIEVAL,"QP1, QP3, QP6, QP7, QS1, QS3, QS4",1,2,3,2,1,9,online:arXiv:2308.11194,https://github.com/StanfordMIMI/villa
+P473,Automated Cardiovascular Record Retrieval by Multimodal Learning between Electrocardiogram and Clinical Report,RETRIEVAL,"QP1, QP6, QP7, QS3, QS4",1,3,2,2,0,8,online:arXiv:2304.06286,
+P474,Linking Representations with Multimodal Contrastive Learning,RETRIEVAL,"QP1, QP3, QP6, QP7, QS1, QS2",1,2,2,2,0,7,online:arXiv:2304.03464,
+P475,Domain-adapted large language models for classifying nuclear medicine reports,RETRIEVAL,"QP1, QP6, QP7",1,2,2,2,0,7,online:arXiv:2303.01258,
+P476,Compound Tokens: Channel Fusion for Vision-Language Representation Learning,RETRIEVAL,"QP1, QP6, QP7",0,3,3,2,0,8,online:arXiv:2212.01447,
+P477,TVLT: Textless Vision-Language Transformer,RETRIEVAL,"QP1, QP6, QP7, QS1, QS2",0,3,3,2,1,9,online:arXiv:2209.14156,https://github.com/zinengtang/TVLT
+P478,MixGen: A New Multi-Modal Data Augmentation,RETRIEVAL,"QP1, QP6, QP7, QS1",2,3,3,2,1,11,online:arXiv:2206.08358,https://github.com/amazon-science/mix-generation
+P479,"Decoupling the Role of Data, Attention, and Losses in Multimodal Transformers",RETRIEVAL,"QP1, QP6, QP7, QS2",1,3,3,2,0,9,online:arXiv:2102.00529,
+P480,"No Train, all Gain: Self-Supervised Gradients Improve Deep Frozen Representations",RETRIEVAL,"QP1, QP5, QP6, QP7, QS1, QS2",2,3,3,2,1,11,online:arXiv:2407.10964,https://github.com/WalterSimoncini/fungivision
+P481,Analyzing Local Representations of Self-supervised Vision Transformers,RETRIEVAL,"QP1, QP6, QP7, QS2",2,2,2,2,0,8,online:arXiv:2401.00463,
+P482,RemoteCLIP: A Vision Language Foundation Model for Remote Sensing,RETRIEVAL,"QP1, QP6, QP7, QS2",2,2,3,2,1,10,online:arXiv:2306.11029,https://github.com/ChenDelong1999/RemoteCLIP
+P483,Retrieval-based Knowledge Augmented Vision Language Pre-training,RETRIEVAL,"QP1, QP2, QP6, QP7, QS2",1,3,3,1,0,8,online:arXiv:2304.13923,
+P484,Lexi: Self-Supervised Learning of the UI Language,RETRIEVAL,"QP1, QP3, QP5, QP6, QP7, QS1, QS2",1,2,3,2,1,9,online:arXiv:2301.10165,https://github.com/microsoft/UICaption
+P485,VL: Leveraging Vision and Vision-language Models into Large-scale Product Retrieval,RETRIEVAL,"QP1, QP3, QP6, QS3",1,1,2,2,0,6,online:arXiv:2207.12994,
+P486,CLIP-Art: Contrastive Pre-training for Fine-Grained Art Classification,RETRIEVAL,"QP1, QP3, QP5, QP6, QP7, QS2, QS3",2,2,2,2,1,9,online:arXiv:2204.14244,https://github.com/KeremTurgutlu/clip_art
+P487,Visual Representation Learning with Self-Supervised Attention for Low-Label High-data Regime,RETRIEVAL,"QP1, QP3, QP5, QP6, QP7, QS1, QS2, QS3",2,2,2,2,1,9,online:arXiv:2201.08951,https://github.com/AutoVision-cloud/SSL-ViT-lowlabel-highdata
+P488,On the Use of Graph Neural Networks for Virtual Network Embedding,GENERATE,"QP1, QP2, QP6, QS2",0,2,1,2,0,5,local:On_the_Use_of_Graph_Neural_Networks_for_Virtual_Network_Embedding (1).pdf,
+P489,SAND: Enhancing Open-Set Neuron Descriptions through Spatial Awareness,GENERATE,"QP1, QP5, QP6, QP7, QS1, QS2, QS4",0,2,3,2,0,7,local:SAND_Enhancing_Open-Set_Neuron_Descriptions_through_Spatial_Awareness.pdf,
+P490,CAFuser: Condition-Aware Multimodal Fusion for Robust Semantic Perception of Driving Scenes,GENERATE,"QP1, QP5, QP6, QP7, QS2",2,2,3,2,1,10,online:arXiv:2410.10791,https://github.com/timbroed/CAFuser
+P491,EmoGen: Emotional Image Content Generation with Text-to-Image Diffusion Models,GENERATE,"QP1, QP5, QP6, QP7, QS1, QS2",0,3,3,2,0,8,online:arXiv:2401.04608,
+P492,TrTr-CMR: Cross-Modal Reasoning Dual Transformer for Remote Sensing Image Captioning,GENERATE,"QP1, QP5, QP6, QS1, QS2, QS3",0,3,3,2,1,9,local:TrTr-CMR_Cross-Modal_Reasoning_Dual_Transformer_for_Remote_Sensing_Image_Captioning.pdf,https://github.com/LianYi233/TrTr-CMR
+P493,Weakly Supervised Zero-Shot Medical Image Segmentation Using Pretrained Medical Language Models,GENERATE,"QP1, QP5, QP6, QS2, QS3, QS4",2,2,2,2,0,8,local:Weakly_Supervised_Zero-Shot_Medical_Image_Segmentation_Using_Pretrained_Medical_Language_Models (1).pdf,
+P494,I-AI: A Controllable & Interpretable AI System for Decoding Radiologists’ Intense Focus for Accurate CXR Diagnoses,GENERATE,"QP1, QP5, QP6, QP7, QS1, QS2, QS3, QS4",0,3,3,2,1,9,online:arXiv:2309.13550,https://github.com/UARK-AICV/IAI
+P495,Explain Me the Painting: Multi-Topic Knowledgeable Art Description Generation,GENERATE,"QP1, QP3, QP5, QP6, QS1, QS2, QS3",1,3,3,2,1,10,online:arXiv:2109.05743,https://github.com/noagarcia/explain-paintings
+P496,A Proposal-Free One-Stage Framework for Referring Expression Comprehension and Generation via Dense Cross-Attention,GENERATE,"QP1, QP5, QP6, QP7, QS2",0,3,3,2,0,8,local:A_Proposal-Free_One-Stage_Framework_for_Referring_Expression_Comprehension_and_Generation_via_Dense_Cross-Attention.pdf,
+P497,Knowledge-Driven Generative Adversarial Network for Text-to-Image Synthesis,GENERATE,"QP1, QP3, QP5, QP6, QP7, QS1, QS2",0,3,3,2,1,9,local:Knowledge-Driven_Generative_Adversarial_Network_for_Text-to-Image_Synthesis.pdf,https://github.com/pengjunn/KD-GAN
+P498,CLISC: Bridging clip and sam by enhanced cam for unsupervised brain tumor segmentation,GENERATE,"QP1, QP3, QP5, QP6, QS3, QS4",2,2,2,2,0,8,online:arXiv:2501.16246,
+P499,Sensor2Text: Enabling Natural Language Interactions for Daily Activity Tracking Using Wearable Sensors,GENERATE,"QP1, QP3, QP6",2,2,3,2,0,9,online:arXiv:2410.20034,
+P501,Solving Token Gradient Conflict in Mixture-of-Experts for Large Vision-Language Model,GENERATE,"QP1, QP5, QP6",0,3,3,2,0,8,online:arXiv:2406.19905,
+P502,Improving Concept Alignment in Vision-Language Concept Bottleneck Models,GENERATE,"QP1, QP3, QP6, QS3, QS4",2,2,2,2,1,9,online:arXiv:2405.01825,https://github.com/NMS05/Improving-Concept-Alignment-in-Vision-Language-Concept-Bottleneck-Models
+P503,A multimodal automated interpretability agent,GENERATE | IMAGE-TEXT,"QP1, QP4, QP5, QP6, QS1, QS2",0,2,3,2,0,7,online:arXiv:2404.14394,
+P504,Diffexplainer: Towards Cross-modal Global Explanations with Diffusion Models,GENERATE,"QP1, QP5, QP6",0,2,2,2,0,6,online:arXiv:2404.02618,
+P505,Development of Compositionality and Generalization through Interactive Learning of Language and Action of Robots,GENERATE,"QP1, QP5, QP6, QS1, QS3",2,3,3,2,0,10,online:arXiv:2403.19995,
+P507,Question-Answer Cross Language Image Matching for Weakly Supervised Semantic Segmentation,GENERATE,"QP1, QP5, QP6, QS1",2,3,3,2,1,11,online:arXiv:2401.09883,https://github.com/CVI-SZU/QA-CLIMS
+P508,Multimodal Foundation Models for Zero-shot Animal Species Recognition in Camera Trap Images,GENERATE,"QP1, QP3, QP4, QP6, QS3",2,2,3,2,0,9,online:arXiv:2311.01064,
+P509,A Knowledge-Driven Cross-view Contrastive Learning for EEG Representation,GENERATE,"QP1, QP3, QP6, QS3, QS4",2,3,3,2,0,10,online:arXiv:2310.03747,
+P510,Active Learning for Classifying 2D Grid-Based Level Completability,GENERATE,"QP1, QP4, QP6, QS1, QS3",2,2,2,2,1,9,online:arXiv:2309.04367,https://github.com/MahsaBazzaz/level-completabilty-x-active-learning
+P511,Text-based Person Search without Parallel Image-Text Data,GENERATE,"QP1, QP3, QP6, QS3",2,3,3,2,0,10,online:arXiv:2305.12964,
+P513,Language with Vision: a Study on Grounded Word and Sentence Embeddings,GENERATE,"QP1, QP5, QP6, QS1, QS2",1,3,3,2,1,10,online:arXiv:2206.08823,https://github.com/Hazel1994/Visually_Grounded_Word_Embeddings
+P514,Natural Language Descriptions of Deep Visual Features,GENERATE,"QP1, QP5, QP6, QS1, QS2",0,3,3,2,0,8,online:arXiv:2201.11114,
+P515,Fine-Grained Image Captioning with Global-Local Discriminative Objective,GENERATE,"QP1, QP5, QP6, QP7, QS2",0,3,3,2,1,9,online:arXiv:2007.10662,https://github.com/HCPLab-SYSU/Fine-Grained-Image-Captioning
+P516,Internal Activation Revision: Safeguarding Vision Language Models Without Parameter Update,GENERATE,"QP1, QP5, QP6, QS2",1,3,2,2,0,8,online:arXiv:2501.16378,
+P517,TiBiX: Leveraging Temporal Information for Bidirectional X-ray and Report Generation,GENERATE,"QP1, QP6, QP7, QS2, QS4",0,2,3,2,1,8,online:arXiv:2403.13343,https://github.com/BioMedIA-MBZUAI/TiBiX
+P519,Weakly supervised one-stage vision and language disease detection using large scale pneumonia and pneumothorax studies,GENERATE,"QP1, QP3, QP6, QS2, QS3, QS4",2,2,3,2,0,9,online:arXiv:2007.15778,
+P520,Generation Of Colors using Bidirectional Long Short Term Memory Networks,GENERATE,"QP1, QP4, QP6, QS3",2,1,1,0,1,5,online:arXiv:2311.06542,https://github.com/chungimungi/Color-prediction
+P521,Deep Active Learning with Noise Stability,GENERATE,"QP1, QP4, QP6, QS1",2,3,3,1,0,9,online:arXiv:2205.13340,
+P522,Designing Ecosystems of Intelligence from First Principles,GENERATE,"QP1, QP5, QP6",0,2,0,1,0,3,online:arXiv:2212.01354,
+P524,Semi-LLIE: Semi-supervised Contrastive Learning with Mamba-based Low-light Image Enhancement,GENERATE,"QP1, QP3, QP6, QS2",2,3,3,2,1,11,online:arXiv:2409.16604,https://github.com/guanguanboy/Semi-LLIE
+P525,OTMatch: Improving Semi-Supervised Learning with Optimal Transport,GENERATE,"QP1, QP3, QP6, QS2",2,3,3,2,0,10,online:arXiv:2310.17455,
+P526,Enhancing CLIP with CLIP: Exploring Pseudolabeling for Limited-Label Prompt Tuning,GENERATE,"QP1, QP3, QP6, QS2",2,2,3,2,0,9,online:arXiv:2306.01669,
+P527,Describe Anything: Detailed Localized Image and Video Captioning,GENERATE,"QP1, QP3, QP6, QP7, QS2",2,3,3,2,1,11,online:arXiv:2504.16072,https://describe-anything.github.io
+P528,Unlock the Power of Unlabeled Data in Language Driving Model,GENERATE,"QP1, QP2, QP3, QP6, QS2",2,2,3,2,0,9,online:arXiv:2503.10586,
+P529,NoiseBoost: Alleviating Hallucination with Noise Perturbation for Multimodal Large Language Models,GENERATE,"QP1, QP3, QP6, QS3",2,3,3,2,1,11,online:arXiv:2405.20081,https://kaiwu5.github.io/noiseboost
+P530,Multi-dimensional Fusion and Consistency for Semi-supervised Medical Image Segmentation,GENERATE,"QP1, QP3, QP6, QS2, QS3, QS4",2,3,3,2,0,10,online:arXiv:2309.06618,
+P531,3D CoCa: Contrastive Learners are 3D Captioners,GENERATE,"QP1, QP6, QP7, QS2",0,3,3,2,1,9,online:arXiv:2504.09518,https://github.com/AIGeeksGroup/3DCoCa
+P532,STING-BEE: Towards Vision-Language Model for Real-World X-ray Baggage Security Inspection,GENERATE,"QP1, QP6, QP7, QS2",2,1,2,2,1,8,online:arXiv:2504.02823,https://divs1159.github.io/STING-BEE
+P533,AutoRad-Lung: A Radiomic-Guided Prompting Autoregressive Vision-Language Model for Lung Nodule Malignancy Prediction,GENERATE,"QP1, QP6, QS2, QS4",1,1,2,2,0,6,online:arXiv:2503.20662,
+P534,Advancing Chronic Tuberculosis Diagnostics Using Vision-Language Models: A Multi modal Framework for Precision Analysis,GENERATE,"QP1, QP6, QP7, QS2, QS3, QS4",1,1,1,2,0,5,online:arXiv:2503.14536,
+P535,PARIC: Probabilistic Attention Regularization for Language Guided Image Classification from Pre-trained Vison Language Models,GENERATE,"QP1, QP5, QP6, QS2",2,2,2,2,0,8,online:arXiv:2503.11360,
+P536,From Dataset to Real-world: General 3D Object Detection via Generalized Cross-domain Few-shot Learning,GENERATE,"QP1, QP6, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2503.06282,https://github.com/Castiel-Lee/GCFS-3Det
+P537,Advancing Multimodal In-Context Learning in Large Vision-Language Models with Task-aware Demonstrations,GENERATE,"QP1, QP3, QP5, QP6, QP7, QS2",2,3,3,2,0,10,local:2503.04839v2.pdf,
+P538,SDRT: Enhance Vision-Language Models by Self-Distillation with Diverse Reasoning Traces,GENERATE,"QP1, QP5, QP6, QP7, QS2, QS4",0,3,3,2,0,8,online:arXiv:2503.01754,
+P540,MambaTron: Efficient Cross-Modal Point Cloud Enhancement using Aggregate Selective State Space Modeling,GENERATE,"QP1, QP5, QP6, QS2",0,2,3,2,0,7,online:arXiv:2501.16384,
+P541,CILP-FGDI: Exploiting Vision-Language Model for Generalizable Person Re-Identification,GENERATE,"QP1, QP5, QP6, QS2, QS3",2,3,3,2,1,11,online:arXiv:2501.16065,https://github.com/Qi5Lei/CLIP-FGDI
+P542,KALE: An Artwork Image Captioning System Augmented with Heterogeneous Graph,GENERATE,"QP1, QP2, QP5, QP6, QP7, QS1, QS2, QS3",0,3,3,2,1,9,online:arXiv:2409.10921,https://github.com/Yanbei-Jiang/Artwork-Interpretation
+P543,ViG-Bias: Visually Grounded Bias Discovery and Mitigation,GENERATE,"QP1, QP5, QP6, QS1",2,3,3,2,1,11,online:arXiv:2407.01996,https://github.com/badrmarani/vig-bias-eccv
+P544,DELAN: Dual-Level Alignment for Vision-and-Language Navigation by Cross-Modal Contrastive Learning,GENERATE,"QP1, QP3, QP6, QS2",1,3,3,2,1,10,online:arXiv:2404.01994,https://github.com/mengfeidu/DELAN
+P546,CLIP-guided Federated Learning on Heterogeneous and Long-Tailed Data,GENERATE,"QP1, QP5, QP6, QS2, QS3",2,3,3,2,1,11,online:arXiv:2312.08648,https://github.com/shijiangming1/CLIP2FL
+P547,Uni3DL: Unified Model for 3D and Language Understanding,GENERATE,"QP1, QP5, QP6, QP7, QS2",1,3,3,2,1,10,online:arXiv:2312.03026,https://uni3dl.github.io/
+P548,Customize StyleGAN with One Hand Sketch,GENERATE,"QP1, QP5, QP6",2,3,2,2,0,9,online:arXiv:2310.18949,
+P549,Text-Only Training for Visual Storytelling,GENERATE,"QP1, QP2, QP3, QP5, QP6, QS2, QS3",2,3,3,2,0,10,online:arXiv:2308.08881,
+P551,Visually-Prompted Language Model for Fine-Grained Scene Graph Generation in an Open World,GENERATE,"QP1, QP2, QP6, QS2, QS3",2,3,3,2,1,11,online:arXiv:2303.13233,https://github.com/Yuqifan1117/CaCao
+P554,SQ-LLaVA: Self-Questioning for Large Vision-Language Assistant,GENERATE,"QP1, QP6, QP7, QS1, QS2",1,3,3,2,1,10,online:arXiv:2403.11299,https://github.com/heliossun/SQ-LLaVA
+P555,3D Scene Graph Guided Vision-Language Pre-training,GENERATE,"QP1, QP2, QP6, QS2",1,3,3,2,0,9,online:arXiv:2411.18666,
+P556,Graph based Environment Representation for Vision-and-Language Navigation in Continuous Environments,GENERATE,"QP1, QP2, QP6",0,2,2,2,0,6,online:arXiv:2301.04352,
+P557,Robustness of Fusion-based Multimodal Classifiers to Cross-Modal Content Dilutions,GENERATE,"QP1, QP6, QP7, QS2",2,2,3,2,0,9,online:arXiv:2211.02646,
+P559,COMPACT: COMPositional Atomic-to-Complex Visual Capability Tuning,GENERATE,"QP1, QP5, QP6, QP7, QS3",2,2,3,2,1,10,online:arXiv:2504.21850,https://princetonvisualai.github.io/compact/
+P560,REF-VLM: Triplet-Based Referring Paradigm for Unified Visual Decoding,GENERATE,"QP1, QP5, QP6, QP7, QS3",1,3,3,2,0,9,online:arXiv:2503.07413,
+P561,Taking Notes Brings Focus? Towards Multi-Turn Multimodal Dialogue Learning,GENERATE,"QP1, QP5, QP6",1,2,3,2,0,8,online:arXiv:2503.07002,
+P562,PolyPath: Adapting a Large Multimodal Model for Multi-slide Pathology Report Generation,GENERATE,"QP1, QP6, QP7, QS4",1,1,2,2,0,6,online:arXiv:2502.10536,
+P564,Beyond Sight: Towards Cognitive Alignment in LVLM via Enriched Visual Knowledge,GENERATE,"QP1, QP5, QP6",1,3,3,2,0,9,online:arXiv:2411.16824,
+P566,Vision-Language Models Can Self-Improve Reasoning via Reflection,GENERATE,"QP1, QP3, QP6, QP7, QS1",2,3,3,2,1,11,online:arXiv:2411.00855,https://github.com/TideDra/VL-RLHF
+P567,Dreaming Out Loud: A Self-Synthesis Approach For Training Vision-Language Models With Developmentally Plausible Data,GENERATE,"QP1, QP6, QP7, QS3",2,1,2,2,0,7,online:arXiv:2411.00828,
+P568,LatteCLIP: Unsupervised CLIP Fine-Tuning via LMM-Synthetic Texts,GENERATE,"QP1, QP3, QP6, QS3",2,2,3,2,0,9,online:arXiv:2410.08211,
+P569,HELPD: Mitigating Hallucination of LVLMs by Hierarchical Feedback Learning with Vision-enhanced Penalty Decoding,GENERATE,"QP1, QP6, QP7",1,3,3,2,1,10,online:arXiv:2409.20429,https://github.com/F-Yuan303/HELPD
+P571,MuAP: Multi-step Adaptive Prompt Learning for Vision-Language Model with Missing Modality,GENERATE,"QP1, QP6, QP7",2,3,3,2,0,10,online:arXiv:2409.04693,
+P574,Context-aware Visual Storytelling with Visual Prefix Tuning and Contrastive Learning,GENERATE,"QP1, QP6, QP7",0,2,3,2,1,8,online:arXiv:2408.06259,https://github.com/yjsong22/ContextualVIST
+P575,"Vitron: A Unified Pixel-level Vision LLM for Understanding, Generating, Segmenting, Editing",GENERATE,"QP1, QP6, QP7",0,2,3,2,1,8,online:arXiv:2412.19806,https://vitron-llm.github.io
+P576,InstructG2I: Synthesizing Images from Multimodal Attributed Graphs,GENERATE,"QP1, QP2, QP6, QP7",0,3,3,2,1,9,online:arXiv:2410.07157,https://github.com/PeterGriffinJin/InstructG2I
+P577,Optimus-1: Hybrid Multimodal Memory Empowered Agents Excel in Long-Horizon Tasks,GENERATE,"QP1, QP2, QP7",1,2,3,2,1,9,online:arXiv:2408.03615,https://cybertronagent.github.io/Optimus-1.github.io/
+P578,LLARVA: Vision-Action Instruction Tuning Enhances Robot Learning,GENERATE,"QP1, QP6, QP7, QS3",1,2,3,2,1,9,online:arXiv:2406.11815,https://llarva24.github.io
+P579,Ovis: Structural Embedding Alignment for Multimodal Large Language Model,GENERATE,"QP1, QP6, QP7, QS1, QS2",0,2,3,2,1,8,online:arXiv:2405.20797,https://github.com/AIDC-AI/Ovis
+P580,Dr-LLaVA: Visual Instruction Tuning with Symbolic Clinical Grounding,GENERATE,"QP1, QP2, QP6, QP7, QS3, QS4",1,2,2,1,1,7,online:arXiv:2405.19567,https://github.com/AlaaLab/Dr-LLaVA
+P582,A Self-Correcting Vision-Language-Action Model for Fast and Slow System Manipulation,GENERATE,"QP1, QP5, QP6, QP7, QS1",2,2,3,2,0,9,online:arXiv:2405.17418,
+P583,LEGENT: Open Platform for Embodied Agents,GENERATE,"QP1, QP6, QP7, QS1",0,1,1,2,1,5,online:arXiv:2404.18243,https://legent.ai
+P584,TinyChart: Efficient Chart Understanding with Visual Token Merging and Program-of-Thoughts Learning,GENERATE,"QP1, QP6, QP7",0,2,3,2,1,8,online:arXiv:2404.16635,https://github.com/X-PLUG/mPLUG-DocOwl
+P585,Beyond Embeddings: The Promise of Visual Table in Visual Reasoning,GENERATE,"QP1, QP5, QP6, QP7",0,2,3,2,1,8,online:arXiv:2403.18252,https://github.com/LaVi-Lab/Visual-Table
+P586,Enhancing Visual Document Understanding with Contrastive Learning in Large Visual-Language Models,GENERATE,"QP1, QP6, QP7, QS4",0,3,3,2,0,8,online:arXiv:2402.19014,
+P587,GSVA: Generalized Segmentation via Multimodal Large Language Models,GENERATE,"QP1, QP6, QP7",1,3,3,2,1,10,online:arXiv:2312.10103,https://github.com/LeapLabTHU/GSVA
+P588,PlayFusion: Skill Acquisition via Diffusion from Language-Annotated Play,GENERATE,"QP1, QP6, QP7, QS1",2,3,3,2,1,11,online:arXiv:2312.04549,https://play-fusion.github.io
+P589,Monkey: Image Resolution and Text Label Are Important Things for Large Multi-modal Models,GENERATE,"QP1, QP5, QP6, QP7, QS1",0,2,3,2,1,8,online:arXiv:2311.06607,https://github.com/Yuliang-Liu/Monkey
+P590,Octopus: Embodied Vision-Language Programmer from Environmental Feedback,GENERATE,"QP1, QP4, QP6, QP7, QS1, QS3",1,2,2,2,1,8,online:arXiv:2310.08588,https://choiszt.github.io/Octopus
+P592,UniBriVL: Robust Universal Representation and Generation of Audio Driven Diffusion Models,GENERATE,"QP1, QP6, QP7",0,2,2,2,0,6,online:arXiv:2307.15898,
+P593,SCITUNE: Aligning Large Language Models with Scientific Multimodal Instructions,GENERATE,"QP1, QP6, QP7, QS4",2,1,2,2,1,8,online:arXiv:2307.01139,https://github.com/pnnl/scitune
+P595,Multimodal Graph Transformer for Multimodal Question Answering,GENERATE,"QP1, QP2, QP6, QP7, QS2, QS4",0,2,3,2,0,7,online:arXiv:2305.00581,
+P596,Visual Instruction Tuning,GENERATE,"QP1, QP6, QP7, QS2",1,2,3,2,1,9,online:arXiv:2304.08485,https://llava-vl.github.io
+P597,"Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action",GENERATE,"QP1, QP6, QP7, QS2",1,2,3,2,1,9,online:arXiv:2312.17172,https://unified-io-2.allenai.org
+P601,Composing Ensembles of Pre-trained Models via Iterative Consensus,GENERATE,"QP1, QP6, QP7, QS2",2,2,3,2,0,9,online:arXiv:2210.11522,
+P603,MAGMA -- Multimodal Augmentation of Generative Models through Adapter-based Finetuning,GENERATE,"QP1, QP6, QP7, QS2",1,2,3,2,1,9,online:arXiv:2112.05253,https://github.com/Aleph-Alpha/magma
+P604,Multimodal Few-Shot Learning with Frozen Language Models,GENERATE,"QP1, QP6, QP7, QS2",2,2,3,2,0,9,online:arXiv:2106.13884,
+P605,Unifying Vision-and-Language Tasks via Text Generation,GENERATE,"QP1, QP6, QP7, QS2",0,2,3,2,1,8,online:arXiv:2102.02779,https://github.com/j-min/VL-T5
+P606,Improving Image Captioning with Better Use of Captions,GENERATE,"QP1, QP2, QP5, QP6, QS1, QS2",1,3,3,2,1,10,online:arXiv:2006.11807,https://github.com/Gitsamshi/WeakVRD-Captioning
+P607,HyperCLIP: Adapting Vision-Language models with Hypernetworks,GENERATE,"QP1, QP6, QP7, QS2",1,2,2,2,0,7,online:arXiv:2412.16777,
+P608,CLIP meets DINO for Tuning Zero-Shot Classifier using Unlabeled Image Collections,GENERATE,"QP1, QP3, QP6, QS2, QS3",2,3,3,2,1,11,online:arXiv:2411.19346,https://github.com/fazliimam/NoLA
+P609,Tackling Vision Language Tasks Through Learning Inner Monologues,GENERATE,"QP1, QP5, QP6, QS3",1,3,3,2,0,9,online:arXiv:2308.09970,
+P610,StorSeismic: A new paradigm in deep learning for seismic processing,GENERATE,"QP1, QP5, QP6, QS3",1,2,2,2,1,8,online:arXiv:2205.00222,https://github.com/swag-kaust/storseismic
+P611,Labeled Data Generation with Inexact Supervision,GENERATE,"QP1, QP2, QP3, QP6, QS2, QS3",2,3,3,2,0,10,online:arXiv:2106.04716,
+P612,Efficiency-oriented approaches for self-supervised speech representation learning,GENERATE,"QP1, QP6, QP7",1,2,0,2,0,5,online:arXiv:2312.11142,
+P613,GOFA: A Generative One-For-All Model for Joint Graph Language Modeling,GENERATE,"QP1, QP2, QP6, QS2",2,3,3,2,1,11,online:arXiv:2407.09709,https://github.com/JiaruiFeng/GOFA
+P614,"BatchSampler: Sampling Mini-Batches for Contrastive Learning in Vision, Language, and Graphs",GENERATE,"QP1, QP2, QP6",0,3,3,2,1,9,online:arXiv:2306.03355,https://github.com/THUDM/BatchSampler
+P615,RLS3: RL-Based Synthetic Sample Selection to Enhance Spatial Reasoning in Vision-Language Models for Indoor Autonomous Perception,GENERATE | IMAGE-TEXT | VQA,"QP1, QP4, QP6, QS2, QS3",2,2,2,2,0,8,online:arXiv:2501.18880,
+P616,Improving Vision-Language Models through Fine-grained Modality Interaction and Modality Balancing,IMAGE-TEXT | VQA,"QP1, QP6, QP7, QS2",0,3,2,1,0,6,local:3690931.3690995.pdf,
+P617,Augmenting Visual and Linguistic Understanding for MedVQA,IMAGE-TEXT | VQA,"QP1, QP5, QP6, QS2, QS3, QS4",1,1,3,1,0,6,local:3689096.3689461.pdf,
+P618,IntentionGPT: Boosting E-commerce User Intent Recognition with Self-data Augmentation and Structure-aware Retrieval,TEXT-IMAGE,"QP1, QP2, QP3, QP6, QS2, QS3",2,2,2,2,0,8,local:3701716.3718370.pdf,
+P619,Integrating Expert Knowledge into Adversarial Model for Enhanced Text-to-Image Synthesis,TEXT-IMAGE,"QP1, QP5, QP6, QS2",0,3,3,2,0,8,local:3718441.3718473.pdf,
+P620,UP-DP: unsupervised prompt learning for data pre-selection with vision-language models,GENERATE | IMAGE-TEXT,"QP1, QP3, QP4, QP5, QP6, QP7, QS3",2,2,3,2,0,9,online:arXiv:2307.11227,
+P621,VERO: verification and zero-shot feedback acquisition for few-shot multimodal aspect-level sentiment classification,IMAGE-TEXT,"QP1, QP4, QP6, QS1, QS2, QS3",2,2,3,2,1,10,local:11439-SunK.pdf,https://github.com/absdog/vero
+P622,Machine vision therapy: multimodal large language models can enhance visual robustness via denoising in-context learning,GENERATE | IMAGE-TEXT,"QP1, QP3, QP5, QP6, QP7, QS1, QS2, QS3",2,3,3,2,1,11,online:arXiv:2312.02546,https://github.com/tmllab/Machine_Vision_Therapy
+P623,Towards open-vocabulary remote sensing image semantic segmentation,IMAGE-TEXT,"QP1, QP3, QP6, QS2, QS3",2,3,3,2,1,11,online:arXiv:2412.19492,https://github.com/yecy749/GSNet
+P624,Multi-modal Contextual Prompt Learning for Multi-label Classification with Partial Labels,IMAGE-TEXT,"QP1, QP2, QP6, QS2, QS3",2,3,2,2,0,9,local:3651671.3651674.pdf,
+P625,Align-IQA: Aligning Image Quality Assessment Models with Diverse Human Preferences via Customizable Guidance,IMAGE-TEXT,"QP1, QP5, QP6, QS2",1,3,3,2,0,9,local:3664647.3681511.pdf,
+P626,Differentially private representation learning via image captioning,IMAGE-TEXT,"QP1, QP3, QP6, QS2, QS3",1,3,3,2,1,10,online:arXiv:2403.02506,https://github.com/facebookresearch/dpcap
+P627,Unlocking the power of spatial and temporal information in medical multimodal pre-training,IMAGE-TEXT,"QP1, QP5, QP6, QS2, QS3, QS4",1,3,3,2,1,10,online:arXiv:2405.19654,https://github.com/SVT-Yang/MedST
+P628,Distillation and prompt in Chinese CLIP model,RETRIEVAL,"QP1, QP6, QP7, QS3",0,1,1,2,0,4,local:3718441.3718475.pdf,
+P629,Instruct where the model fails: generative data augmentation via guided self-contrastive fine-tuning,GENERATE,"QP1, QP3, QP6, QS3",2,3,3,2,0,10,local:01591-MaW.pdf,
+P630,Internal Embeddings of Multi-modal LLMs as Generalizable Representations for Image Quality Assessment,GENERATE,"QP1, QP5, QP6",1,3,3,2,1,10,local:3702250.3702263.pdf,https://github.com/sanjot-sagar/qformer_mllm_iqa
+P631,AIGeN: An Adversarial Approach for Instruction Generation in VLN,GENERATE,"QP1, QP2, QP6",2,2,3,2,0,9,online:arXiv:2404.10054,

@@ -1,103 +1,104 @@
-"""PRISMA-like selection flow diagram for the systematic review."""
+"""Diagrama de fluxo de seleção (PRISMA) da revisão sistemática, versão em português.
+
+As contagens vêm da planilha da revisão (abas 'Strings de busca', 'FASE 1 - SELEÇÃO INICIAL'
+e 'FASE 2 - SELEÇÃO FINAL'); a avaliação de qualidade está em avaliacao_qualidade/.
+"""
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-from style import apply_style, COLORS, FIGURES_DIR
+from style import apply_style, FIGURES_DIR
 
 apply_style()
 
-fig, ax = plt.subplots(figsize=(7, 10))
+# --- Contagens ------------------------------------------------------------------------
+RETRIEVED = 6989                       # resultados da busca (IEEE 3653, ArXiv 3150, SciDir 16, ACM 170)
+PHASE1 = 1649                          # registros por tarefa na aba da Fase 1 (1145 títulos únicos)
+EXCL_NO_ANALYSIS, EXCL_LT3, EXCL_OTHER = 527, 304, 21
+EXCLUDED = EXCL_NO_ANALYSIS + EXCL_LT3 + EXCL_OTHER   # 852, todos com código CE1
+KEPT = PHASE1 - EXCLUDED                              # 797
+REPEATED = 6                           # repetições do mesmo artigo na mesma categoria
+FINAL = KEPT - REPEATED                # 791 atribuições de categoria (606 artigos únicos)
+assert (EXCLUDED, KEPT, FINAL) == (852, 797, 791)
+
+
+def n(v):
+    """Separador de milhares usado no manuscrito (6.989)."""
+    return f'{v:,}'.replace(',', '.')
+
+
+PAD = 0.12
+MAIN_X, MAIN_W = 3.3, 5.6
+SIDE_X, SIDE_W = 8.35, 3.0
+
+fig, ax = plt.subplots(figsize=(7.5, 10.8))
 ax.set_xlim(0, 10)
-ax.set_ylim(0, 14)
+ax.set_ylim(0.9, 15.4)
 ax.axis('off')
 
 
-def draw_box(ax, x, y, w, h, text, color='white', edge='#333333', fontsize=10):
-    rect = mpatches.FancyBboxPatch(
-        (x - w / 2, y - h / 2), w, h,
-        boxstyle='round,pad=0.15', facecolor=color,
-        edgecolor=edge, linewidth=1.2)
-    ax.add_patch(rect)
+def draw_box(x, y, w, h, text, color='white', edge='#333333', fontsize=9, bold=True):
+    ax.add_patch(mpatches.FancyBboxPatch(
+        (x - w / 2, y - h / 2), w, h, boxstyle=f'round,pad={PAD}',
+        facecolor=color, edgecolor=edge, linewidth=1.2))
     ax.text(x, y, text, ha='center', va='center', fontsize=fontsize,
-            fontweight='bold', linespacing=1.4)
-    return rect
+            fontweight='bold' if bold else 'normal', linespacing=1.35)
 
 
-def draw_arrow(ax, x1, y1, x2, y2):
+def arrow(x1, y1, x2, y2, side=False):
     ax.annotate('', xy=(x2, y2), xytext=(x1, y1),
-                arrowprops=dict(arrowstyle='->', color='#555555',
-                                lw=1.5, connectionstyle='arc3,rad=0'))
+                arrowprops=dict(arrowstyle='->', color='#888888' if side else '#555555',
+                                lw=1.2 if side else 1.5, linestyle='--' if side else '-'))
 
 
-def draw_side_arrow(ax, x1, y1, x2, y2):
-    ax.annotate('', xy=(x2, y2), xytext=(x1, y1),
-                arrowprops=dict(arrowstyle='->', color='#999999',
-                                lw=1.2, linestyle='--'))
+def main_box(y, h, text, **kw):
+    draw_box(MAIN_X, y, MAIN_W, h, text, **kw)
+    return y + h / 2 + PAD, y - h / 2 - PAD        # topo, base (borda externa)
 
 
-# --- Identification ---
-draw_box(ax, 5, 13, 7, 0.9,
-         'Identificação\n7.003 Documentos recuperados',
-         color='#D1E5F0', fontsize=10)
+def side_box(y, h, text, **kw):
+    kw.setdefault('edge', '#CCCCCC')
+    draw_box(SIDE_X, y, SIDE_W, h, text, fontsize=7.8, bold=False, **kw)
+    arrow(MAIN_X, y, SIDE_X - SIDE_W / 2 - PAD - 0.02, y, side=True)
 
-draw_arrow(ax, 5, 12.55, 5, 11.95)
 
-# Sources breakdown
-draw_box(ax, 5, 11.5, 7, 0.8,
-         'IEEE Xplore: 3.653  |  ArXiv: 3.185  |  Science Direct: 16 | ACM: 149',
-         color='#F7F7F7', fontsize=8.5)
+# --- fluxo principal (centro y, altura) ---
+top_id, bot_id = main_box(14.6, 0.9, f'Identificação\n{n(RETRIEVED)} resultados de busca recuperados',
+                          color='#D1E5F0', fontsize=10)
+top_src, bot_src = main_box(13.1, 0.9, 'IEEE Xplore: 3.653  |  ArXiv: 3.150\nScience Direct: 16  |  ACM: 170',
+                            color='#F7F7F7', fontsize=8.5)
+top_p1, bot_p1 = main_box(11.2, 1.3,
+                          f'Fase 1 — Seleção inicial\n{n(PHASE1)} registros (por tarefa)\n'
+                          '1.145 títulos únicos; título, resumo\ne análise das QP/QS',
+                          color='#FDDBC7', fontsize=9.5)
+top_p2, bot_p2 = main_box(8.9, 1.4,
+                          f'Fase 2 — Seleção final\n{n(KEPT)} registros mantidos\n'
+                          'Elegibilidade do texto completo (QP1–QP7, QS1–QS4)\nmínimo de 3 questões respondidas',
+                          color='#FDDBC7', fontsize=9.5)
+top_inc, bot_inc = main_box(6.4, 1.5,
+                            f'Incluídos — 606 artigos únicos\n({n(FINAL)} atribuições de categoria)\n'
+                            'VQA: 89  |  Text-Image: 71  |  Image-Text: 259\nRetrieval: 226  |  Generate: 146',
+                            color='#FFF9C4', edge='#F9A825', fontsize=9)
+top_q, bot_q = main_box(4.1, 1.2,
+                        'Avaliação de qualidade\nOs 606 artigos pontuados (0–13 pontos)\nNenhum excluído pela nota',
+                        color='#FDDBC7', fontsize=9.5)
+top_s, bot_s = main_box(2.0, 1.2,
+                        'Síntese — 606 artigos analisados\n(Top 10 por tarefa apenas para apresentação)',
+                        color='#B2DF8A', fontsize=9.5)
 
-draw_arrow(ax, 5, 11.1, 5, 10.3)
+for upper_bottom, lower_top in [(bot_id, top_src), (bot_src, top_p1), (bot_p1, top_p2),
+                                (bot_p2, top_inc), (bot_inc, top_q), (bot_q, top_s)]:
+    arrow(MAIN_X, upper_bottom - 0.02, MAIN_X, lower_top + 0.02)
 
-# --- Screening Phase 1 ---
-draw_box(ax, 5, 9.8, 7, 0.9,
-         'Fase 1 — Triagem inicial\nTítulo + Abstract',
-         color='#FDDBC7', fontsize=10)
-
-draw_side_arrow(ax, 8.5, 9.8, 9.5, 9.0)
-draw_box(ax, 9.2, 8.5, 1.8, 0.7,
-         'Excluído\n(CI/CE)',
-         color='#FEE0D2', edge='#CCCCCC', fontsize=8)
-
-draw_arrow(ax, 5, 9.35, 5, 8.55)
-
-# --- Eligibility Phase 2 ---
-draw_box(ax, 5, 8.0, 7, 0.9,
-         'Fase 2 — Elegibilidade do texto completo\nQuestões de pesquisa (QP1–QP7, QS1–QS4)',
-         color='#FDDBC7', fontsize=10)
-
-draw_side_arrow(ax, 8.5, 8.0, 9.5, 7.2)
-draw_box(ax, 9.2, 6.7, 1.8, 0.7,
-         'Excluído\n(< 2 QPs)',
-         color='#FEE0D2', edge='#CCCCCC', fontsize=8)
-
-draw_arrow(ax, 5, 7.55, 5, 6.75)
-
-# --- Eligible papers ---
-eligible_text = ('Elegíveis — 629 papers únicos (792 Ao todo com repetições)\n'
-                 'VQA: 89  |  Text-Image: 71  |  Image-Text: 260\n'
-                 'Retrieval: 226  |  Generate: 146')
-draw_box(ax, 5, 6.0, 7, 1.3,
-         eligible_text,
-         color='#FFF9C4', edge='#F9A825', fontsize=9)
-
-draw_arrow(ax, 5, 5.35, 5, 4.95)
-
-# --- Phase 3: Quality Assessment ---
-draw_box(ax, 5, 4.4, 7, 0.9,
-         'Fase 3 — Avaliação de qualidade\nEscala de notas (0–13 pontos)',
-         color='#FDDBC7', fontsize=10)
-
-draw_side_arrow(ax, 8.5, 4.4, 9.5, 3.6)
-draw_box(ax, 9.2, 3.1, 1.8, 0.7,
-         'Excluído\n(nota insuficiente)',
-         color='#FEE0D2', edge='#CCCCCC', fontsize=8)
-
-draw_arrow(ax, 5, 3.95, 5, 3.15)
-
-# --- Included ---
-draw_box(ax, 5, 2.6, 7, 0.9,
-         'Incluídos\n(Filtro de qualidade - top 10 trabalhos por tarefa)',
-         color='#B2DF8A', fontsize=10)
+# --- caixas laterais, centradas nos intervalos entre as caixas principais ---
+side_box((bot_src + top_p1) / 2, 1.55,
+         f'Não levados à Fase 1: {n(RETRIEVED - PHASE1)}\n(resultados repetidos entre consultas\ne tarefas e triagem por título/resumo;\nnão discriminado)',
+         color='#F7F7F7')
+side_box((bot_p1 + top_p2) / 2, 1.75,
+         f'Excluídos (CE1): {n(EXCLUDED)}\n• {EXCL_NO_ANALYSIS} por título/resumo\n  (informação insuficiente)\n'
+         f'• {EXCL_LT3} com < 3 questões respondidas\n• {EXCL_OTHER} por outros critérios de inclusão',
+         color='#FEE0D2')
+side_box((bot_p2 + top_inc) / 2, 1.4,
+         f'Removidos: {REPEATED}\n(repetições do mesmo artigo\nna mesma categoria, inclusive\nvariantes de título)',
+         color='#FEE0D2')
 
 fig.tight_layout()
 fig.savefig(f'{FIGURES_DIR}/fig_prisma_flow_PTBR.pdf')

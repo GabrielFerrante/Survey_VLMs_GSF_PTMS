@@ -1,0 +1,13 @@
+﻿Paradigma,VQA (n=89),TEXT-IMAGE (n=71),IMAGE-TEXT (n=259),RETRIEVAL (n=226),GENERATE (n=146),Artigos unicos (n=606)
+Contrastivo,24,35,165,115,39,267
+Ajuste fino / transferência,51,37,136,77,45,256
+Few-shot / zero-shot,18,19,90,76,31,172
+Auto-supervisionado,28,13,101,69,22,166
+Destilação de conhecimento,8,5,37,27,8,61
+Adaptadores / PEFT,12,11,30,16,10,60
+Supervisão fraca ou ruidosa,8,1,35,24,8,49
+Prompt tuning / aprendizado de prompts,6,8,22,15,5,47
+Ajuste por instruções,9,10,12,10,15,42
+Semi-supervisionado / pseudo-rótulos,6,0,16,7,17,36
+Aprendizado por reforço,5,3,9,4,7,20
+Aprendizado ativo,0,2,3,3,4,8

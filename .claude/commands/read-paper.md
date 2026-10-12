@@ -47,14 +47,15 @@ Evaluate the paper against the systematic review research questions:
 | QS3: Escassez de dados mencionada | Sim/Nao | ... |
 | QS4: Benchmarks com imagens medicas | Sim/Nao | ... |
 
-### 6. Avaliacao de Qualidade (0-11 pontos)
+### 6. Avaliacao de Qualidade (0-13 pontos)
 Score according to the review protocol:
 - Cenarios desfavoraveis (0-2 pts)
 - Fundamentacao teorica (0-3 pts)
 - Clareza dos resultados (0-3 pts)
 - Ilustracoes relevantes (0-2 pts)
 - Repositorios acessiveis (0-1 pt)
-- **Total:** X/11
+- Responde 4 ou mais QPs (0 ou 2 pts): 2 pts quando o artigo responde "Sim" a pelo menos 4 das QP1-QP7 da tabela da secao 5 (as QS nao contam)
+- **Total:** X/13 (os cinco primeiros criterios somam 11 pontos)
 
 ### 7. Categorias de Tarefa
 Classify which VLM task categories the paper belongs to (can be multiple):

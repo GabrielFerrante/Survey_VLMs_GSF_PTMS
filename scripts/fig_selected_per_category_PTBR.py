@@ -5,7 +5,7 @@ from style import apply_style, TASK_COLORS, FIGURES_DIR
 apply_style()
 
 tasks =  ['Generate', 'Retrieval', 'Image-Text', 'Text-Image', 'VQA']
-counts = [146, 226, 260, 71, 89]
+counts = [146, 226, 259, 71, 89]
 colors = list(reversed(TASK_COLORS))
 
 fig, ax = plt.subplots(figsize=(6, 3.2))
@@ -22,7 +22,7 @@ ax.set_xlim(0, 290)
 ax.xaxis.grid(True, linestyle='--', alpha=0.3)
 ax.set_axisbelow(True)
 
-ax.annotate(' 629 papers únicos \n792 Ao todo com repetições',
+ax.annotate(' 606 papers únicos \n791 Ao todo com repetições',
             xy=(0.97, 0.05), xycoords='axes fraction',
             ha='right', va='bottom', fontsize=8.5,
             bbox=dict(boxstyle='round,pad=0.4', facecolor='#F0F0F0',

@@ -1,0 +1,15 @@
+﻿ID,Titulo,Categorias,Codigo,Tipo,Etapa ou contexto
+P087,Active Supervised Cross-Modal Retrieval,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,A1,Seleção para anotação humana sob orçamento,Adaptação/treinamento do modelo de recuperação
+P113,ProbVLM: Probabilistic Adapter for Frozen Vision-Language Models,IMAGE-TEXT | RETRIEVAL | TEXT-IMAGE,A3,Estimativa de incerteza sem ciclo de seleção,Adaptador pós-hoc sobre modelo congelado
+P224,Active Prompt Learning with Vision-Language Model Priors,IMAGE-TEXT,A1,Seleção para anotação humana sob orçamento,Adaptação por prompts
+P233,Meta-Entity Driven Triplet Mining for Aligning Medical Vision-Language Models,IMAGE-TEXT,A2,Seleção sem oráculo humano,Treinamento de alinhamento de VLM médico (mineração de triplas)
+P412,Alleviating Hallucination in Large Vision-Language Models with Active Retrieval Augmentation,GENERATE | RETRIEVAL,X2,"""Ativo"" em outro sentido",Recuperação ativa contra alucinação
+P503,A multimodal automated interpretability agent,GENERATE | IMAGE-TEXT,X2,"""Ativo"" em outro sentido",Agente de interpretabilidade
+P508,Multimodal Foundation Models for Zero-shot Animal Species Recognition in Camera Trap Images,GENERATE,A4,Humano no laço,Ajuste por instruções
+P510,Active Learning for Classifying 2D Grid-Based Level Completability,GENERATE,X1,Aprendizado ativo fora do escopo de VLMs,Níveis de jogos
+P520,Generation Of Colors using Bidirectional Long Short Term Memory Networks,GENERATE,X1,Aprendizado ativo fora do escopo de VLMs,Nomeação de cores (BiLSTM)
+P521,Deep Active Learning with Noise Stability,GENERATE,X1,Aprendizado ativo fora do escopo de VLMs,"Classificação genérica, não multimodal"
+P590,Octopus: Embodied Vision-Language Programmer from Environmental Feedback,GENERATE,X2,"""Ativo"" em outro sentido",Retroalimentação do ambiente (agente incorporado)
+P615,RLS3: RL-Based Synthetic Sample Selection to Enhance Spatial Reasoning in Vision-Language Models for Indoor Autonomous Perception,GENERATE | IMAGE-TEXT | VQA,A2,Seleção sem oráculo humano,"Ajuste fino (amostras sintéticas, RL)"
+P620,UP-DP: unsupervised prompt learning for data pre-selection with vision-language models,GENERATE | IMAGE-TEXT,A1,Seleção para anotação humana sob orçamento,Pré-seleção antes do ajuste fino
+P621,VERO: verification and zero-shot feedback acquisition for few-shot multimodal aspect-level sentiment classification,IMAGE-TEXT,A2,Seleção sem oráculo humano,Adaptação few-shot (feedback zero-shot de LVLM)

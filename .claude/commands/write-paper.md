@@ -23,11 +23,11 @@ Write in **LaTeX** format with:
 
 - **Title:** Systematic review of learning methods for Vision-Language Models
 - **Authors:** Gabriel Souto Ferrante; Priscila Tiemi Maeda Saito
-- **Scope:** May 2020 – May 2025, 6,854 documents retrieved, 599 unique papers selected
-- **Task categories:** VQA (84), Text-Image (68), Image-Text (249), Retrieval (225), Generate (149)
+- **Scope:** May 2020 – May 2025, 6,989 documents retrieved (IEEE Xplore 3,653; ArXiv 3,150; Science Direct 16; ACM 170), 606 unique papers selected (791 category assignments)
+- **Task categories (category assignments; a paper may appear in more than one category, never twice in the same one):** VQA (89), Text-Image (71), Image-Text (259), Retrieval (226), Generate (146)
 - **Research questions:** QP1-QP7 (primary), QS1-QS4 (secondary) — see CLAUDE.md for details
-- **Quality assessment:** 11-point scale
-- **Key finding:** Active learning (QP4) appears in only 18/599 papers — a significant gap
+- **Quality assessment:** 13-point scale (six criteria; the sixth is answering 4 or more QPs)
+- **Key finding:** Active learning (QP4) appears in only 14/606 unique papers — a significant gap
 
 ## What You Can Write
 
