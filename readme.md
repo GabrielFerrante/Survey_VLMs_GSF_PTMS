@@ -190,6 +190,45 @@ Top 10 ordering: total score, then number of questions answered (QPs + QSs), the
 - **Medical domain:** 6 of the Top 10 in Image-Text register QS4, against 18.1% of the category. QS3 is mentioned in 60.6% of papers with medical benchmarks versus 24.6% of the others.
 - **Quality scale:** category means range only from 9.42 to 9.87, and 58 assignments reach 13/13, so the scale discriminates little at the top. Associations between QP3/QS3 and the score are partly mechanical.
 
+## Contributions
+
+1. **Systematic mapping of learning methods in VLMs.** Per-category counts of the paradigms mentioned in each of the 606 papers (QP1). Contrastive learning is the most mentioned (44.1%), and active learning is under-represented (2.3%).
+2. **Cross-analysis of the research questions.** Graphs, semi-supervised learning, active learning and explainability (QP2–QP5), together with domain-data scarcity and medical imaging (QS3, QS4), are crossed with the five task categories, which exposes patterns and gaps for each combination.
+3. **Full coding of how graphs are used (QP2).** The 100 papers that register QP2 were coded by the role of the graph (`avaliacao_qualidade/codificacao_QP2_papel_do_grafo.csv`). Only 10 integrate the graph into pre-training or general-purpose representation learning. This axis is not yet consolidated as a category of its own in the literature.
+4. **Strict reading of the semi-supervised and active-learning labels.** The operational definitions (`codificacao_QP3_operacional.csv`, `codificacao_QP4.csv`) separate strict uses from noisy supervision, self-supervision, synthetic data and non-VLM or non-annotation uses of the word "active".
+5. **Reproducibility and open-science diagnosis.** Repository availability (QS1), public dataset access (QS2) and data documentation (QP6) across the 606 papers, with online verification of the repository links (`verificacao_repositorios.csv`).
+6. **Documented and auditable quality assessment.** A 13-point scale applied to all 606 papers, with scoring anchors (`RUBRICA.md`), justification per paper and criterion, and a validation report that states the limits of the scale (`RELATORIO_VALIDACAO.md`).
+7. **Gaps and future directions** (next section).
+
+## Gaps Identified
+
+### Gaps in the literature
+
+- **Active learning (QP4) is the most pronounced gap.** 14 papers (2.3%) register it. Three are outside VLMs and three use "active" in another sense, leaving 8 in scope, of which only 3 select samples for human annotation. In all 8 the component acts in adaptation, fine-tuning or alignment of a domain model, never in general-purpose pre-training. This fits the web-scale paradigm, in which supervision comes implicitly from image-text pairing and no oracle is queried.
+- **Graphs are rarely part of pre-training (QP2).** Of the 100 papers, 37 use the graph as a task-specific module, input or objective, 21 as an external knowledge graph, 15 only in data construction or analysis, 5 as the model output and 12 show no identifiable use of the graph. Only 10 integrate it into pre-training or general-purpose representation learning (e.g. ERNIE-ViL, 3D Scene Graph Guided Vision-Language Pre-training, Denotation Graph, Graph-Based Captioning).
+- **Scene graphs follow the same pattern.** In the review text they appear mostly as a task-specific module or input (SelfGraphVQA, CCO, CLEVR3D), as a pivot representation (Scene Graph as Pivoting) or as the model output (LLaVA-SpaceSGG, Quaternion Relation Embedding for SGG). Only ERNIE-ViL and 3D Scene Graph Guided VL Pre-training use them in pre-training.
+- **Graphs and active learning almost never meet.** Only one paper registers both QP2 and QP4 (Active Supervised Cross-Modal Retrieval). Its abstract describes no graph, so the QP2 registration looks over-inclusive, and **no paper in the corpus combines scene graphs with active learning** (checked on titles and abstracts of the category tabs of the live spreadsheet, not on full texts).
+- **Strictly semi-supervised work is scarce (QP3).** 99 papers register QP3, but only 29 (4.8% of the corpus) use labeled and unlabeled data of the task. The rest is noisy or weak supervision, self-supervision or model-generated synthetic data. Semi-supervised learning in specialized domains with rich ontologies is still little explored.
+- **Paradigm combinations are rare.** 406 papers (67.0%) register none of QP2, QP3 and QP4. Nine combine graphs and semi-supervision, three combine semi-supervision and active learning, one combines graphs and active learning, and none combines all three.
+- **Quality scale.** Category means only range from 9.42 to 9.87 and 58 assignments reach 13/13, so the scale discriminates little at the top.
+- **Medical domain.** 6 of the Top 10 in Image-Text register QS4 (against 18.1% of the category), and domain-data scarcity (QS3) is mentioned in 60.6% of papers with medical benchmarks versus 24.6% of the others, which makes it the paradigmatic limited-data scenario.
+
+### Limitations of this review
+
+- **Search strings.** They require the literal terms "VLM" / "Vision-Language Models" and "Deep Learning". Few-shot, zero-shot, weak supervision, prompt tuning, distillation and noisy supervision were not searched, so their counts are lower bounds. See *Search limitations* above.
+- **Sources.** ACL Anthology, OpenReview, CVF, PMLR and Scopus were not queried and no snowballing was performed. 387 of the 606 papers have ArXiv as their only recorded venue.
+- **Inclusion criteria.** CI2 (expert indication) is not reproducible and there is no explicit "limited supervision" criterion: 161 papers (26.6%) show no sign of it.
+- **QP2 and QP4 registrations.** Some are over-inclusive. In 12 of the 100 QP2 papers the use of a graph cannot be identified in the justification or abstract. The extraction tabs (96 QP2 and 12 QP4 papers in the Phase 2 tab) and the coded counts (100 and 14) come from different steps, so confirm which one a statement refers to.
+- **Quality assessment.** It was done with a language model on full text (5 papers from the abstract only), with author review. The blind re-evaluation measures the stability of the procedure, not inter-rater agreement. Two of the six criteria measure adherence to the review topic, and the scale does not assess risk of bias, data leakage, baseline fairness or variance.
+
+### Future directions
+
+1. Integrate graph-based inductive biases (scene graphs, denotation graphs, domain ontologies) into the pre-training of VLM encoders, for example graph-augmented contrastive objectives or structure-aware masking.
+2. Bring active-learning principles to VLMs, especially domain-specific ones, and connect data curation for pre-training with active selection of samples.
+3. Expand semi-supervised learning to specialized domains with rich ontologies, such as radiology and ophthalmology.
+4. Combine graphs, semi-supervised learning and active learning in a single method, for instance scene-graph-guided selection of samples to annotate.
+5. Report reproducibility more completely (open repositories, dataset access) and evaluate rigor beyond adherence to the topic.
+
 ## Repository Structure
 
 ```
@@ -224,6 +263,7 @@ Top 10 ordering: total score, then number of questions answered (QPs + QSs), the
 ├── GSF e PTMS - Revisão Sistemática ... .xlsx   # Review spreadsheet (Phase 1 and Phase 2 tabs)
 ├── acm_artigos_fase1.csv         # ACM records, Phase 1
 ├── google_cheat.json             # Link to the live Google Sheet
+├── Paper-PrePrint.pdf            # Pre-print of the manuscript (Portuguese)
 ├── related_works.md              # Analysis of 20 related surveys
 ├── CLAUDE.md                     # Project context for Claude Code
 └── readme.md                     # This file
